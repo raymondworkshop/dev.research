@@ -1,17 +1,15 @@
-Stoicism teaches that grief should be managed using reason and negative visualization to prevent it from becoming overwhelming. While natural sorrow is expected, rationality helps remove the "unnecessary" part of suffering that stems from our judgments.
+理性是對抗悲痛的最佳武器，可以幫助去除情緒中過分且不必要的部分。透過消極想像，我們可以提前做好心理準備，並以理性的態度協助他人克服悲傷。
 
-## Strategies
-- **Anticipation**: Use [[negative-visualization]] to prepare for loss so the blow is less severe.
-- **Rational Analysis**: Use logic to identify where grief is being driven by irrational thoughts or over-attachment.
-- **Support**: When helping others, remain rational rather than being pulled into their emotional state.
+## Handling Grief
+- **消極想像對抗悲痛**：事先設想失去，減輕打擊。
+- **理性引導**：引導自己與他人讓理性恢復作用，去除情緒牵引。
+- **幫助他人**：任務是幫助對方克服悲傷，而不是陷入對方的悲傷。
 
-## Insights
-Imagining that we never owned the thing we lost can help reduce the regret associated with its disappearance.
-
-## Source Reference
-Extracted from `2026-04-07-notes-on-stoicism.md` (ch3-4).
+## Source Summary
+Outlined in ch3-4 of [[2026-04-07-notes-on-stoicism]].
 
 ## Related Topics
 - [[stoicism]]
 - [[negative-visualization]]
-- [[dichotomy-of-control]]
+
+**Contradictions Found**: None.

@@ -15,6 +15,8 @@ Then create one .md file per topic. Link related topics using
 [[topic-name]] format. Summarize every source document.
 
 Flag any contradictions you find between sources. 
+
+Never translate the source language. Match the output language to the input language perfectly
 "
 
 #### review

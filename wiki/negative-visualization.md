@@ -1,18 +1,15 @@
-Negative visualization is the practice of contemplating the loss of things we value to increase gratitude and emotional resilience. This technique helps individuals enjoy their current lives while maintaining a healthy detachment from external outcomes.
+消極想像（Negative Visualization）是一種預想壞事發生的練習，旨在讓我們學會珍惜現有事物而不產生過度依賴。透過想像失去，我們可以獲得情緒上的自由並做好面對變化的心理準備。
 
 ## Key Concepts
-- **Premeditatio Malorum**: Periodically imagining that you have lost the things you cherish.
-- **Non-attachment**: Learning to enjoy things without becoming dependent on them for happiness.
-- **Emotional Freedom**: By being willing to let go of outcomes, one can work harder and with less anxiety.
+- **教導我們享受已擁有的東西，又不依附它們**：Being nonattached creates emotional freedom.
+- **把每一天都當成最後一天來過**：改變我們行動時的心智狀態，欣賞生命的精彩。
+- **心理準備**：對於奪走快樂的事物的變化，要有心理準備。
 
-## Practical Application
-- Imagine today is your last day to shift your mental state and maximize your actions.
-- Use the practice to prepare for inevitable changes and loss.
-
-## Source Reference
-Extracted from `2026-04-07-notes-on-stoicism.md` (ch2-1).
+## Source Summary
+Based on [[2026-04-07-notes-on-stoicism]], specifically the practice of "Pre-rehearsal of evils" to foster non-attachment.
 
 ## Related Topics
 - [[stoicism]]
-- [[dichotomy-of-control]]
 - [[grief-and-rationality]]
+
+**Contradictions Found**: None.

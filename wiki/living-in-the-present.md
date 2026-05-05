@@ -1,12 +1,12 @@
-Living in the present requires acknowledging that the past is unchangeable and focusing entirely on current actions. This mindset prevents us from wasting energy on regrets and allows us to pursue meaningful goals in the now.
+斯多葛主義建議我們活在當下，因為過去是無法改變的。它引導我們追尋人生的真正價值，並將注意力集中在當前的行動與心智狀態。
 
 ## Insights
-- The past is "fatalistic" and cannot be altered; it should only be used as a guide for what to pursue next.
-- Focus on using action to fill the present day effectively.
+- 過去是不能改變的（Social Fatalism toward the past）。
+- 用行動來填滿這一天，改變行動時的心智狀態。
 
-## Source Reference
-Extracted from `2026-04-07-notes-on-stoicism.md` (ch2-3).
+## Source Summary
+Summarized from [[2026-04-07-notes-on-stoicism]] as a method to prioritize current value over past regret.
 
 ## Related Topics
 - [[stoicism]]
-- [[dichotomy-of-control]]
+- [[negative-visualization]]

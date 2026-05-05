@@ -1,19 +1,17 @@
-Stoics handle insults by evaluating their truth and the source's perspective rather than reacting with anger. By maintaining control over our own values, we can remain unperturbed by the opinions of others.
+應對侮辱的策略包括思考內容的真實性、來源的可靠性，以及將其視為認知問題而非傷害。有效的回應方式包括幽默、忽視，或在必要時為了糾正行為而進行處罰。
 
-## Techniques for Handling Insults
-- **Evaluate Truth**: If the insult is true, there is no reason to be upset; if it is false, the insulter is simply mistaken.
-- **Examine the Source**: Consider if the insulter is knowledgeable or behaving like a "childish adult."
-- **Humor**: Use self-deprecating humor to disarm the situation.
-- **Indifference**: Treat the insult as if it were never spoken; silence is often the most powerful response.
-- **Correction vs. Anger**: If a student or child must be punished, it should be to correct their behavior, not out of personal offense.
+## Strategies
+- **分析真實性**：如果侮辱是真的，則無需沮喪；如果是假的，則糾正其看法。
+- **思考來源**：考慮侮辱者的動機與成熟度。
+- **認知主導**：困擾人們的是對事情的看法，而非事情本身。
+- **回應方式**：
+    - 自我貶低的幽默。
+    - 徹底不理會。
+    - 懲罰（僅為糾正行為而非報復）。
 
-## Insights
-Damage from an insult comes from our *opinion* of the insult, not the words themselves.
-
-## Source Reference
-Extracted from `2026-04-07-notes-on-stoicism.md` (ch3-3).
+## Source Summary
+Detailed in ch3-3 of [[2026-04-07-notes-on-stoicism]].
 
 ## Related Topics
 - [[stoicism]]
-- [[social-interaction]]
 - [[dichotomy-of-control]]
