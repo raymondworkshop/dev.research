@@ -1,3 +1,3 @@
 
-### LLM wiki for some topic
+#### Go deep on any topic over weeks with AI
 

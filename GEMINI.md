@@ -2,7 +2,7 @@
 
 ## Purpose
 Research knowledge base for me.
-Used for: content research, awareness, emotion or decision support, and personal learning.
+Used for: personal learning, awareness, emotion or decision support, and content research.  
 
 
 ## Structure Rules
