@@ -13,15 +13,18 @@ myresearch/
 ├── outputs/ (AI-generated reports and answers)
 └── GEMINI.md (operating instructions for the AI)
 
-### Automation - todo 
-To automate the research pipeline:
-- New files in `raw/` will automatically trigger a synchronization request.
-- Ensure `wiki/INDEX.md` is updated immediately following any content change.
-- Follow the wiki standards for all generated content. Flag any contradictions or unsupported claims immediately.
 
+### Automation
+* Syncing  
+    > Run make sync in your terminal, then copy the outputted prompt into Gemini.
+* Auditing
+    > Run make audit to get the prompt for checking your wiki's health (identifying contradictions, stale info, etc.).
+* Saving
+    > Run make push to quickly commit and push your research updates to Git.
 
 ### raw
 #### Stoicism
+
 * [Meditations] by Marcus Aurelius  
 * [The Daily Stoic] by ryan holiday  
 * [善用悲觀的力量] by William B. Irvine, 李林    

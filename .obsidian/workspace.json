@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CLAUDE.md",
+                "file": "notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CLAUDE"
+              "title": "notes"
             }
           }
         ]
@@ -185,15 +185,31 @@
   },
   "active": "119e380bbfa3725a",
   "lastOpenFiles": [
+    "wiki/reputation.md",
+    "wiki/emotions.md",
+    "wiki/handling-insults.md",
+    "scripts/audit_wiki.py",
+    "books/沉思录.md",
+    "books/沉思录-奥勒留 & 梁实秋.epub",
+    "books/TheDailyStoic366Meditations.md",
+    "books/The Daily Stoic 366 Meditations on Wisdom, Perseverance, and the Art of Living.epub",
+    "books",
+    "_raw",
+    "scripts/watcher.py",
+    "scripts/sync_wiki.py",
+    "scripts",
+    "raw/scripts/sync_wiki.py",
+    "researchenv/bin/watchmedo",
+    "GEMINI.md",
+    "wiki/insults.md",
+    "wiki/INDEX.md",
     "README.md",
     "wiki/stoicism.md",
     "wiki/social-duty.md",
     "wiki/dichotomy-of-control.md",
     "wiki/grief-and-rationality.md",
-    "wiki/insults.md",
     "wiki/negative-visualization.md",
     "wiki/living-in-the-present.md",
-    "wiki/INDEX.md",
     "stoicism.md",
     "rbrain-system.md",
     "career.md",
