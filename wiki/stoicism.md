@@ -1,19 +1,14 @@
-斯多葛主義（Stoicism）是一門古希臘與羅馬哲學，旨在幫助人們應對生活的起伏並追求平靜的生活。它強調透過控制主觀認知、引導正確行動，並接納無法控制的事物來建立情緒韌性。
+Stoicism is an ancient Greek and Roman philosophy founded by Zeno of Citium around 300 BCE. It provides a framework for emotional resilience and peace by focusing on what we can control and accepting what we cannot.
 
-## Core Principles: The Big Three
-- **Control your perceptions**: How you view an event determines its impact on you.
-- **Direct your actions properly**: Focus on doing your best in every situation.
-- **Accept what's outside your control**: Release attachment to external outcomes.
+### Overview
+Stoicism helps us better deal with life’s inevitable ups and downs so that we can live a happier and more peaceful life. It is considered a remedy for emotional resilience (斯多葛主義是鍛鍊主觀认知的情緒韌性的良方).
 
-## Source Summary
-Derived from [[2026-04-07-notes-on-stoicism]], which introduces Stoicism as a tool for emotional self-regulation and practical efficiency.
+### The Big Three
+1.  **Control your perceptions**: Respond, do not just react.
+2.  **Direct your actions properly**.
+3.  **Willingly accept what's outside your control**.
 
-## Related Topics
-- [[negative-visualization]]
-- [[dichotomy-of-control]]
-- [[living-in-the-present]]
-- [[social-duty]]
-- [[insults]]
-- [[grief-and-rationality]]
-
-**Contradictions Found**: None.
+### Key Practices
+*   [[negative-visualization]]: Pre-imagining loss to appreciate the present.
+*   [[dichotomy-of-control]]: Distinguishing between internal and external factors.
+*   [[social-duty]]: Fulfilling our role as social beings.

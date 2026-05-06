@@ -1,16 +1,18 @@
-區分能控制與不能控制的事物是斯多葛主義的核心，建議將精力集中在完全可控的內在目標和價值觀上。透過目標內在化，我們可以避開外部結果帶來的挫折與失望。
+The dichotomy of control is a fundamental Stoic practice of categorizing life's elements into what we can and cannot control. By focusing energy on internal goals, we protect our tranquility from external fluctuations.
 
-## The Three Categories
-1. **完全能控制的事物**：我們設定的目標與價值觀。
-2. **能夠控制一些但又不能完全控制的事物**：應將目標內在化（例如「盡力而為」而非「必須贏」）。
-3. **自己一點也不能控制的事物**：不值得擔心，應放置一旁。
+### 三個範疇 (Three Categories)
+1.  **完全能控制的事物**: 包含我們自己設定的目標以及我們的價值觀。
+2.  **能控制一些但不能完全控制的事物**: 需要透過「目標內在化」來處理。
+3.  **完全不能控制的事物**: 應放置一旁，不值得擔心。
 
-## Source Summary
-Extracted from [[2026-04-07-notes-on-stoicism]], emphasizing the categorization of life elements to maintain peace of mind.
+### 目標內在化 (Internalizing Goals)
+為了避開挫折和失望，我們應該設定內在而非外在的目标。
+*   **Example**: Instead of a goal to "win a match" (external), the goal should be to "play to the best of my ability" (internal).
+*   這能讓我們在盡了最大努力後，即便結果不如意也能感到欣慰。
 
-## Related Topics
-- [[stoicism]]
-- [[living-in-the-present]]
-- [[insults]]
+### 價值觀
+選擇正確的目標和價值觀回報巨大。我們應**珍視真正有價值的事物**，並忽略缺乏價值的事物。
 
-**Contradictions Found**: None.
+Related:
+*   [[stoicism]]
+*   [[reputation]]

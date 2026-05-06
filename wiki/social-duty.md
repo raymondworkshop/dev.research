@@ -1,18 +1,21 @@
-作為社會動物，人類有義務與他人維持關係並為了共同利益而合作，即便面對討厭的人。這包括區分社交責任與朋友選擇，並以包容和宇宙視角來看待有毒的人際關係。
+Stoicism emphasizes that humans are social animals with an inherent duty to maintain relationships and work for the common good. Even when dealing with difficult people, we must strive for mutual benefit while protecting our own character.
 
-## Social Interaction Strategy
-- **熱愛人類是義務**：人本質是社會動物，有責任與人維持關係。
-- **與人交往的技巧**：
-    - 在社會責任上，我們不能選擇交往對象（為了共同利益）。
-    - 在朋友圈子（朋友的選擇）上，我們可以避開惡習者。
-- **社會宿命論**：接受有些人天生就是討厭的，不應為其行為感到苦惱。
-- **放大時空看人世**：將令人討厭的事件放到宇宙背景中，減少煩惱與仇恨。
+### 生命處方：熱愛人類
+*   **身為人的責任**: 人的功用就是做人該做的事，為了某種責任與其他人形成和維持關係。
+*   **面對討厭的人**: 我們生來就是要活在人群中，並以互利的方式互動。我們應該為了共同利益而與他人合作。
 
-## Source Summary
-Derived from sections ch3-1 and ch3-2 of [[2026-04-07-notes-on-stoicism]].
+### 與人交往的技巧
+*   **選擇朋友**: 在社會責任上我們不能選擇交往對象，但在「與誰為友」的問題上，我們可以選擇。避開有惡習、愛抱怨、價值觀被腐蝕的人。
+*   **區分關係類型**:
+    *   **交易型關係**: 評估價值、缺乏對真實狀態的興趣。這本身無對錯，但需與「長期合作關係」區分。
+    *   **長期關係**: 深入合作共贏，值得投入寶貴精力。
 
-## Related Topics
-- [[stoicism]]
-- [[insults]]
+### 應對有毒型人物
+*   **社會宿命論**: 告訴自己他們天生就是這樣行事作為的，可以減少苦惱。
+*   **放大時空背景**: 把令人討厭的事件放到宇宙背景中，其微不足道會越加明顯。
+*   **避免仇恨**: 在與人打交道時，最大的風險是產生仇恨，而仇恨只會傷害自己。
 
-**Contradictions Found**: None.
+Related:
+*   [[handling-insults]]
+*   [[stoicism]]
+*   [[emotions]]
