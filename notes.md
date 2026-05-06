@@ -11,10 +11,10 @@ myresearch/
 ├── raw/ (input dump)
 ├── wiki/ (AI-organized knowledge base)
 ├── outputs/ (AI-generated reports and answers)
-└── CLAUDE.md (operating instructions for the AI)
+└── GEMINI.md (operating instructions for the AI)
 
 #### wiki
-prompt = "Read everything in raw/. Following the rules in CLAUDE.md, build a complete wiki in wiki/.
+prompt = "Read everything in raw/. Following the rules in GEMINI.md, build a complete wiki in wiki/.
 
 Start by creating INDEX.md listing every major topic alphabetically.
 Then create one .md file per topic. Link related topics using
@@ -34,4 +34,7 @@ Review the entire wiki/ directory. Complete this audit:
 5. Suggest 3 new articles to fill knowledge gaps
 
 #### reference
-* []
+* [Meditations] by Marcus Aurelius  
+* [The Daily Stoic] 
+* [善用悲觀的力量]  
+* [Don't Sweat the Small Stuff about Money]
