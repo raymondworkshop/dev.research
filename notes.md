@@ -13,6 +13,13 @@ myresearch/
 ├── outputs/ (AI-generated reports and answers)
 └── GEMINI.md (operating instructions for the AI)
 
+### Automation - todo 
+To automate the research pipeline:
+- New files in `raw/` will automatically trigger a synchronization request.
+- Ensure `wiki/INDEX.md` is updated immediately following any content change.
+- Follow the wiki standards for all generated content. Flag any contradictions or unsupported claims immediately.
+
+
 ### raw
 #### Stoicism
 * [Meditations] by Marcus Aurelius  
@@ -20,6 +27,7 @@ myresearch/
 * [善用悲觀的力量] by William B. Irvine, 李林    
 * [Don't Sweat the Small Stuff about Money] by Richard Carlson   
 
+### todo
 #### language  
 
 #### dating  
