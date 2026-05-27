@@ -1,4 +1,4 @@
-# Wiki Index
+# Stoicism-focused Wiki Index
 
 - [[dichotomy-of-control]] - Categorizing life into controllable and uncontrollable elements.
 - [[emotions]] - Managing grief and anger through reason and impermanence.
