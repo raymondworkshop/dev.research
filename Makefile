@@ -9,10 +9,10 @@ help:
 	@echo "  make push    - Commit and push all changes"
 
 sync:
-	@echo "update wiki/ based on raw/ and GEMINI.md"
+	@echo "update wiki/ based on raw/ and AGENTS.md"
 
 audit:
-	@echo "Review the entire wiki/ directory. Complete the audit defined in GEMINI.md."
+	@echo "Review the entire wiki/ directory. Complete the audit defined in AGENTS.md."
 
 push:
 	git add .

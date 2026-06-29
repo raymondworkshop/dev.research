@@ -15,5 +15,9 @@ Stoics view insults as reflections of the insulter's perception rather than obje
 ### 必要時的懲罰
 懲罰不應是因為自己感到受辱，而是為了糾正對方的行為（如對學生或孩子的教育）。
 
+### 認知主導
+困擾人們的是對事情的看法，而非事情本身。有效的回應還包括：分析內容真實性、思考侮辱者動機與成熟度。
+
 Related:
 *   [[dichotomy-of-control]]
+*   [[stoicism]]

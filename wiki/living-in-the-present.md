@@ -5,7 +5,7 @@
 - 用行動來填滿這一天，改變行動時的心智狀態。
 
 ## Source Summary
-Summarized from [[2026-04-07-notes-on-stoicism]] as a method to prioritize current value over past regret.
+Compiled from Stoic practice notes on prioritizing current value over past regret.
 
 ## Related Topics
 - [[stoicism]]

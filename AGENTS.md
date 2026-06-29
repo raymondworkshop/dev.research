@@ -24,6 +24,7 @@ Used for: emotion or decision support, awareness, personal learning,  and conten
     - Use `[[wiki links]]` for cross-references
     - Flag any contradiction with previously compiled knowledge
     - Update `wiki/INDEX.md`
+    - Match the input language perfectly  
 
 #### 2. Audit
 - orphan pages: pages that no other page links to   
