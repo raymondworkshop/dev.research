@@ -15,7 +15,15 @@ Stoicism emphasizes that humans are social animals with an inherent duty to main
 *   **放大時空背景**: 把令人討厭的事件放到宇宙背景中，其微不足道會越加明顯。
 *   **避免仇恨**: 在與人打交道時，最大的風險是產生仇恨，而仇恨只會傷害自己。
 
-Related:
-*   [[handling-insults]]
-*   [[stoicism]]
-*   [[emotions]]
+## Sources
+
+| Source | Location | Role |
+|--------|----------|------|
+| meditations | 卷五 | primary |
+| raw_summary | 2026-04-07-notes-on-stoicism.md § ch3-1 熱愛人類是我們的義務 | distilled note |
+| raw_summary | 2026-04-07-notes-on-stoicism.md § ch3-2 與人交往的技巧 | distilled note |
+
+## Related Topics
+- [[handling-insults]]
+- [[stoicism]]
+- [[emotions]]

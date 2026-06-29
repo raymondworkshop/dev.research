@@ -13,3 +13,16 @@ Being nonattached creates emotional freedom. This suggests trying hard and reall
 
 ### Living Each Day
 *   **把每一天都當成最後一天來過**: 欣賞這一天活著的精彩，用行動來填滿這一天，改變行動時的心智狀態。
+
+## Sources
+
+| Source | Location | Role |
+|--------|----------|------|
+| daily_stoic | November 18th — WHAT ARE YOU SPARED? | supporting |
+| meditations | 卷四 | supporting |
+| raw_summary | 2026-04-07-notes-on-stoicism.md § ch2-1 | distilled note |
+
+## Related Topics
+- [[stoicism]]
+- [[living-in-the-present]]
+- [[emotions]]

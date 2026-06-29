@@ -13,6 +13,14 @@ The dichotomy of control is a fundamental Stoic practice of categorizing life's 
 ### 價值觀
 選擇正確的目標和價值觀回報巨大。我們應**珍視真正有價值的事物**，並忽略缺乏價值的事物。
 
-Related:
-*   [[stoicism]]
-*   [[reputation]]
+## Sources
+
+| Source | Location | Role |
+|--------|----------|------|
+| daily_stoic | January 1st — CONTROL AND CHOICE | primary |
+| meditations | 卷二 | supporting |
+| raw_summary | 2026-04-07-notes-on-stoicism.md § ch2-2 区分能控制与不能控制 | distilled note |
+
+## Related Topics
+- [[stoicism]]
+- [[reputation]]

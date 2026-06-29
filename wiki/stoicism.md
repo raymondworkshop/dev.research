@@ -12,3 +12,15 @@ Stoicism helps us better deal with life’s inevitable ups and downs so that we 
 *   [[negative-visualization]]: Pre-imagining loss to appreciate the present.
 *   [[dichotomy-of-control]]: Distinguishing between internal and external factors.
 *   [[social-duty]]: Fulfilling our role as social beings.
+
+## Sources
+
+| Source | Location | Role |
+|--------|----------|------|
+| daily_stoic | January 4th — THE BIG THREE | primary |
+| meditations | 卷一 | supporting |
+| raw_summary | 2026-04-07-notes-on-stoicism.md § Stoicism | distilled note |
+
+## Related Topics
+- [[emotions]]
+- [[dichotomy-of-control]]

@@ -24,7 +24,9 @@ Used for: emotion or decision support, awareness, personal learning,  and conten
     - Use `[[wiki links]]` for cross-references
     - Flag any contradiction with previously compiled knowledge
     - Update `wiki/INDEX.md`
-    - Match the input language perfectly  
+    - Match the input language perfectly
+    - **Wiki page template:** intro → `###` sections → `## Sources` table (daily_stoic / meditations / raw_summary) → `## Related Topics`
+    - `raw/` = summaries; `books/` = authoritative Stoic detail — Sources should point to books first  
 
 #### 2. Audit
 - orphan pages: pages that no other page links to   

@@ -14,7 +14,16 @@ Stoicism provides rational tools to manage disruptive emotions like grief and an
 ### 情緒韌性
 斯多葛主義強調情緒自我調節。透過這些練習，我們可以學會「回應（respond）」而非「反應（react）」。
 
-Related:
-*   [[stoicism]]
-*   [[negative-visualization]]
-*   [[social-duty]]
+## Sources
+
+| Source | Location | Role |
+|--------|----------|------|
+| meditations | 卷八 | primary |
+| daily_stoic | February 12th — THE RIGHT PERSPECTIVE | supporting |
+| raw_summary | 2026-04-07-notes-on-stoicism.md § ch3-4 悲痛 | distilled note |
+| raw_summary | 2026-04-07-notes-on-stoicism.md § ch3-5 憤怒 | distilled note |
+
+## Related Topics
+- [[stoicism]]
+- [[negative-visualization]]
+- [[social-duty]]

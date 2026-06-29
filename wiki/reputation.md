@@ -10,6 +10,13 @@ Stoics advocate for indifference toward external reputation, as it is a factor o
 ### 真實自我
 人只有真正知道自己是誰，才會表現出對名聲的不在意。
 
-Related:
-*   [[dichotomy-of-control]]
-*   [[stoicism]]
+## Sources
+
+| Source | Location | Role |
+|--------|----------|------|
+| meditations | 卷六 | primary |
+| raw_summary | 2026-04-07-notes-on-stoicism.md § ch3-6 名聲 | distilled note |
+
+## Related Topics
+- [[dichotomy-of-control]]
+- [[stoicism]]
