@@ -10,3 +10,6 @@ data/
 node_modules/
 dist/
 *.log
+workers/node_modules/
+researchenv/
+.venv/

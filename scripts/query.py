@@ -14,7 +14,7 @@ sys.path.insert(0, str(ROOT / "app" / "backend"))
 from config import VECTORS_DB
 from services.embedder import encode_query, get_embedder
 from services.retriever import hybrid_search
-from services.router import route_message
+from services.tagger import route_message
 from services.vector_store import init_db, load_all_chunks
 
 

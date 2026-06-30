@@ -4,7 +4,7 @@
 
 **Product tier:** Personal tool → **Friends beta (~5–20 people)** → public SaaS only if needed later.
 
-**Development strategy:** **Local-first** — build and validate on your Mac (MLX + FastAPI + local UI). Deploy to **CF Pages + Fly.io + Gemini** only when RAG quality and chat experience are good enough for friends.
+**Development strategy:** **Local-first** — build and validate on your Mac (RAG + template replies + FastAPI + local UI). Deploy to **CF Pages + Fly.io** only when chat experience is good enough for friends.
 
 ---
 
@@ -43,10 +43,10 @@ Improve the guide by editing Markdown and prompts, not by growing the codebase.
 | Stage | Work | Done when |
 |-------|------|-----------|
 | **A1** | `scripts/ingest.py` + hybrid retriever + CLI query | Relevant chunks for test prompts |
-| **A2** | FastAPI `/api/chat` SSE + MLX + safety + sessions | Grounded reply with citations |
-| **A3** | Vite + React UI; `make dev` | Browser chat at `:5173` |
-| **A4** | Tune `prompts/stoic_guide.md` | Good replies for anger/grief/insult |
-| **B1** | `GeminiProvider` + prod embeddings | Same API, `LLM_PROVIDER=gemini` |
+| **A2** | FastAPI `/api/chat` SSE + RAG + safety + sessions | Grounded reply with citations |
+| **A3** | Vite + React UI; `make site` | Browser chat at `:5173` |
+| **A4** | Tune emotion templates in `services/prompt.py` | Good replies for anger/grief/insult |
+| **B1** | Optional cloud LLM + prod embeddings | Same API, add provider when needed |
 | **B2** | Fly.io + Volume + secrets | `fly deploy` live |
 | **B3** | CF Pages + `VITE_API_URL` | Static UI → Fly API |
 | **B4** | Friends beta gate | Password, rate limits, disclaimer |
@@ -59,7 +59,7 @@ Improve the guide by editing Markdown and prompts, not by growing the codebase.
 
 ## 2. Thin Harness — Code
 
-Generic scaffolding. RAG, router, safety, and prompt builder **do not change** when switching LLM — only the text generation layer.
+Generic scaffolding. RAG, emotion routing, safety, and reply templates stay thin; improve behavior by editing templates and content, not by adding layers.
 
 ### Architecture
 
@@ -69,18 +69,18 @@ Generic scaffolding. RAG, router, safety, and prompt builder **do not change** w
 flowchart LR
     Browser[localhost:5173] --> Vite[Vite dev server]
     Vite -->|proxy /api| API[FastAPI :8000]
-    API --> MLX[MLX Qwen3-4B]
+    API --> Templates[Emotion templates]
     API --> VDB[(data/vectors.db)]
     API --> SDB[(data/sessions.db)]
     Ingest[make ingest] --> VDB
 ```
 
-**Stage B (later):** Same code; swap MLX → Gemini; add CF Pages + Fly.io.
+**Stage B (later):** Same API; optional cloud LLM; add CF Pages + Fly.io.
 
 ```mermaid
 flowchart LR
     Pages[CF Pages UI] --> FlyAPI[FastAPI on Fly.io]
-    FlyAPI --> Gemini[Gemini Flash + Embedding]
+    FlyAPI --> LLM[Optional cloud LLM]
     FlyAPI --> ProdVDB[(vectors.db on Volume)]
 ```
 
@@ -92,17 +92,17 @@ sequenceDiagram
     participant UI as UI
     participant API as FastAPI
     participant S as Safety
-    participant R as Router
+    participant R as Tagger
     participant G as RAG
-    participant L as LLM
+    participant T as Templates
 
     U->>UI: message
     UI->>API: POST /api/chat SSE
     API->>S: crisis check
     S->>R: classify situation
     R->>G: hybrid search
-    G->>L: prompt + top 6 chunks
-    L-->>UI: stream tokens + citations
+    G->>T: emotion + mode
+    T-->>UI: stream reply + citations
     UI-->>U: Stoic reply
 ```
 
@@ -111,15 +111,12 @@ sequenceDiagram
 | Layer | Choice | Notes |
 |-------|--------|-------|
 | **Product** | Personal companion web app | Jamstack + API; not blog/wiki |
-| **Frontend** | Vite + React + TS + Tailwind + shadcn/ui | CF Pages friendly; SSE |
+| **Frontend** | Vite + React + TS + Tailwind | CF Pages friendly; SSE |
 | **Backend** | FastAPI + Python 3.11+ | Same codebase dev & prod |
-| **LLM dev** | mlx-lm (`Qwen3-4B-Instruct-4bit`) | Apple Silicon; free, private |
-| **LLM prod** | Gemini 2.0 Flash | Cheap, fast EN/ZH |
-| **LLM switch** | `LLMProvider` + `LLM_PROVIDER` env | One interface, two backends |
-| **Embeddings dev** | bge-small (Mac MPS) | Free at ingest + query |
-| **Embeddings prod** | Gemini `text-embedding-004` | ~1 call/chat; server stays tiny |
-| **Vector DB** | sqlite-vec (`data/vectors.db`) | ~500 chunks; zero ops |
-| **Session DB** | SQLite (`data/sessions.db`) | Last 6 turns + summaries |
+| **Replies** | Emotion templates (`services/prompt.py`) | Deterministic feel/decide modes |
+| **Embeddings** | multilingual-e5-small (Mac MPS) | Free at ingest + query |
+| **Vector DB** | SQLite (`data/vectors.db`) | ~500 chunks; numpy cosine in Python |
+| **Session DB** | SQLite (`data/sessions.db`) | Last 6 turns |
 | **Hosting prod** | Fly.io (~$3–5/mo) | Always-on + Volume; Stage B only |
 | **Repo** | GitHub (`dev.research`) | Code + content |
 | **Audience** | You → friends beta | No SaaS until needed |
@@ -134,25 +131,8 @@ sequenceDiagram
 
 ```
 make ingest  →  wiki/ + books/  →  embed  →  vectors.db
-chat query   →  embed message  →  search vectors.db  →  top 6 chunks  →  LLM
+chat query   →  embed message  →  search vectors.db  →  top chunks  →  template reply
 chat turns   →  sessions.db
-```
-
-### LLM Provider
-
-```python
-# app/backend/services/llm_provider.py
-class LLMProvider(Protocol):
-    async def stream_chat(self, messages: list[dict]) -> AsyncIterator[str]: ...
-
-class MLXProvider(LLMProvider):      # dev
-class GeminiProvider(LLMProvider):   # prod
-```
-
-```bash
-# .env.development          # .env.production
-LLM_PROVIDER=mlx            LLM_PROVIDER=gemini
-                            GEMINI_API_KEY=...
 ```
 
 ### API
@@ -172,7 +152,7 @@ POST /admin/reindex    # dev only
 ### Local Dev
 
 ```bash
-make ingest && make dev   # :5173 UI → :8000 API, MLX, bge-small, $0
+make ingest && make site   # :5173 UI → :8000 API, e5-small embeddings, $0
 ```
 
 ```ts
@@ -197,7 +177,7 @@ CF Pages serves static UI only; FastAPI, Gemini, and sqlite live on Fly.io (Volu
 | Ready? | Signal |
 |--------|--------|
 | ✅ | RAG returns relevant wiki/book chunks |
-| ✅ | MLX replies follow `stoic_guide` feel/decide modes and cite sources |
+| ✅ | Template replies follow feel/decide modes and show citations |
 | ✅ | You'd use it after a bad day |
 | ✅ | Safety/crisis path behaves correctly |
 
@@ -210,40 +190,36 @@ dev.research/
 ├── plan.md
 ├── app/
 │   ├── backend/
-│   │   ├── Dockerfile
-│   │   ├── requirements-prod.txt
 │   │   ├── main.py
+│   │   ├── config.py
 │   │   ├── routes/chat.py
 │   │   ├── services/
-│   │   │   ├── router.py
+│   │   │   ├── tagger.py        # emotion routing
 │   │   │   ├── retriever.py
-│   │   │   ├── prompt.py
-│   │   │   ├── llm_provider.py
-│   │   │   └── safety.py
+│   │   │   ├── prompt.py        # reply templates
+│   │   │   ├── embedder.py
+│   │   │   ├── safety.py
+│   │   │   └── session.py
 │   │   └── models/schemas.py
 │   └── frontend/
 │       ├── src/
 │       │   ├── App.tsx
 │       │   ├── components/Chat.tsx
 │       │   └── hooks/useChatStream.ts
-│       ├── public/_redirects
 │       └── package.json
 ├── scripts/
 │   ├── ingest.py
 │   ├── query.py
-│   ├── chunkers/
-│   └── tagger.py
+│   └── chunkers/
 ├── data/                        # gitignored
 │   ├── vectors.db
-│   ├── sessions.db
-│   └── chunks.json              # optional offline browse
+│   └── sessions.db
 ├── prompts/
-│   └── stoic_guide.md
+│   └── stoic_guide.md           # reference / future tuning
 ├── books/
 ├── wiki/
 ├── raw/
-├── fly.toml
-└── Makefile                     # ingest | dev | serve | deploy
+└── Makefile                     # ingest | site | serve | query
 ```
 
 ---
@@ -389,7 +365,7 @@ Also: `robots.txt` noindex; don't link from public blog.
 
 | Stage | Success |
 |-------|---------|
-| **A (local)** | `make ingest` + `make dev` → chat at `:5173`; emotion in → Stoic reply with real citation; first token < 3s; $0, offline after model download |
+| **A (local)** | `make ingest` + `make site` → chat at `:5173`; emotion in → Stoic reply with real citation; first token < 3s; $0, offline after model download |
 | **B (online)** | Same quality via Gemini on Fly.io; friends access without your Mac; invite gate + rate limits; `make ingest` → redeploy refreshes knowledge |
 
 ---

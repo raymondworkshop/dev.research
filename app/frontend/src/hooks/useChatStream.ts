@@ -141,7 +141,10 @@ export function useChatStream(lang: string) {
             const next = [...prev]
             next[next.length - 1] = {
               role: 'assistant',
-              content: '連線失敗。請確認後端已啟動（make serve）。',
+              content:
+                import.meta.env.VITE_DEMO_MODE === 'true'
+                  ? '連線失敗，請稍後再試。'
+                  : '連線失敗。請確認後端已啟動（make serve）。',
             }
             return next
           })

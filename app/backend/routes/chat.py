@@ -3,21 +3,20 @@ from __future__ import annotations
 import asyncio
 import json
 
-import numpy as np
 from fastapi import APIRouter
 from sse_starlette.sse import EventSourceResponse
 
-from config import LAST_INDEXED, LLM_MODEL, LLM_PROVIDER, VECTORS_DB, resolve_mlx_model_path
+from config import EMBEDDING_MODEL, LAST_INDEXED, LLM_MODEL, LLM_PROVIDER, VECTORS_DB, llm_enabled, llm_status_label
 from models.schemas import ChatRequest
-from services.embedder import encode_query, get_embedder, resolve_embedding_path
-from services.llm_provider import get_llm_provider
-from services.prompt import build_messages, compose_structured_reply, rag_fallback_reply
+from services.embedder import encode_query, resolve_embedding_path
 from services.lang_detect import resolve_reply_lang
+from services.llm import check_llm_health, get_llm_provider
+from services.prompt import build_messages, compose_reply
 from services.quality import is_low_quality
 from services.retriever import hybrid_search
-from services.router import route_message
 from services.safety import check_crisis, crisis_response
 from services.session import get_history, save_turn
+from services.tagger import route_message
 from services.vector_store import init_db, load_all_chunks
 
 router = APIRouter()
@@ -44,6 +43,13 @@ def _retrieve(message: str, emotion: str) -> tuple[list[dict], bool]:
 def invalidate_cache():
     global _chunks_cache
     _chunks_cache = None
+
+
+async def _emit_reply(full_reply: str):
+    for i in range(0, len(full_reply), 8):
+        chunk = full_reply[i : i + 8]
+        yield {"event": "token", "data": json.dumps({"text": chunk})}
+        await asyncio.sleep(0)
 
 
 @router.post("/chat")
@@ -84,40 +90,60 @@ async def chat(req: ChatRequest):
                 "data": json.dumps({"id": c["id"], "title": c["title"], "source": c["source"], "score": round(c["score"], 3)}),
             }
 
-        yield {"event": "status", "data": json.dumps({"message": "穩心整理回覆中…"})}
-
-        history = get_history(req.session_id)
-        messages = build_messages(
-            req.message, top_chunks, history, lang=lang, mode=mode, weak_context=weak, emotion=emotion
-        )
-
         save_turn(req.session_id, "user", req.message)
-        llm = get_llm_provider()
+        full_reply = ""
+        provider = get_llm_provider()
 
-        # feel mode: deterministic templates (zh + en)
-        if lang in ("zh-Hant", "zh-Hans", "en") and mode == "feel":
-            full_reply = compose_structured_reply(
-                req.message, top_chunks, lang=lang, mode=mode, emotion=emotion
+        # feel: curated templates (reliable format + stoic framing)
+        # decide: LLM when configured, with quality fallback
+        use_llm = provider is not None and mode == "decide"
+
+        if use_llm:
+            label = llm_status_label()
+            yield {"event": "status", "data": json.dumps({"message": f"穩心思考中（{label}）…"})}
+            history = get_history(req.session_id)
+            if history and history[-1]["role"] == "user" and history[-1]["content"] == req.message:
+                history = history[:-1]
+            messages = build_messages(
+                req.message,
+                top_chunks,
+                history,
+                lang=lang,
+                mode=mode,
+                weak_context=weak,
+                emotion=emotion,
             )
-        else:
-            full_reply = ""
             try:
-                yield {"event": "status", "data": json.dumps({"message": "穩心思考中（本地 MLX）…"})}
-                full_reply = await llm.generate_full(messages)
-                if is_low_quality(full_reply):
-                    full_reply = rag_fallback_reply(
-                        req.message, top_chunks, lang=lang, mode=mode, emotion=emotion
+                async for token in provider.stream_chat(messages):
+                    full_reply += token
+                    yield {"event": "token", "data": json.dumps({"text": token})}
+                if is_low_quality(full_reply, lang=lang, mode=mode, emotion=emotion):
+                    yield {"event": "status", "data": json.dumps({"message": "改用模板回覆…"})}
+                    full_reply = compose_reply(
+                        req.message, lang=lang, mode=mode, emotion=emotion, weak_context=weak
                     )
+                    async for event in _emit_reply(full_reply):
+                        yield event
             except Exception as exc:
-                full_reply = rag_fallback_reply(
-                    req.message, top_chunks, lang=lang, mode=mode, emotion=emotion
-                )
-                full_reply += f"\n\n（MLX 回覆暫不可用：{exc}）"
-
-        for i in range(0, len(full_reply), 8):
-            chunk = full_reply[i : i + 8]
-            yield {"event": "token", "data": json.dumps({"text": chunk})}
-            await asyncio.sleep(0)
+                if not full_reply:
+                    yield {"event": "status", "data": json.dumps({"message": "模型暫不可用，改用模板回覆…"})}
+                    full_reply = compose_reply(
+                        req.message, lang=lang, mode=mode, emotion=emotion, weak_context=weak
+                    )
+                    full_reply += f"\n\n（{label} 回覆暫不可用：{exc}）"
+                    async for event in _emit_reply(full_reply):
+                        yield event
+                else:
+                    note = f"\n\n（{label} 回覆中斷：{exc}）"
+                    full_reply += note
+                    yield {"event": "token", "data": json.dumps({"text": note})}
+        else:
+            yield {"event": "status", "data": json.dumps({"message": "穩心整理回覆中…"})}
+            full_reply = compose_reply(
+                req.message, lang=lang, mode=mode, emotion=emotion, weak_context=weak
+            )
+            async for event in _emit_reply(full_reply):
+                yield event
 
         save_turn(req.session_id, "assistant", full_reply)
         yield {"event": "done", "data": "{}"}
@@ -131,21 +157,14 @@ async def health():
     last_indexed = None
     if LAST_INDEXED.exists():
         last_indexed = LAST_INDEXED.read_text(encoding="utf-8").strip()
-    model_path = None
-    if LLM_PROVIDER == "mlx":
-        try:
-            model_path = resolve_mlx_model_path()
-        except Exception:
-            model_path = None
     provider = get_llm_provider()
-    mlx_loaded = getattr(provider, "_model", None) is not None
     return {
         "status": "ok",
-        "llm_provider": LLM_PROVIDER,
         "chunk_count": len(chunks),
         "last_indexed_at": last_indexed,
-        "model": LLM_MODEL,
-        "model_path": model_path,
+        "embedding_model": EMBEDDING_MODEL,
         "embedding_path": resolve_embedding_path(),
-        "mlx_loaded": mlx_loaded,
+        "llm_provider": LLM_PROVIDER,
+        "llm_model": LLM_MODEL if llm_enabled() else None,
+        "llm_reachable": await check_llm_health() if provider else None,
     }

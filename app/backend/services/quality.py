@@ -1,50 +1,49 @@
 from __future__ import annotations
 
 import re
-from collections import Counter
 
 
-def control_labels_invalid(text: str) -> bool:
-    """True when 可控/不可控 labels are missing or swapped."""
-    if "**可控**" not in text or "**不可控**" not in text:
+def is_low_quality(
+    text: str,
+    *,
+    lang: str = "zh-Hant",
+    mode: str = "feel",
+    emotion: str = "general",
+) -> bool:
+    """Detect garbled or off-format LLM output worth replacing with templates."""
+    t = text.strip()
+    if len(t) < 50:
         return True
 
-    ctrl_match = re.search(r"\*\*可控\*\*[：:]\s*(.+?)(?=\n\*\*不可控\*\*|\n斯多葛|\n摘錄|\n今天|$)", text, re.DOTALL)
-    not_match = re.search(r"\*\*不可控\*\*[：:]\s*(.+?)(?=\n\*\*可控\*\*|\n斯多葛|\n摘錄|\n今天|$)", text, re.DOTALL)
-    if not ctrl_match or not not_match:
-        return True
-
-    ctrl = ctrl_match.group(1)
-    deny_markers = (
-        "不在你", "不在你的", "無法", "无法", "無法改變", "无法改变",
-        "她的決定", "她的决定", "他的決定", "他的决定", "不是你能", "你無法", "你无法",
-    )
-    return any(m in ctrl for m in deny_markers)
-
-
-def is_low_quality(text: str) -> bool:
-    """Detect garbled MLX output, runaway repetition, or bad control labels."""
-    if control_labels_invalid(text):
-        return True
-    stripped = text.strip()
-    if len(stripped) < 40:
-        return True
-
-    garble_markers = (
-        r"\[[dk][a-z]{3,}",
-        r"kiation",
-        r"topations",
-        r"notiseduture",
-        r"rators",
-    )
-    for pattern in garble_markers:
-        if re.search(pattern, text, re.IGNORECASE):
+    if lang in ("zh-Hant", "zh-Hans") and mode == "feel":
+        ack_markers = ("承認情緒", "承認", "聽見你的")
+        ack_idx = min((t.find(m) for m in ack_markers if m in t), default=-1)
+        not_idx = t.find("不可控")
+        if not_idx >= 0 and (ack_idx < 0 or not_idx < ack_idx):
             return True
 
-    sentences = [s.strip() for s in re.split(r"[。！？\n]+", stripped) if len(s.strip()) > 14]
-    if sentences:
-        _, count = Counter(sentences).most_common(1)[0]
-        if count >= 3:
+        for marker in ("承認情緒", "今天可做的一件小事", "可控行動", "結尾一個問題"):
+            if t.count(marker) > 1:
+                return True
+
+        if emotion == "social_conflict" and _is_pursuit_risk(t):
             return True
+
+    if re.search(r"(.{{8,}})\1{2,}", t):
+        return True
 
     return False
+
+
+def _is_pursuit_risk(text: str) -> bool:
+    """Reject pushy dating advice that violates stoic_guide."""
+    risky = (
+        "直接表達對她的感情",
+        "表達對她的感情",
+        "表達我的心意",
+        "直接向她表白",
+        "追求她",
+        "讓她知道你的心意",
+        "表白",
+    )
+    return any(p in text for p in risky)

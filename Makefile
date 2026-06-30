@@ -1,6 +1,6 @@
 # Steady Mind — 穩心
 
-.PHONY: help sync audit push ingest query serve dev mlx-check mlx-download mlx-path embed-download clean-models
+.PHONY: help sync audit push ingest query serve site
 
 ROOT := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 VENV := $(ROOT).venv
@@ -12,10 +12,8 @@ help:
 	@echo "  make ingest   - Build vector index from books/ + wiki/ + raw/"
 	@echo "  make query    - Test RAG retrieval (MSG='...')"
 	@echo "  make serve    - Start FastAPI backend on :8000"
-	@echo "  make dev      - Start backend + frontend"
-	@echo "  make mlx-check - Verify MLX model loads locally"
-	@echo "  make embed-download - Download embedding model to data/models/embeddings/"
-	@echo "  make clean-models  - Prune unused model files (add HF_CACHE=1 for ~/.cache)"
+	@echo "  make site     - Start backend + frontend"
+	@echo "  make publish  - Deploy to CF Pages (steady-mind.pages.dev)"
 	@echo ""
 	@echo "Research Commands:"
 	@echo "  make sync     - Compile wiki/ from raw/"
@@ -32,23 +30,15 @@ ingest: $(VENV)/bin/activate
 query: $(VENV)/bin/activate
 	cd $(ROOT) && PYTHONPATH=app/backend:scripts $(PY) scripts/query.py --msg "$(MSG)"
 
-mlx-check: $(VENV)/bin/activate
-	cd $(ROOT) && PYTHONPATH=app/backend:scripts $(PY) scripts/mlx_check.py
-
-mlx-download: $(VENV)/bin/activate
-	cd $(ROOT) && PYTHONPATH=app/backend:scripts $(PY) scripts/download_mlx_model.py
-
-mlx-path: $(VENV)/bin/activate
-	cd $(ROOT) && PYTHONPATH=app/backend:scripts $(PY) -c "from config import resolve_mlx_model_path; print(resolve_mlx_model_path())"
-
-embed-download: $(VENV)/bin/activate
-	cd $(ROOT) && PYTHONPATH=app/backend:scripts $(PY) scripts/download_embed_model.py --force
-
 serve: $(VENV)/bin/activate
 	cd $(ROOT)/app/backend && $(PY) -m uvicorn main:app --reload --host 127.0.0.1 --port 8000
 
-dev: $(VENV)/bin/activate
+site: $(VENV)/bin/activate
 	@echo "Starting backend :8000 and frontend :5173..."
+	@if [ ! -d "$(ROOT)/app/frontend/node_modules" ]; then \
+	  echo "Installing frontend dependencies..."; \
+	  cd "$(ROOT)/app/frontend" && npm install; \
+	fi
 	@-lsof -ti:8000 | xargs kill -9 2>/dev/null || true
 	@sleep 1
 	@trap 'kill 0' EXIT; \
@@ -77,3 +67,16 @@ push:
 	git add .
 	git commit -m "research update: $$(date +'%Y-%m-%d')"
 	git push
+
+.PHONY: demo-build publish demo-dev
+
+demo-build:
+	cd app/frontend && npm run build:demo
+
+# CF Pages → https://steady-mind.pages.dev
+publish: demo-build
+	cd workers && npm install && npm run deploy
+
+demo-dev: demo-build
+	cd workers && npm install
+	cd $(ROOT) && npx wrangler pages dev app/frontend/dist --project-name=steady-mind

@@ -5,9 +5,8 @@ from pathlib import Path
 
 import numpy as np
 
-from config import EMBEDDING_MODEL, ROOT
+from config import EMBEDDING_MODEL, LOCAL_EMBED_DIR
 
-LOCAL_EMBED_DIR = ROOT / "data" / "models" / "embeddings"
 EMBED_MODEL_MARKER = LOCAL_EMBED_DIR / ".embedding_model"
 
 _embedder = None
@@ -31,7 +30,6 @@ def is_e5_model(model_id: str | None = None) -> bool:
 
 
 def resolve_embedding_path() -> str | None:
-    """Local embedding model directory, or None to use model id."""
     if LOCAL_EMBED_DIR.is_dir():
         if EMBED_MODEL_MARKER.exists():
             if EMBED_MODEL_MARKER.read_text(encoding="utf-8").strip() != EMBEDDING_MODEL:

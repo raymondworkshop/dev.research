@@ -1,0 +1,13 @@
+{
+  "name": "steady-mind-worker",
+  "private": true,
+  "scripts": {
+    "deploy": "cd .. && wrangler pages deploy app/frontend/dist --project-name=steady-mind --branch=production --commit-dirty=true",
+    "dev": "wrangler dev --config ../wrangler.jsonc"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250525.0",
+    "typescript": "^5.8.3",
+    "wrangler": "^4.16.0"
+  }
+}

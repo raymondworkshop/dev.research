@@ -14,17 +14,48 @@ VECTORS_DB = DATABASE_PATH / "vectors.db"
 SESSIONS_DB = DATABASE_PATH / "sessions.db"
 CHUNKS_JSON = DATABASE_PATH / "chunks.json"
 LAST_INDEXED = DATABASE_PATH / "last_indexed_at"
-LOCAL_MLX_DIR = DATABASE_PATH / "models" / "mlx"
+LOCAL_EMBED_DIR = DATABASE_PATH / "models" / "embeddings"
 
 PROMPTS_DIR = ROOT / "prompts"
 WIKI_DIR = ROOT / "wiki"
 BOOKS_DIR = ROOT / "books"
 RAW_DIR = ROOT / "raw"
 
-LLM_PROVIDER = os.getenv("LLM_PROVIDER", "mlx")
-LLM_MODEL = os.getenv("LLM_MODEL", "mlx-community/Qwen2.5-3B-Instruct-4bit")
-LLM_MODEL_PATH = os.getenv("LLM_MODEL_PATH", "").strip()
 EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "intfloat/multilingual-e5-small")
+
+# LLM_PROVIDER: template | openai_compat | gemini
+#   template       — emotion templates only (no model call)
+#   openai_compat  — any OpenAI-compatible API (local MLX server, Ollama, OpenAI, …)
+#   gemini         — Google Gemini via OpenAI-compatible endpoint
+LLM_PROVIDER = os.getenv("LLM_PROVIDER", "template").strip().lower()
+
+LLM_API_BASE = os.getenv("LLM_API_BASE", os.getenv("MLX_API_BASE", "")).strip().rstrip("/")
+LLM_MODEL = os.getenv("LLM_MODEL", os.getenv("MLX_MODEL", "")).strip()
+LLM_API_KEY = os.getenv("LLM_API_KEY", "").strip()
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", LLM_API_KEY).strip()
+
+GEMINI_OPENAI_BASE = "https://generativelanguage.googleapis.com/v1beta/openai"
+
+
+def llm_enabled() -> bool:
+    if LLM_PROVIDER == "template":
+        return False
+    if LLM_PROVIDER == "gemini":
+        return bool(GEMINI_API_KEY and LLM_MODEL)
+    if LLM_PROVIDER in ("openai_compat", "mlx", "openai"):
+        return bool(LLM_API_BASE and LLM_MODEL)
+    return False
+
+
+def llm_status_label() -> str:
+    labels = {
+        "template": "模板",
+        "openai_compat": "LLM",
+        "mlx": "MLX",
+        "openai": "OpenAI",
+        "gemini": "Gemini",
+    }
+    return labels.get(LLM_PROVIDER, LLM_PROVIDER)
 
 SOURCE_BOOST = {
     "wiki": 1.0,
@@ -32,45 +63,3 @@ SOURCE_BOOST = {
     "meditations": 0.88,
     "raw_summary": 0.55,
 }
-
-
-def _is_mlx_model_dir(path: Path) -> bool:
-    return path.is_dir() and (path / "config.json").exists()
-
-
-def _latest_snapshot(cache_root: Path) -> Path | None:
-    snapshots = cache_root / "snapshots"
-    if not snapshots.is_dir():
-        return None
-    dirs = [p for p in snapshots.iterdir() if _is_mlx_model_dir(p)]
-    if not dirs:
-        return None
-    return max(dirs, key=lambda p: p.stat().st_mtime)
-
-
-def _hf_hub_cache_dir(model_id: str) -> Path:
-    return Path.home() / ".cache" / "huggingface" / "hub" / f"models--{model_id.replace('/', '--')}"
-
-
-def resolve_mlx_model_path() -> str:
-    """
-  Resolve a local directory for mlx_lm.load() — filesystem only, no HuggingFace API.
-  Priority: LLM_MODEL_PATH → data/models/mlx → ~/.cache/huggingface/hub/...
-    """
-    if LLM_MODEL_PATH:
-        path = Path(LLM_MODEL_PATH).expanduser()
-        if not _is_mlx_model_dir(path):
-            raise FileNotFoundError(f"LLM_MODEL_PATH invalid (need config.json): {path}")
-        return str(path.resolve())
-
-    if _is_mlx_model_dir(LOCAL_MLX_DIR):
-        return str(LOCAL_MLX_DIR.resolve())
-
-    cached = _latest_snapshot(_hf_hub_cache_dir(LLM_MODEL))
-    if cached:
-        return str(cached.resolve())
-
-    raise FileNotFoundError(
-        f"No local MLX model found for {LLM_MODEL}. "
-        f"Run: make mlx-download  OR set LLM_MODEL_PATH to a snapshot directory."
-    )

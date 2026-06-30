@@ -19,7 +19,7 @@ from chunkers.daily_stoic import chunk_daily_stoic
 from chunkers.meditations import chunk_meditations
 from chunkers.raw import chunk_raw
 from chunkers.wiki import chunk_wiki
-from tagger import tag_chunk
+from services.tagger import tag_chunk
 
 
 def collect_chunks() -> list[dict]:
@@ -72,7 +72,7 @@ def main() -> None:
     CHUNKS_JSON.write_text(json.dumps(chunks, ensure_ascii=False, indent=2), encoding="utf-8")
     LAST_INDEXED.write_text(datetime.now(timezone.utc).isoformat(), encoding="utf-8")
     print(f"Wrote {VECTORS_DB} ({len(chunks)} chunks)")
-    print("Restart backend (make dev) to load the new index.")
+    print("Restart backend (make site) to load the new index.")
 
 
 if __name__ == "__main__":
