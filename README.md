@@ -1,3 +1,3 @@
 
-#### Go deep on any topic over weeks with AI
+#### A service of Mastering Your Emotions with Stoic Wisdom
 
