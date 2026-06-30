@@ -1,3 +1,3 @@
 
-#### A service of Mastering Your Emotions with Stoic Wisdom
+#### Steady Mind: Mastering Your Emotions with Stoic Wisdom
 
