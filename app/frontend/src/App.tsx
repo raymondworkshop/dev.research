@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Chat } from './components/Chat'
-import { EmotionChips } from './components/EmotionChips'
+import { ChatComposer } from './components/ChatComposer'
 import { Hero } from './components/Hero'
 import { LangSelector } from './components/LangSelector'
 import { useChatStream } from './hooks/useChatStream'
@@ -21,6 +21,20 @@ export default function App() {
   }
 
   const empty = messages.length === 0
+
+  const composer = (centerChips = false) => (
+    <ChatComposer
+      lang={lang}
+      input={input}
+      placeholder={ui.placeholder}
+      sendLabel={ui.send}
+      streaming={streaming}
+      onInputChange={setInput}
+      onSend={handleSend}
+      onChipSelect={send}
+      centerChips={centerChips}
+    />
+  )
 
   return (
     <div className="relative mx-auto flex min-h-screen max-w-lg flex-col">
@@ -51,51 +65,29 @@ export default function App() {
         </div>
       </header>
 
-      <main className="flex min-h-0 flex-1 flex-col overflow-hidden">
-        {empty ? (
-          <>
-            <Hero lang={lang} />
-            <div className="shrink-0 px-4 pb-6">
-              <EmotionChips lang={lang} onSelect={send} disabled={streaming} />
+      {empty ? (
+        <main className="flex min-h-0 flex-1 flex-col items-center justify-center px-4 pb-8">
+          <Hero lang={lang} />
+          <div className="mt-10 w-full">{composer(true)}</div>
+          <p className="mt-4 text-center text-[11px] leading-relaxed text-stone-400">
+            {ui.disclaimer}
+          </p>
+        </main>
+      ) : (
+        <>
+          <main className="flex min-h-0 flex-1 flex-col overflow-hidden">
+            <div className="flex min-h-0 flex-1 flex-col px-4 pt-2">
+              <Chat messages={messages} streaming={streaming} lang={lang} />
             </div>
-          </>
-        ) : (
-          <div className="flex min-h-0 flex-1 flex-col px-4 pt-2">
-            <Chat messages={messages} streaming={streaming} lang={lang} />
-          </div>
-        )}
-      </main>
-
-      <footer className="sticky bottom-0 border-t border-stone-200/50 bg-[#f4f1ea]/90 px-4 pt-3 pb-4 backdrop-blur-md">
-        <div className="flex items-end gap-2 rounded-2xl bg-white/80 p-1.5 shadow-sm ring-1 ring-stone-200/60">
-          <textarea
-            value={input}
-            onChange={(e) => setInput(e.target.value)}
-            onKeyDown={(e) => {
-              if (e.key === 'Enter' && !e.shiftKey) {
-                e.preventDefault()
-                handleSend()
-              }
-            }}
-            rows={1}
-            placeholder={ui.placeholder}
-            disabled={streaming}
-            className="max-h-32 flex-1 resize-none rounded-xl border-0 bg-transparent px-3 py-2.5 text-sm text-stone-800 outline-none placeholder:text-stone-400"
-          />
-          <button
-            type="button"
-            onClick={handleSend}
-            disabled={streaming || !input.trim()}
-            aria-label={ui.send}
-            className="mb-0.5 flex h-10 min-w-10 items-center justify-center rounded-xl bg-stone-800 px-3 text-sm font-medium text-white shadow-sm transition hover:bg-stone-700 disabled:opacity-35"
-          >
-            ↑
-          </button>
-        </div>
-        <p className="mt-2.5 text-center text-[11px] leading-relaxed text-stone-400">
-          {ui.disclaimer}
-        </p>
-      </footer>
+          </main>
+          <footer className="sticky bottom-0 border-t border-stone-200/50 bg-[#f4f1ea]/90 px-4 pt-3 pb-4 backdrop-blur-md">
+            {composer()}
+            <p className="mt-2.5 text-center text-[11px] leading-relaxed text-stone-400">
+              {ui.disclaimer}
+            </p>
+          </footer>
+        </>
+      )}
     </div>
   )
 }

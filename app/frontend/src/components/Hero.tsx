@@ -9,7 +9,7 @@ export function Hero({ lang }: Props) {
   const { tagline, subtitle } = t(lang)
 
   return (
-    <div className="flex flex-1 flex-col items-center justify-center px-6 text-center">
+    <div className="flex flex-col items-center px-6 text-center">
       <p
         className="select-none text-[3.25rem] font-extralight leading-none text-stone-300"
         aria-hidden
