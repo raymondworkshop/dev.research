@@ -1,4 +1,7 @@
-# 穩心 Steady Mind — Technical Plan
+
+
+
+## 穩心 Steady Mind — Technical Plan
 
 > **穩心** — 以斯多葛哲思陪伴情緒，整理當下的处境。面向中文世界（繁 / 简）；英文 **Steady Mind**。非临床心理治疗。
 
