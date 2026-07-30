@@ -1,4 +1,4 @@
-Stoicism provides rational tools to manage disruptive emotions like grief and anger. By applying reason and recognizing the impermanence of the world, we can maintain our internal calm.
+[AI Synthesis]: Stoicism provides rational tools to manage disruptive emotions like grief and anger. By applying reason and recognizing the impermanence of the world, we can maintain our internal calm.
 
 ### 悲痛 (Grief)
 *   **消極想像**: 事先設想失去，能減輕打擊。

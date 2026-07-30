@@ -11,6 +11,8 @@ from config import (
     GEMINI_OPENAI_BASE,
     LLM_API_BASE,
     LLM_API_KEY,
+    LLM_FALLBACK_ENABLED,
+    LLM_FALLBACK_MODELS,
     LLM_MODEL,
     LLM_PROVIDER,
     llm_enabled,
@@ -42,10 +44,12 @@ class OpenAICompatProvider:
             headers["Authorization"] = f"Bearer {self.api_key}"
         return headers
 
-    async def stream_chat(self, messages: list[dict], *, max_tokens: int = 320) -> AsyncIterator[str]:
+    async def _stream_chat_model(
+        self, messages: list[dict], *, model: str, max_tokens: int = 320
+    ) -> AsyncIterator[str]:
         url = f"{self.base_url}/chat/completions"
         payload = {
-            "model": self.model,
+            "model": model,
             "messages": messages,
             "max_tokens": max_tokens,
             "stream": True,
@@ -65,6 +69,28 @@ class OpenAICompatProvider:
                     text = delta.get("content")
                     if text:
                         yield text
+
+    async def stream_chat(self, messages: list[dict], *, max_tokens: int = 320) -> AsyncIterator[str]:
+        models_to_try = [self.model]
+        if LLM_FALLBACK_ENABLED and LLM_FALLBACK_MODELS:
+            fallback = LLM_FALLBACK_MODELS[0]
+            if fallback != self.model:
+                models_to_try.append(fallback)
+
+        last_exc: Exception | None = None
+        for model in models_to_try:
+            yielded = False
+            try:
+                async for text in self._stream_chat_model(messages, model=model, max_tokens=max_tokens):
+                    yielded = True
+                    yield text
+                return
+            except Exception as exc:
+                last_exc = exc
+                if yielded:
+                    raise
+        if last_exc is not None:
+            raise last_exc
 
     async def check_health(self) -> bool:
         try:
@@ -100,7 +126,7 @@ def get_llm_provider() -> LLMProvider | None:
 def _build_provider() -> LLMProvider:
     if LLM_PROVIDER == "gemini":
         return GeminiProvider(model=LLM_MODEL, api_key=GEMINI_API_KEY)
-    if LLM_PROVIDER in ("openai_compat", "mlx", "openai"):
+    if LLM_PROVIDER in ("openai_compat", "mlx", "openai", "local-gateway"):
         return OpenAICompatProvider(
             base_url=LLM_API_BASE,
             model=LLM_MODEL,

@@ -1,3 +1,3 @@
 
-#### Steady Mind: Mastering Your Emotions with Stoic Wisdom
+#### Master the readings with AI  
 

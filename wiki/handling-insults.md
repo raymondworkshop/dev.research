@@ -1,4 +1,4 @@
-Stoics view insults as reflections of the insulter's perception rather than objective reality. By controlling our reaction and evaluating the source, we can remain undisturbed by the words of others.
+[AI Synthesis]: Stoics view insults as reflections of the insulter's perception rather than objective reality. By controlling our reaction and evaluating the source, we can remain undisturbed by the words of others.
 
 ### 應對策略
 1.  **思考真實性**: 如果侮辱者說的是真的，我們就沒理由沮喪；如果是不實的，那是他們的誤解。

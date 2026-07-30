@@ -1,4 +1,4 @@
-The dichotomy of control is a fundamental Stoic practice of categorizing life's elements into what we can and cannot control. By focusing energy on internal goals, we protect our tranquility from external fluctuations.
+[AI Synthesis]: The dichotomy of control is a fundamental Stoic practice of categorizing life's elements into what we can and cannot control. By focusing energy on internal goals, we protect our tranquility from external fluctuations.
 
 ### 三個範疇 (Three Categories)
 1.  **完全能控制的事物**: 包含我們自己設定的目標以及我們的價值觀。

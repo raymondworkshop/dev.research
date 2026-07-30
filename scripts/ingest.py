@@ -39,7 +39,7 @@ def collect_chunks() -> list[dict]:
     print(f"  {len(wiki)} chunks")
     all_chunks.extend(wiki)
 
-    print("Chunking raw/ (4 files)...")
+    print("Chunking notes/ (configured files)...")
     raw = chunk_raw(RAW_DIR)
     print(f"  {len(raw)} chunks")
     all_chunks.extend(raw)

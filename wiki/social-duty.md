@@ -1,4 +1,4 @@
-Stoicism emphasizes that humans are social animals with an inherent duty to maintain relationships and work for the common good. Even when dealing with difficult people, we must strive for mutual benefit while protecting our own character.
+[AI Synthesis]: Stoicism emphasizes that humans are social animals with an inherent duty to maintain relationships and work for the common good. Even when dealing with difficult people, we must strive for mutual benefit while protecting our own character.
 
 ### 生命處方：熱愛人類
 *   **身為人的責任**: 人的功用就是做人該做的事，為了某種責任與其他人形成和維持關係。

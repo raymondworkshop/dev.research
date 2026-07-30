@@ -1,4 +1,4 @@
-Negative visualization, or "premeditatio malorum," is the practice of imagining the loss of things we value. This Stoic exercise helps us appreciate what we currently have while preparing us for the possibility of its disappearance.
+[AI Synthesis]: Negative visualization, or "premeditatio malorum," is the practice of imagining the loss of things we value. This Stoic exercise helps us appreciate what we currently have while preparing us for the possibility of its disappearance.
 
 ### 消極想像 (Negative Visualization)
 *   **預想壞事發生**: 定期花時間想像失去自己所珍視的事物。

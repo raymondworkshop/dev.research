@@ -44,7 +44,7 @@ def chunk_raw(raw_dir: Path) -> list[Chunk]:
                     id=make_id(chunk_id),
                     text=f"{title_text}\n\n{text[:2000]}",
                     source="raw_summary",
-                    title=f"raw/{path.stem} § {title_text}",
+                    title=f"notes/{path.stem} § {title_text}",
                     concept=cfg["topic"],
                     lang=cfg["lang"],
                     priority="low",

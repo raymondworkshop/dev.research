@@ -1,40 +1,46 @@
-## My Research Operating Manual  
+## Study Operating Manual
+Personal knowledge base for learning, improvement, and content research. 
+- read → notes → wiki → apply.
 
-### Purpose
-Research knowledge base for me.
-Used for: emotion or decision support, awareness, personal learning,  and content research.  
+### Folders
+| Path | Who | Role |
+|------|-----|------|
+| `notes/` | you | Never modify |
+| `books/` | you | Full text for cites |
+| `wiki/` | AI | Theme pages |
+| `outputs/` | AI | Long reports |
 
-### My Research Context
-- Topic: Stoicism 
-- Goal: Build a comprehensive, interconnected wiki on Stoicism, covering key concepts, figures, texts, and modern applications. Use this wiki to support my personal learning and content creation on the topic.
-- Sources: A mix of classic texts (e.g., Meditations), modern interpretations (e.g., The Daily Stoic), and relevant articles or reports I find over time.  
+### Rules
+- `notes/` + `books/` are the sources of truth. `wiki/` is curated theme pages (not a highlight dump).
+- In wiki: strip export labels (`[info]`, `[insights]`, `[how]`); file author meaning cleanly.
+- AI-written wiki prose (intros, merges, framing from `make sync` / compile) must be prefixed inline as `[AI Synthesis]:` on the same line as the text.
+- Study-partner plans use `AI:`.
+- Cite only that note’s `#### reference` (prefer `books/…` paths).
+- No chapter summaries / quizzes unless asked.
 
+### Signals in notes (from `books-export`) — for compile/study only; do not copy into wiki
+| Mark | Meaning | Use |
+|------|---------|-----|
+| `###` / green | theme | strong theme hint |
+| `**bold**` / purple | insight | *suggestion* for a theme (merge/skip OK) |
+| `[insights]` / pink | insight | *suggestion* for a theme (merge/skip OK) |
+| `[how]` / blue | action | *suggestion* for `### Actions` / study-partner try |
+| `[info]` / yellow | detail | under a theme, not a new theme |
 
-### Structure Rules  
-- raw/ contains unprocessed source material. Never modify raw files.
-- wiki/ is the organized knowledge base. AI maintains this entirely.
-- outputs/ stores generated reports and analysis.
+### Pipeline
+1. **Export** — Apple Books → `notes/`  
+   `make books-export BOOK='title|id'` · `LIST=1` to list ids  
+   Colors → table above (paragraph-merge, chapter `##`, green→`###`).
 
+2. **Compile** — `notes/` → `wiki/<theme>.md`  
+   Prefer `###` for pages; treat bold / insights as theme *suggestions* (group, rename, or drop).  
+   Turn suggested `[how]` into plain `### Actions` bullets (no `[how]` tag).  
+   Template: `[AI Synthesis]:` intro → `###` → `### Actions` → `## Sources` → `## Related Topics`  
+   `make sync NOTE='notes/….md'` · optional `THEMES='a,b'` · `DRY=1` → draft.
 
-### Agent Skills & Workflows
-#### 1. Compile (raw -> wiki)
-- Scan for any new or modified source in `raw/` and the existing wiki pages.
-    - update any existing pages affected by the new csource
-    - create new entity pages for any new topics introduced
-    - Use `[[wiki links]]` for cross-references
-    - Flag any contradiction with previously compiled knowledge
-    - Update `wiki/INDEX.md`
-    - Match the input language perfectly
-    - **Wiki page template:** intro → `###` sections → `## Sources` table (daily_stoic / meditations / raw_summary) → `## Related Topics`
-    - `raw/` = summaries; `books/` = authoritative Stoic detail — Sources should point to books first  
+3. **Study partner** — real issue + note/`#### reference` only.  
+   Pick 1 suggested `[how]` to try + `AI:` plan · 1–2 questions.
 
-#### 2. Audit
-- orphan pages: pages that no other page links to   
-- missing pages: concepts referenced with [[brackets]] that dont have their own page yet 
-- contradictions: claims that conflicts across pages
-- stale claims: things that may have been superseded by a more recent source in raw/ suggest fixes and, where confident, apply them directly
+4. **Query** — via `wiki/INDEX.md`: Summary → Findings → Evidence → Recommendations. Complex → `outputs/`.
 
-#### 3. Query
-- To answer questions, navigate via `wiki/INDEX.md` -> Specific Articles.
-- Summary (3 sentences)  → Key Findings → Supporting Evidence → Recommendations.  
-- Save complex query results to `outputs/`.
+5. **Audit** — orphans, bad `[[links]]`, contradictions. `make audit`.

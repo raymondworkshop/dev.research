@@ -1,4 +1,4 @@
-Stoics advocate for indifference toward external reputation, as it is a factor outside our direct control. True freedom is found in self-knowledge and living according to one's own values rather than the approval of others.
+[AI Synthesis]: Stoics advocate for indifference toward external reputation, as it is a factor outside our direct control. True freedom is found in self-knowledge and living according to one's own values rather than the approval of others.
 
 ### 不在意他人看法
 *   不要在意別人對我們的看法，這與不專注在「無法控制的事物」的忠告相吻合。
