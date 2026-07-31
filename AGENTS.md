@@ -1,46 +1,39 @@
 ## Study Operating Manual
-Personal knowledge base for learning, improvement, and content research. 
-- read → notes → wiki → apply.
+Personal KB: read → notes → wiki → apply.
 
 ### Folders
 | Path | Who | Role |
 |------|-----|------|
 | `notes/` | you | Never modify |
 | `books/` | you | Full text for cites |
-| `wiki/` | AI | Theme pages |
+| `wiki/` | AI | Curated theme pages (not a highlight dump) |
 | `outputs/` | AI | Long reports |
 
 ### Rules
-- `notes/` + `books/` are the sources of truth. `wiki/` is curated theme pages (not a highlight dump).
-- In wiki: strip export labels (`[info]`, `[insights]`, `[how]`); file author meaning cleanly.
-- AI-written wiki prose (intros, merges, framing from `make sync` / compile) must be prefixed inline as `[AI Synthesis]:` on the same line as the text.
-- Study-partner plans use `AI:`.
-- Cite only that note’s `#### reference` (prefer `books/…` paths).
-- No chapter summaries / quizzes unless asked.
+- Sources of truth: `notes/` + `books/`.
+- Wiki: strip `[info]`/`[insights]`/`[how]`; file author meaning cleanly.
+- AI prose (intros, merges, framing, study-partner plans): prefix `[AI Synthesis]:` on that line.
+- Cite only that note’s `#### reference` (prefer `books/…`). No summaries/quizzes unless asked.
 
-### Signals in notes (from `books-export`) — for compile/study only; do not copy into wiki
-| Mark | Meaning | Use |
-|------|---------|-----|
-| `###` / green | theme | strong theme hint |
-| `**bold**` / purple | insight | *suggestion* for a theme (merge/skip OK) |
-| `[insights]` / pink | insight | *suggestion* for a theme (merge/skip OK) |
-| `[how]` / blue | action | *suggestion* for `### Actions` / study-partner try |
-| `[info]` / yellow | detail | under a theme, not a new theme |
+### Signals (compile/study only — do not copy into wiki)
+| Mark | Use |
+|------|-----|
+| `###` / green | theme (strong) |
+| `**bold**` / purple, `[insights]` / pink | theme *suggestion* (merge/skip OK) |
+| `[how]` / blue | → `### Actions` / study-partner try |
+| `[info]` / yellow | detail under a theme, not a new page |
 
 ### Pipeline
-1. **Export** — Apple Books → `notes/`  
-   `make books-export BOOK='title|id'` · `LIST=1` to list ids  
-   Colors → table above (paragraph-merge, chapter `##`, green→`###`).
+1. **Export** — `make books-export BOOK='title|id'` · `LIST=1`. Colors → table above (merge paras; `##` chapters; green→`###`).
 
 2. **Compile** — `notes/` → `wiki/<theme>.md`  
-   Prefer `###` for pages; treat bold / insights as theme *suggestions* (group, rename, or drop).  
-   Turn suggested `[how]` into plain `### Actions` bullets (no `[how]` tag).  
+   Prefer `###` pages; bold/insights = suggestions (group/rename/drop). `[how]` → plain Actions bullets.  
    Template: `[AI Synthesis]:` intro → `###` → `### Actions` → `## Sources` → `## Related Topics`  
-   `make sync NOTE='notes/….md'` · optional `THEMES='a,b'` · `DRY=1` → draft.
+   **Default:** agent picks themes (merge `wiki/INDEX.md`), writes pages, updates INDEX. Skip one-shot full-note `make sync` on large notes (token cutoff).  
+   **Optional draft:** `make sync NOTE='…' THEMES='one' DRY=1` → `outputs/sync-draft/` → agent merges into `wiki/` + INDEX.
 
-3. **Study partner** — real issue + note/`#### reference` only.  
-   Pick 1 suggested `[how]` to try + `AI:` plan · 1–2 questions.
+3. **Study partner** — real issue + note/`#### reference` only. One `[how]` to try + `[AI Synthesis]:` plan · 1–2 questions.
 
-4. **Query** — via `wiki/INDEX.md`: Summary → Findings → Evidence → Recommendations. Complex → `outputs/`.
+4. **Query** — `wiki/INDEX.md`: Summary → Findings → Evidence → Recommendations. Complex → `outputs/`.
 
 5. **Audit** — orphans, bad `[[links]]`, contradictions. `make audit`.

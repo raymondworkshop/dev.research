@@ -13,7 +13,7 @@
 | Source | Location | Role |
 |--------|----------|------|
 | books/The Power of Charm.md | Charming a Man | primary |
-| notes/2026-07-30-the-power-of-charm.md | Charming a Man | highlights |
+| notes/2026-07-31-the-power-of-charm.md | Charming a Woman section (men / achievement) | highlights |
 
 ## Related Topics
 - [[charm]]

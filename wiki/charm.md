@@ -2,6 +2,7 @@
 
 ### What charm does
 * Business and personal life hinge on communicating effectively — social intelligence: interact, converse, negotiate, persuade.
+* Charm makes others open and receptive to your message — more willing to be influenced.
 * Decide today to develop the power of charm and practice it.
 * Charm can be learned.
 
@@ -9,8 +10,6 @@
 * The core of personality is self-esteem — how much you like yourself; the sum of how important and valuable you feel at any moment.
 * Human beings are intensely emotional: they make decisions emotionally, then justify them logically.
 * The need to feel valued and valuable → make others feel important.
-
-### Acceptance, smile, appreciation
 * Acceptance; you smile; they like the person who is making them feel this way — they feel important and valuable.
 * Attention.
 
@@ -25,10 +24,11 @@
 | Source | Location | Role |
 |--------|----------|------|
 | books/The Power of Charm.md | Introduction; What Is Charm?; How to Charm Anyone | primary |
-| notes/2026-07-30-the-power-of-charm.md | Introduction → How to Charm Anyone | highlights |
+| notes/2026-07-31-the-power-of-charm.md | id11 → The Power of Charm | highlights |
 
 ## Related Topics
 - [[listening]]
 - [[act-as-if]]
 - [[praise]]
 - [[attentive-signals]]
+- [[conversation]]
