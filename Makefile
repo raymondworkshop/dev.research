@@ -19,8 +19,8 @@ help:
 	@echo "  make markitdown BOOK='Think and Grow Rich' - Make markdown from a book file"
 	@echo "  make books-export [BOOK='title|id'] - Export Apple Books highlights → notes/"
 	@echo "  make books-export LIST=1           - List books (count, id prefix, title)"
-	@echo "  make sync NOTE='notes/….md' [THEMES='a,b'] - Compile → wiki/<theme>.md"
-	@echo "  make sync NOTE='…' DRY=1                     - Draft under outputs/sync-draft/"
+	@echo "  make sync: Compile notes/2026-07-31-the-power-of-charm.md per AGENTS.md"
+	@echo "  make sync NOTE='…' THEMES='a' "
 	@echo "  make audit                   - Print Audit prompt for wiki/"
 	@echo "  make push     - Commit and push"
 
@@ -76,13 +76,15 @@ site: $(VENV)/bin/activate
 	cd $(ROOT)/app/frontend && npm run dev & \
 	wait
 
-# Compile notes/ → wiki/<theme>.md via local-gateway (gemma4).
-# Usage: make sync NOTE='notes/….md'
-#        make sync NOTE='notes/….md' THEMES='listening,eye-contact,charm'
-#        make sync NOTE='notes/….md' DRY=1
+# Optional local draft helper (agent owns compile — see AGENTS.md § Compile).
+# Prefer: agent writes wiki/. Optional: one theme at a time → outputs/sync-draft/ → agent merges.
+# Usage: make sync NOTE='notes/….md' THEMES='listening' DRY=1
+#        make sync NOTE='notes/….md' THEMES='listening'          # write wiki/ (still prefer agent merge)
 sync: $(VENV)/bin/activate
 	@if [ -z "$(NOTE)" ]; then \
-	  echo "Usage: make sync NOTE='notes/your-note.md' [THEMES='a,b,c'] [DRY=1]"; \
+	  echo "Compile is agent-first (AGENTS.md). Optional local draft:"; \
+	  echo "  make sync NOTE='notes/your-note.md' THEMES='one-theme' DRY=1"; \
+	  echo "Then ask the agent to merge outputs/sync-draft/ into wiki/ + INDEX."; \
 	  echo "Gateway: LLM_URL + LLM_MODEL from .env.development"; \
 	  exit 1; \
 	fi

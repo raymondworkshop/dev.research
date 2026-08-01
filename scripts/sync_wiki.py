@@ -29,7 +29,6 @@ from config import (  # noqa: E402
     llm_enabled,
 )
 
-AGENTS = ROOT / "AGENTS.md"
 INDEX = WIKI_DIR / "INDEX.md"
 DRAFT_DIR = ROOT / "outputs" / "sync-draft"
 FILE_RE = re.compile(
@@ -103,7 +102,6 @@ def resolve_note(raw: str | None) -> Path:
 
 
 def build_prompt(note_path: Path, themes: list[str]) -> str:
-    agents = AGENTS.read_text(encoding="utf-8") if AGENTS.is_file() else ""
     index = INDEX.read_text(encoding="utf-8") if INDEX.is_file() else "(empty)"
     note = note_path.read_text(encoding="utf-8")
     rel = note_path.relative_to(ROOT)
@@ -111,62 +109,39 @@ def build_prompt(note_path: Path, themes: list[str]) -> str:
         note = note[:60_000] + "\n\n[…truncated…]"
 
     if themes:
-        theme_lines = "\n".join(
-            f"- {t} → wiki/{theme_slug(t)}.md" for t in themes
-        )
-        themes_block = f"""## Required themes (use exactly these pages)
+        theme_lines = "\n".join(f"- {t} → wiki/{theme_slug(t)}.md" for t in themes)
+        themes_block = f"""## Themes (exact pages only)
 {theme_lines}
-
-- File quotes only onto these theme pages (plus wiki/INDEX.md).
-- Do not invent extra theme files unless a quote clearly fits nowhere — then say so in INDEX.
-- Prefer merging into the listed themes over creating near-duplicates.
-"""
+File onto these + wiki/INDEX.md. No extra pages unless nothing fits (note in INDEX). Prefer merge over near-duplicates."""
     else:
-        themes_block = """## Themes (auto from note signals)
-Theme candidates (prefer these when proposing wiki pages):
-- `###` headings (green / important chapter-theme)
-- `**bold**` lines (purple)
-- `[insights]` lines (pink)
+        themes_block = """## Themes (from note signals)
+- Prefer `###` as pages; `**bold**` / `[insights]` = suggestions (merge/rename/drop OK).
+- `[how]` → ### Actions on a theme (not its own page). `[info]` → detail under a theme.
+- kebab-case filenames; merge into existing INDEX themes when they fit."""
 
-Action candidates (not themes by themselves):
-- `[how]` lines (blue) → put under ### Actions on the matching theme page
+    return f"""Compile note → wiki theme pages.
 
-`[info]` (yellow) → supporting detail under a theme.
-Propose kebab-case wiki pages from theme candidates. Merge into existing INDEX themes when they fit.
-"""
-
-    return f"""You are compiling personal study notes into a wiki per AGENTS.md.
-
-## Rules (from AGENTS.md)
-{agents}
-
-## Hard constraints
-- Never modify notes/.
-- Output theme pages under wiki/ only (one theme → one file, e.g. wiki/listening.md).
-- Keep author wording as quotes on theme pages; do not invent quotes.
-- Theme candidates: ### headings, **bold**, [insights]. Do not create a theme only from [how].
-- Action candidates: [how] → ### Actions subsection on the relevant theme page.
-- [info] → supporting quotes under the theme, not a new theme.
-- Page template: short intro → ### insight sections → ### Actions (hows) → ## Sources → ## Related Topics
-- Sources table: book (prefer books/ when listed in #### reference) then note path.
-- Use [[wikilinks]] between themes.
-- Always include an updated wiki/INDEX.md listing every theme page.
-- Flag open questions / contradictions in a short note at the bottom of a page if needed.
+## Rules
+- Never modify notes/. Wiki only: curated pages, not a highlight dump.
+- Strip export labels (`[info]` `[insights]` `[how]`); keep author meaning; do not invent quotes.
+- AI prose (intro/merge/framing): prefix `[AI Synthesis]:` on that line.
+- Cite #### reference (prefer books/…) then note path. No chapter summaries/quizzes.
+- Signals: ### = theme; **bold**/[insights] = theme suggestions; [how] = Actions; [info] = detail.
+- Page: `[AI Synthesis]:` intro → ### sections → ### Actions → ## Sources → ## Related Topics
+- [[wikilinks]] between themes. Always emit updated wiki/INDEX.md. Flag contradictions briefly if needed.
 
 {themes_block}
-## Output format (strict)
-Return ONLY file blocks, no preamble:
 
+## Output (only ===FILE=== blocks)
 ===FILE: wiki/theme-slug.md===
-…full markdown for that theme…
-
+…
 ===FILE: wiki/INDEX.md===
-…full updated index…
+…
 
-## Current wiki/INDEX.md
+## wiki/INDEX.md (current)
 {index}
 
-## Note to compile
+## Note
 Path: {rel}
 
 {note}

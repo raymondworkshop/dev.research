@@ -1,7 +1,6 @@
 [AI Synthesis]: Charm a woman by being captivated by her as a person: affection, attention, respect; questions about her life; quiet attentive listening; courtesy; find something to be impressed by.
 
 ### Emotional connection
-* Understand how they think and feel if you want them to like you — then say and do what affects them emotionally.
 * Caring and concern, plus confidence and competence in the world.
 * Be totally captivated by her as a person and by every word she says.
 * Ask about herself, her day, life, concerns, hopes, background, goals; listen quietly and attentively.
@@ -19,7 +18,7 @@
 | Source | Location | Role |
 |--------|----------|------|
 | books/The Power of Charm.md | Charming a Woman | primary |
-| notes/2026-07-30-the-power-of-charm.md | Charming a Woman | highlights |
+| notes/2026-07-31-the-power-of-charm.md | Charming a Woman | highlights |
 
 ## Related Topics
 - [[charm]]
