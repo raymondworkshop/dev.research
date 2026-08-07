@@ -34,6 +34,7 @@ protobuf==7.34.1
 pycparser==3.0
 pydub==0.25.1
 PyJWT==2.12.1
+pymupdf==1.28.2
 pypdfium2==5.8.0
 python-dateutil==2.9.0.post0
 python-dotenv==1.2.2

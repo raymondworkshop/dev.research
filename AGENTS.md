@@ -24,7 +24,7 @@ Personal KB: read → notes → wiki → apply.
 | `[info]` / yellow | detail under a theme, not a new page |
 
 ### Pipeline
-1. **Export** — `make books-export BOOK='title|id'` · `LIST=1`. Colors → table above (merge paras; `##` chapters; green→`###`).
+1. **Export** — `make books-export BOOK='title|id'` · `LIST=1` (Apple Books). PDF file annotations: `make pdf-export BOOK='title'` · `LIST=1`. Colors → table above (merge paras; `##` chapters/pages; green→`###`).
 
 2. **Compile** — `notes/` → `wiki/<theme>.md`  
    Prefer `###` pages; bold/insights = suggestions (group/rename/drop). `[how]` → plain Actions bullets.  

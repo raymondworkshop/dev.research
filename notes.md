@@ -53,17 +53,34 @@
 #### health  
 * physical   
     - gym： 更健美  
+        + 背肌 - 哑铃俯身划船
+        + 胸大肌 - 哑铃卧推
+        + 前三角肌 - 哑铃单边阿诺肩推
+        + 三头肌 - 哑铃三头肌伸展
+    
     - 增重  
+        + 蛋白粉  
 
 * 形象打扮 
-    - 理髮，染髮  
+    - 理髮/染髮  
     - 穿著  
 
 
 #### language  
+* English 
+
+* Cantonese  
 
 #### dating relationship    
 
+* <the-power-of-charm>  
+
 #### money  
+* <The psychology of money>  
+
+* 研究下匯率  
 
 #### leadership  
+
+#### freedom  
+* <力量从哪里来-面对每一个不敢>  
