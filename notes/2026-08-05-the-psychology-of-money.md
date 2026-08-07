@@ -94,27 +94,23 @@ labels: green→theme heading; purple→bold; yellow→info; pink→insights; bl
     - [insights] **Humility, kindness, and empathy will bring you more respect** than horsepower ever will  
 
 ## ch9 - Wealth is What you don't see  
-TODO  
 
-- [insights] We tend to judge wealth by what we see
-
-- [info] It’s income not spent
+- [insights] The only way to be wealthy is to **not spend the money that you do have**.  
 
 - [info] Rich is a current income
 
-- [insights] Its value lies in offering you options, flexibility, and growth to one day purchase — more stuff than you could right now
+- [insights] **Wealth is an option** not yet taken to buy something later.  Its value lies in **offering you options, flexibility, and growth to one day purchase** — more stuff than you could right now
 
 - [info] It’s difficult to learn from what you can’t see
 
-## PsychologyofMoney-26
+## ch10 - **Save money**   
 
-- **lots to do with your savings rate**
+- **lots to do with your savings rate**  
+    - Becoming **more efficient with the energy we use is largely in our control**  
+    - If you view it as **powered by your own frugality and efficiency**, the destiny is clearer  
+    - More importantly, **the value of wealth is relative to what you need**  
 
-- [insights] becoming more efficient with the energy we use is largely in our control
-
-- **Personal savings and frugality — are more in your control**
-
-- **relative to what you need**
+TODO 
 
 - [info] I’m more efficient with my money
 
