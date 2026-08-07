@@ -1,6 +1,5 @@
-# Steady Mind — 穩心
 
-.PHONY: help sync audit push ingest query serve site books-export
+.PHONY: help sync audit push ingest query serve site books-export pdf-export
 
 ROOT := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 VENV := $(ROOT)researchenv
@@ -8,7 +7,7 @@ PY := $(VENV)/bin/python
 PIP := $(VENV)/bin/pip
 
 help:
-	@echo "穩心 Steady Mind Commands:"
+	@echo "Commands:"
 	@echo "  make ingest   - Build vector index from books/ + wiki/ + notes/"
 	@echo "  make query    - Test RAG retrieval (MSG='...')"
 	@echo "  make serve    - Start FastAPI backend on :8000"
@@ -19,6 +18,8 @@ help:
 	@echo "  make markitdown BOOK='Think and Grow Rich' - Make markdown from a book file"
 	@echo "  make books-export [BOOK='title|id'] - Export Apple Books highlights → notes/"
 	@echo "  make books-export LIST=1           - List books (count, id prefix, title)"
+	@echo "  make pdf-export [BOOK='title']     - Export PDF-file highlights → notes/"
+	@echo "  make pdf-export LIST=1             - List PDFs with embedded highlight counts"
 	@echo "  make sync: Compile notes/2026-07-31-the-power-of-charm.md per AGENTS.md"
 	@echo "  make sync NOTE='…' THEMES='a' "
 	@echo "  make audit                   - Print Audit prompt for wiki/"
@@ -41,6 +42,18 @@ books-export: $(VENV)/bin/activate
 	  cd $(ROOT) && $(PY) scripts/books_export.py --list "$(BOOK)"; \
 	else \
 	  cd $(ROOT) && $(PY) scripts/books_export.py "$(BOOK)"; \
+	fi
+
+# Export highlight annotations embedded in books/*.pdf → notes/
+# Usage: make pdf-export
+#        make pdf-export BOOK='Seduction Bible'
+#        make pdf-export LIST=1
+pdf-export: $(VENV)/bin/activate
+	@$(PIP) show pymupdf >/dev/null 2>&1 || $(PIP) install 'pymupdf>=1.24.0'
+	@if [ "$(LIST)" = "1" ]; then \
+	  cd $(ROOT) && $(PY) scripts/pdf_export.py --list "$(BOOK)"; \
+	else \
+	  cd $(ROOT) && $(PY) scripts/pdf_export.py "$(BOOK)"; \
 	fi
 
 ingest: $(VENV)/bin/activate
