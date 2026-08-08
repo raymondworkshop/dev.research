@@ -27,7 +27,7 @@ labels: green→theme heading; purple→bold; yellow→info; pink→insights; bl
 - Your personal experiences with money make up 
 **maybe 80% of how you think the world works**    
 
-## ch2 -  luck and risk
+## ch2 -  luck and risk  
 
 - **it’s never as good or as bad as it seems**
 
@@ -103,86 +103,71 @@ labels: green→theme heading; purple→bold; yellow→info; pink→insights; bl
 
 - [info] It’s difficult to learn from what you can’t see
 
-## ch10 - **Save money**   
+## **ch10** - **Save money**   
 
-- **lots to do with your savings rate**  
+- [insights]  **lots to do with your savings rate**  
     - Becoming **more efficient with the energy we use is largely in our control**  
-    - If you view it as **powered by your own frugality and efficiency**, the destiny is clearer  
-    - More importantly, **the value of wealth is relative to what you need**  
+    - [insights] If you view it as **powered by your own frugality and efficiency**, the destiny is clearer  
+    - [insights] More importantly, **the value of wealth is relative to what you need**  
 
-TODO 
+- **Learning to be happy with less money** creates a gap between **what you have and what you want**  
+    - A high savings rate means **having lower expenses than you otherwise could**  
+    - [insights] Past a certain level of income, **what you need is just what sits below your ego**   
 
-- [info] I’m more efficient with my money
+- [insights] **When you define savings as the gap between your ego and your income**  
+    - Spending beyond a pretty low level of materialism is **mostly a reflection of ego**  approaching income, a way to spend money to show people that you have money  
+    - one of the most powerful ways to increase your savings isn’t to raise your income. It’s to **raise your humility**.   
+    - [insights] People with enduiring personal finance success tend to **have a propensity to not give a damn what others think about them**.  
 
-- [insights] Learning to be happy with less money creates a gap between what you have and what you want
+- money relies more on psychology than finance  
+    - [insights] savings can be created by spending less.
+    You can spend less if you desire less.
+    and you will **desire less if you care less about what others think of you**.  
 
-- [info] easier and more in your control
+    - [insights] competitive advantages tilt toward nuanced and **soft skills** - **like communication, empathy, and perhaps most of all, flexibility**  
+        + flexibility is a powerful soft skill. It helps you **stay relevant and up-to-date in our fast-moving world**.  
 
-- [info] a way to spend money to show people that you have (or had) money
+    - [insights]  Having **more control over your time and options** is becoming one of the most valuable currencies in the world  
 
-- **not give a damn what others think about them**
 
-- **When you define savings as the gap between your ego and your income**
+## ch 11 = Reasonable > Rational  
 
-- **what you need is just what sits below your ego**
-
-- **you will desire less if you care less about what others think of you**
-
-- [info] Savings without a spending goal gives you options and flexibility
-
-- **flexibility is**
-
-- **nuanced and soft skills—like communication, empathy, and, perhaps most of all, flexibility.**
-
-- **Having more control over your time and options**
-
-### That flexibility and control over your time is an unseen return on wealth
-
-- **Stop trying to be so rational**
-
-## PsychologyofMoney-28
-
-- **Do not aim to be coldly rational when making financial decisions — Aim to just be pretty reasonable — Reasonable is more realistic and you have a better chance of sticking with it for the long run**
+- [insight] Do not aim to be coldly rational when making financial decisions.
+**Aim to just be pretty reasonable**. Reasonable is more realistic and you have a better chance of sticking with it for the long run  
 
 - [info] that’s where the science ends and reality takes over.
 
-- **aiming to be reasonable instead of rational**
 
-- [info] A screwed up, emotional person
+## ch12 - surprise  
 
-- [info] Fevers hurt. And people don’t want to hurt
+## ch13 - room for error  
 
-- [info] within the confines of what’s reasonable and tolerable to the patient
+- [insights]  **Use room for error** when estimating your future returns    
+    - **Having a gap between what you can technically endure versus what's emotionally possible** is an overlooked version of room for error  
 
-- **want the strategy that maximizes for how well they sleep at night**
 
-## PsychologyofMoney-32
+- [insights] **my own money as barbelled**  
+    - I **take risks with one portion** and am **terrified with the other** 
 
-- **You have to give yourself room for error**
+    - I just want to ensure I can remain standing long enough for my risks to pay off. 
+    You have to **survive to succeed** — The ability to do what you want, when you want, for as long as you want, has an infinite ROI
 
-- **increasing the gap between what you think will happen and what can happen while still leaving you capable of fighting another day**
+    - with no savings to **create a gap between what you think your expenses are and what they might be in the future**
 
-- **Margin of safety — room for error or redundancy — is the only effective way to safely navigate a world that is governed by odds, not certainties**
 
-- **The grey area**
-
-- [info] Having a gap between what you can technically endure versus what’s emotionally possible is an overlooked version of room for error
-
-- [insights] Use room for error when estimating your future returns
-
-- [info] The future may be worse than ⅓ lower than the past — A one-third buffer — save more
-
-- **my own money as barbelled — take risks with one portion and am terrified with the other — ensure I can remain standing long enough for my risks to pay off. You have to survive to succeed — The ability to do what you want, when you want, for as long as you want, has an infinite ROI**
-
-- [info] list the biggest risks they face
-
-- **with no savings to create a gap between what you think your expenses are and what they might be in the future**
+## ch14 - you'll change  
 
 - [info] it’s equally important to save for things you can’t possibly predict or even comprehend
+    - [info] We should avoid the extreme ends of financial planning. 
+    when you consider our tendency to change who we are over time, [insights] **balance at every point in your life becomes a strategy to avoid future regret and encourage endurance**.   
+    - [insights] We should also come to **accept the reality of changing our minds**. 
 
-## PsychologyofMoney-36
+## ch15 - Nothing's Free  
 
-- **verything has a price**
+
+- **Everything has a price**  
+
+TODO  
 
 - [info] because we’re overconfident
 
