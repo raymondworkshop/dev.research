@@ -182,35 +182,35 @@ labels: green→theme heading; purple→bold; yellow→info; pink→insights; bl
 
 ## ch16 You & Me  
 
+- [insights]  The answer depends on **who 'you' are**    
+
+- [insights] So much consumer spending is **socially driven**:
+ subtly influenced by people you admire, and **done because you subtly want people to admire you**   
+
+ - [insights] **identify what game you're playing**  
+     - [info] we might not even have different styles. We're jsut playing a different game.  
+     - **understanding your own time horizon** and not being persuaded by the actions 
+     and behaviors of people playing different games than you are  
+
+## ch16 The seduction of pessimism  
+
+- [info] Pessimism just sounds smarter and more plausible than optimism  
+    - [info] money is ubiquitous  
+    - [info] pessimists often **extrapolate present trends without accounting for how markets adapt**  
+        + **necessity is the mother of all invention**, it was far less scary  
+        + **Assuming that something ugly will stay ugly is an easy forecast to make**.
+         And it’s persuasive, because it doesn’t require imagining the world changing. 
+
+    - [info]  **progress happens too slowly** to notice, but **setbacks happen too quickly** to ignore.
+        +   Growth is driven by compounding, which always takes time.
+        Destruction is driven by single points of failure, which can happen in seconds, and 
+        loss of confidence, which can happen in an instant.  
+
+- [insight] **Pessimism reduces expectations**, narrowing the gap between possible outcomes and outcomes you feel great about  
+
+
+## ch18 - when you'll believe anthing  
 TODO  
-
-- [info] in life that we think are true because we desperately want them to be true.
-
-- [insights] The more you want something to be true, the more likely you are to believe a story that overestimates the odds of it being true
-
-- **why room for error, flexibility, and financial independence — are indispensable**
-
-- **The bigger the gap between what you want to be true and what you need to be true to have an acceptable outcome**
-
-- **you want something to be true so badly — that the range of your forecast isn’t even in the same ballpark as reality**
-
-- **the more you are protecting yourself from falling victim to an appealing financial fiction**
-
-- [insights] she tells herself a coherent story about what’s going on based on the little she does know
-
-- [insights] We need to believe we live in a predictable, controllable world
-
-- [info] We have to think the world we operate in makes sense based on what we happen to know
-
-- [insights] do not realize they don’t understand it because they’re able to come up with an explanation that makes sense based on their own unique perspective and experiences in the world
-
-- **It can’t be overstated: there is no greater force in finance than room for error,**
-
-- **Everyone has an incomplete view of the world. But we form a complete narrative to fill in the gaps**
-
-- [info] make sense — we tell ourselves stories to fill in the gaps of what are effectively blind spots
-
-## PsychologyofMoney-44
 
 - **They have knowledge. They know the odds. They know what tends to work**
 
