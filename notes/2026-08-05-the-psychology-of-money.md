@@ -212,29 +212,6 @@ labels: green→theme heading; purple→bold; yellow→info; pink→insights; bl
 ## ch18 - when you'll believe anthing  
 TODO  
 
-- **They have knowledge. They know the odds. They know what tends to work**
-
-- [info] wealth is created by suppressing what you could buy today in order to have more stuff or more options in the future
-
-- **does this help me sleep at night**
-
-- **helps you sleep at night**
-
-- [info] increase your time horizon
-
-- **you should be comfortable with a lot of stuff not working — a small minority of things account for the majority of outcomes**
-
-- [info] Use money to gain control over your time
-
-- [info] more likely to gain those things through kindness and humility than horsepower and chrome
-
-- **view them as fees**
-
-- **what makes compounding magic over time**
-
-- [insights] Define the game you’re playing
-
-- [insights] Respect the mess
 
 ## PsychologyofMoney-46
 
