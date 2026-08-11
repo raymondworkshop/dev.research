@@ -24,7 +24,7 @@ Personal KB: read → notes → wiki → apply.
 | `[info]` / yellow | detail under a theme, not a new page |
 
 ### Pipeline
-1. **Export** — `make books-export BOOK='title|id'` · `LIST=1` (Apple Books). PDF file annotations: `make pdf-export BOOK='title'` · `LIST=1`. Colors → table above (merge paras; `##` chapters/pages; green→`###`).
+1. **Export** — `make books-export BOOK='title|id'` · `LIST=1` (Apple Books). PDF file annotations: `make pdf-export BOOK='title'` · `LIST=1`. Kindle app / Cloud Reader: `make kindle-export BOOK='title|asin'` · `LIST=1` (highlights sync → Amazon Notebook; auth = browser login at `read.amazon.com/notebook`, or `COOKIES=…`); device file: `CLIPPINGS='…/My Clippings.txt'`. Colors → table above (merge paras; `##` chapters/pages; green→`###`; Kindle yellow/blue/pink/orange → info/how/insights/bold).
 
 2. **Compile** — `notes/` → `wiki/<theme>.md`  
    Prefer `###` pages; bold/insights = suggestions (group/rename/drop). `[how]` → plain Actions bullets.  

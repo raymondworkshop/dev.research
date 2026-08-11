@@ -158,32 +158,31 @@ labels: green→theme heading; purple→bold; yellow→info; pink→insights; bl
 ## ch14 - you'll change  
 
 - [info] it’s equally important to save for things you can’t possibly predict or even comprehend
-    - [info] We should avoid the extreme ends of financial planning. 
+    - [insights] We should avoid the extreme ends of financial planning. 
     when you consider our tendency to change who we are over time, [insights] **balance at every point in your life becomes a strategy to avoid future regret and encourage endurance**.   
     - [insights] We should also come to **accept the reality of changing our minds**. 
 
 ## ch15 - Nothing's Free  
 
+- [insights] **Everything has a price**, but not all prices appear on labels    
+    - the key to a lot of things with money is just **figuring out what that price is** and **being willing to pay it**  
 
-- **Everything has a price**  
+-  [insights] the price of investing success is not immediately obvious.
+    - **It's not a price tag you can see**, so when the bill comes due it doesn't feel like a fee for getting something good. it feels like a fine for doing something wrong.  
+
+    - [info] volatility is real and common
+
+- [insights] **thinking of market volatility as a fee rather than a fine** is an important part of developing the kind of mindset that lets you stick around long enough for investing gains to work in your favor
+
+- [insights] if you **view volatility as a fee**, things look different  
+    - Same with markets. **The volatility/uncertainty fee - the price of returns - is the cost of admission** to get returns greater than low-fee parks like cash and bonds  
+
+    - If you view the admission fee as a fine, you'll never enjoy the magic.
+    **Find the price, then pay it**.  
+
+## ch16 You & Me  
 
 TODO  
-
-- [info] because we’re overconfident
-
-- [info] volatility is real and common
-
-- [insights] thinking of market volatility as a fee — lets you stick around long enough for investing gains to work in your favor
-
-- [info] if you view volatility as a fee
-
-- [info] The worthwhile tradeoff of fees is obvious when it’s clear you’re paying one
-
-- [insights] realizing that it’s an admission fee worth paying — volatility and uncertainty
-
-- [info] not good at identifying what the price of success is
-
-## PsychologyofMoney-42
 
 - [info] in life that we think are true because we desperately want them to be true.
 

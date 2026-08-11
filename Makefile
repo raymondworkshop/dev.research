@@ -1,5 +1,5 @@
 
-.PHONY: help sync audit push ingest query serve site books-export pdf-export
+.PHONY: help sync audit push ingest query serve site books-export pdf-export kindle-export
 
 ROOT := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 VENV := $(ROOT)researchenv
@@ -20,6 +20,9 @@ help:
 	@echo "  make books-export LIST=1           - List books (count, id prefix, title)"
 	@echo "  make pdf-export [BOOK='title']     - Export PDF-file highlights → notes/"
 	@echo "  make pdf-export LIST=1             - List PDFs with embedded highlight counts"
+	@echo "  make kindle-export [BOOK='title|asin'] - Kindle app/Cloud Reader → notes/"
+	@echo "  make kindle-export LIST=1          - List Notebook books (browser login)"
+	@echo "  make kindle-export CLIPPINGS='…'   - Export from My Clippings.txt instead"
 	@echo "  make sync: Compile notes/2026-07-31-the-power-of-charm.md per AGENTS.md"
 	@echo "  make sync NOTE='…' THEMES='a' "
 	@echo "  make audit                   - Print Audit prompt for wiki/"
@@ -55,6 +58,24 @@ pdf-export: $(VENV)/bin/activate
 	else \
 	  cd $(ROOT) && $(PY) scripts/pdf_export.py "$(BOOK)"; \
 	fi
+
+# Export Kindle app / Cloud Reader highlights (via Amazon Notebook) → notes/
+# Auth: browser session (sign in at read.amazon.com/notebook) via browser-cookie3,
+#   or COOKIES=… / ~/.config/dev.research/kindle-cookies.txt. Domain: DOMAIN=amazon.co.jp
+# Usage: make kindle-export
+#        make kindle-export BOOK='Psychology of Money'
+#        make kindle-export LIST=1
+#        make kindle-export CLIPPINGS='~/My Clippings.txt' BOOK='…'
+kindle-export: $(VENV)/bin/activate
+	@$(PIP) show browser-cookie3 >/dev/null 2>&1 || $(PIP) install 'browser-cookie3>=0.19.1'
+	@cd $(ROOT) && \
+	  set --; \
+	  if [ -n "$(COOKIES)" ]; then set -- "$$@" --cookies "$(COOKIES)"; fi; \
+	  if [ -n "$(DOMAIN)" ]; then set -- "$$@" --domain "$(DOMAIN)"; fi; \
+	  if [ -n "$(CLIPPINGS)" ]; then set -- "$$@" --clippings "$(CLIPPINGS)"; fi; \
+	  if [ "$(LIST)" = "1" ]; then set -- "$$@" --list; fi; \
+	  if [ -n "$(BOOK)" ]; then set -- "$$@" "$(BOOK)"; fi; \
+	  $(PY) scripts/kindle_export.py "$$@"
 
 ingest: $(VENV)/bin/activate
 	cd $(ROOT) && PYTHONPATH=app/backend:scripts $(PY) scripts/ingest.py
