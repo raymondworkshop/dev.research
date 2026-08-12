@@ -281,5 +281,22 @@ than horsepower and chrome
     - There is no single right answer; just the answer that works for you.  
 
 ## ch20 - confessions  
- TODO  
  
+- [insight] I did not intend to get rich. I just wanted to **get independent**.  
+    - **independence** has always been my personal financial goal.  
+    I mostly just want to wake up every day knowing my family and I **can do whatever we want to do on our own terms**.  
+    - [insight]  independence doesn't mean you'll stop working.  
+    It means **you only do the work you like with people you like** at the times you want for as long as you want.  
+    - [insight] **independence is driven by your saving rate**. it's mostly a matter of **keeping your expectations in check** and **living below your means**.  
+
+    - [insight]  True success is **exiting some rat race to modulate one's activities for peace of mind**  
+
+- [insight] our goal is just psychologically reasonable  
+    - We keep a higher percentage of our assets in cash  
+        + we do it because **cash is the oxygen of independence**  
+        + Not being forced to sell stocks to cover an expense   
+    - dollar-cost averaging into a low-cost index fund will provide the highest odds of long-term success  
+    - my investing strategy relies on **a high savings rate**, **patience**, and **optimism** that the global economy will create value over the next several decades.  the first two, which I can control.  
+
+- [insight] we'll always have the goal of **independence**, and we'll always **do whatever maximizes for sleeping well at night**.  
+

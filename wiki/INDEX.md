@@ -11,6 +11,24 @@
 - [[charming-men]] - Achievement, status, recognition, admiration.
 - [[praise]] - Thank often; smile/laugh with mood; praise immediately, specifically, large and small.
 
+## Psychology of Money (*The Psychology of Money*)
+- [[psychology-of-money]] - Behavior over spreadsheets; luck, ego, sleep-at-night guideposts.
+- [[luck-and-risk]] - Never as good or bad as it seems; broad patterns over case studies.
+- [[never-enough]] - What is never worth risking regardless of gain.
+- [[staying-wealthy]] - Survival mindset: frugality, paranoia, financially unbreakable.
+- [[tails-you-win]] - Long tails; expect failure; minority of bets drive outcomes.
+- [[freedom-and-time]] - Control over time as money’s highest dividend.
+- [[man-in-the-car-paradox]] - Status goods rarely earn the respect you want.
+- [[wealth-is-hidden]] - Wealth is unspent optionality; rich is visible income.
+- [[saving-money]] - Savings rate, ego gap, humility, psychology over finance.
+- [[reasonable-not-rational]] - Reasonable plans you can stick with beat cold rationality.
+- [[room-for-error]] - Margin of safety, barbell, balance as you change over time.
+- [[nothings-free]] - Volatility and doubt as fees, not fines.
+- [[identify-your-game]] - Time horizon and game; ignore players on other fields.
+- [[seduction-of-pessimism]] - Why pessimism sounds smart; slow progress, fast setbacks.
+- [[appealing-fiction]] - Stories we want true; incomplete views, complete narratives.
+- [[financial-independence]] - Independence goal, cash as oxygen, sleep at night.
+
 ## Stoicism
 - [[dichotomy-of-control]] - Categorizing life into controllable and uncontrollable elements.
 - [[emotions]] - Managing grief and anger through reason and impermanence.
