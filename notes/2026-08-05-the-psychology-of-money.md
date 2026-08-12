@@ -209,40 +209,77 @@ labels: green→theme heading; purple→bold; yellow→info; pink→insights; bl
 - [insight] **Pessimism reduces expectations**, narrowing the gap between possible outcomes and outcomes you feel great about  
 
 
-## ch18 - when you'll believe anthing  
-TODO  
+## **ch18 - when you'll believe anthing**  
+
+- [insight]  There are many things in life that **we think are true because we desperately want them to be true**  
+    - [info] An appealing fiction happens when you are smart, you want to find solutions, but **face a combination of limited control and high stakes**  
+    - [info] they're only doing that because **the possibility of a huge outcome exists**  
+    - [insight] the biggest risk is that **you want something to be true so badly** that **the range of your forecast isn't even in the same ballpark as reality**.  
+        +  this is a big part **why room of error, flexibility, and financial independence are indispensable**  
+        + [insight]  the bigger the gap between what you want to be true and what you need to be true to have an acceptable outcome, the more **you are protecting yourself from falling victim** to an appealing financial fiction    
+        + [insight] there is no greater force in finance than **room for error**, and the higher the stakes, the wider it should be  
+
+- [insight]  everyone has an incomplete view of the world. But we **form a complete narrative to fill in th gaps**  
+    - [info] she tells herself a coherent story about what's going on based on the little she does know  
+    - [info] most people do not realize they don't understand it because they're able to 
+    **come up with an explanation that makes sense based on their own unique perspective and experiences** in the world, however limited those experiences are.  
+
+    - [info] we all want the complicated world we live in to make sense.
+    so **we tell ourselves stories to fill in the gaps**  of what are effectively blind spots.
+
+- why stories aer more powerful than statistics  
+    - [info] The one who's confident he knows what's happening based on what he sees but
+    turns out to be completely wrong **because he cann't know the stories going on inside everyone else's head**  
 
 
-## PsychologyofMoney-46
+## ch19 - All Together now  
 
-- [info] what makes sense — and what feels right to them
+- [info] find humility when things are going right and forgiveness/compassion when they go wrong  
+    - Because **it's never as good or as bad as it looks**. The world is big and complex.
+    **Luck and risk are both real and hard to identify**.  
+    - [insight] **Respect the power of luck and risk** and **you'll have a better chance of focusing on things you can actually control**.  
 
-- [info] in a way that leaves you comfortable and sleeping well at night
+- [info] less ego, more wealth  
+    - [info] saving money is the gap between your ego and your income, and wealth is what you don't see.  
+    - [info] **wealth is created by supressing what you could buy today** in order to have more stuff or more options in the future.  
 
-- [info] wanted to get independent
+- [insight] "**does this help me sleep at night**?" is the best universal guidepost for all financial decisions  
 
-- **independence has always been my personal financial goal — just want to wake up every day knowing my family and I can do whatever we want to do on our own terms**
+- [insight] if you want to do better as an investor, the single most powerful thing you can do is **increase your time horizon**.  
+    - [info] Time is the most powerful force in investing  
 
-- [insights] you only do the work you like with people you like — at the times you want for as long as you want
+- [insight] **Become OK with a lot of things going wrong**.  You can be wrong half the time and still make a fortune, because **a small minority of things account for the majority of outcomes**.  
+    - [info] No matter what you're doing with your moeny **you should be comfortable with a lot of stuff not working**.  
 
-- [insights] is driven by your savings rate.
+- [insight] **Use money to gain control over your time**.
+    - [info]  The ability to do what you want, when you want, with who you want,
+    for as long as you want to, pays the highest dividend that exists in finance.  
 
-- [info] past a certain level of income your savings rate is driven by your ability to keep your lifestyle expectations from running away
+- [insight] you're more likely to **gain those things through kindness and humility** 
+than horsepower and chrome  
 
-- [info] independence fund — We now live considerably below our means
+- [insight] **Just save**. You don't need a specific reason to save  
 
-- [insights] our income and more about our decision to maintain a lifestyle
+- [insight] **Define the cost of success and be ready to pay it**. 
+    - [info]  **Because nothing worthwhile is free**. And remember that **most financial costs don't have visible price tags**.  
+    - [info] **Uncertainty, doubt, and regret are common costs** in the finance world.
+    **They're often worth paying**. But you have to **view them as fees** (a price worth paying to get something nice in exchange) rather than fines (a penalty you should avoid)  
 
-- [info] Independence is our top goal — Comfortably living below what you can afford — True success is exiting some rat race to modulate one’s activities for peace of mind
+- [insight] worship room for error  
+    - a gap between what could happen in the future and what you need to happen in the future in order to do well is what gives you endurance, and **endurance is what makes compounding magic over time**.  
 
-- [info] just psychologically reasonable
+- [insight] Avoid theextreme ends of financial decisions.  
 
-- [info] It makes me feel independent
+- [insight] **你应该拥抱能带来长期回报的风险**，但必须警惕那些可能导致彻底毁灭的风险，因为毁灭会让你彻底失去未来继续承担风险的机会  
+    - **计算底线**：做任何事前，**先看最坏的结果是不是你能承受的**  
+    - 保护本金：**不要把所有的筹码一次性押光**  
+    - 着眼长远：确保今天的失败不会剥夺你明天的机会  
 
-- [info] We also keep a higher percentage of our assets in cash
+- [insight] **Define the game you’re playing**, and make sure your actions are not being influenced by people playing a different game.  
 
-- [info] cash is the oxygen of independence
+- [insight] Respect the mess.  people have vastly different goals and desires. 
+    - There is no single right answer; just the answer that works for you.  
 
-- [info] Every investor should pick a strategy that has the highest odds of successfully meeting their goals
-
-- **a high savings rate, — patience, and optimism**
+## ch20 - confessions  
+ TODO  
+ 
