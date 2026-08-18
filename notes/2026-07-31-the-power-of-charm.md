@@ -14,7 +14,7 @@ labels: green→theme heading; purple→bold; yellow→info; pink→insights; bl
 
 > Grouped by book topics. Green → ### theme; purple → **bold**; pink → [insights]; blue → [how]; yellow → [info].
 
-## id11
+## charm can be learned  
 
 - **business and personal life — your ability to communicate effectively with others — Social intelligence — the ability to interact, converse, negotiate with, and persuade others**
 
@@ -198,7 +198,6 @@ labels: green→theme heading; purple→bold; yellow→info; pink→insights; bl
 
 - [how] Make sure your arms are unfolded
 
-### Your Tools for Charming Others
 
 ### Body Language to Avoid
 

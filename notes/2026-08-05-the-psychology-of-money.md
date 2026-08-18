@@ -18,13 +18,13 @@ labels: green→theme heading; purple→bold; yellow→info; pink→insights; bl
 
 *Morgan  Housel*
 
-> Grouped by book topics. Green → ### theme; purple → **bold**; pink → [insights]; blue → [how]; yellow → [info].
+> Grouped by book topics. Green → ### theme; purple → **bold**; pink → [insights]; blue → [how]; yellow → [info].  
 
-## Introduction: The Greatest Show On Earth
+## Introduction: The Greatest Show On Earth  
 
 - **What you've experienced is more compelling** than what you learn secondhand  
 
-- Your personal experiences with money make up 
+- Your personal experiences with money make up  
 **maybe 80% of how you think the world works**    
 
 ## ch2 -  luck and risk  
@@ -78,8 +78,7 @@ labels: green→theme heading; purple→bold; yellow→info; pink→insights; bl
     + **The ability to do what you want, when you want, with who you want**, for as long as you want, is priceless.  
     + **Having a strong sense of controlling one’s life** is a more dependable predictor of positive feelings of wellbeing  
 
-    + Money's greatest intrinsic value is **its ability to give you control over your time**. 
-    To obtain **a level of independence and autonomy that comes from unspent assets** that give you greater control over what you can do and when you can do it.  
+    + Money's greatest intrinsic value is **its ability to give you control over your time**. To obtain **a level of independence and autonomy that comes from unspent assets** that give you greater control over what you can do and when you can do it.  
 
     + **Using your money to buy time and options has a lifestyle benefit** few luxury goods can compete with  
 
