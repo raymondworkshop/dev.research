@@ -12,7 +12,7 @@ help:
 	@echo "  make query    - Test RAG retrieval (MSG='...')"
 	@echo "  make serve    - Start FastAPI backend on :8000"
 	@echo "  make site     - Start backend + frontend"
-	@echo "  make publish  - Deploy to CF Pages (steady-mind.pages.dev)"
+	@echo "  make publish  - Deploy to CF Pages (wiki-research.pages.dev)"
 	@echo ""
 	@echo "Research Commands:"
 	@echo "  make markitdown BOOK='Think and Grow Rich' - Make markdown from a book file"
@@ -147,10 +147,10 @@ push:
 demo-build:
 	cd app/frontend && npm run build:demo
 
-# CF Pages → https://steady-mind.pages.dev
+# CF Pages → https://wiki-research.pages.dev
 publish: demo-build
 	cd workers && npm install && npm run deploy
 
 demo-dev: demo-build
 	cd workers && npm install
-	cd $(ROOT) && npx wrangler pages dev app/frontend/dist --project-name=steady-mind
+	cd $(ROOT) && npx wrangler pages dev app/frontend/dist --project-name=wiki-research

@@ -1,8 +1,8 @@
 {
-  "name": "steady-mind-worker",
+  "name": "research-worker",
   "private": true,
   "scripts": {
-    "deploy": "cd .. && wrangler pages deploy app/frontend/dist --project-name=steady-mind --branch=production --commit-dirty=true",
+    "deploy": "cd .. && wrangler pages deploy app/frontend/dist --project-name=wiki-research --branch=production --commit-dirty=true",
     "dev": "wrangler dev --config ../wrangler.jsonc"
   },
   "devDependencies": {

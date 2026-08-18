@@ -1,5 +1,12 @@
 # Wiki Index
 
+## Difficult Conversations (*Difficult Conversations*)
+- [[difficult-conversations]] - Raise vs avoid; shift from message delivery to a learning conversation.
+- [[three-conversations]] - What Happened, Feelings, and Identity run in every hard talk.
+- [[feelings-conversation]] - Unexpressed feelings block listening; share the pure feeling first.
+- [[identity-conversation]] - What’s at stake for who you are; hold a complex self.
+- [[conversation-purpose]] - Choose whether to raise; if you talk: learn, express, problem-solve.
+
 ## Charm (*The Power of Charm*)
 - [[charm]] - Learned social skill: raise others’ sense of being valued; self-esteem and receptivity.
 - [[listening]] - Ask, pause, paraphrase; patient listening; advice only when asked.

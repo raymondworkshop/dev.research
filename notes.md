@@ -24,6 +24,7 @@
 
 ### structure 
 * Steady Mind web: https://steady-mind.pages.dev/  
+* Research web: https://wiki-research.pages.dev/  
 
 * myresearch/
 ├── raw/ (input dump)

@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import type { ChatMessage, Citation } from '../hooks/useChatStream'
 import type { Lang } from '../lib/i18n'
+import { navigate, wikiHref } from '../lib/path'
 import { StructuredReply } from './StructuredReply'
 
 interface Props {
@@ -34,7 +35,18 @@ function Citations({ items, lang }: { items: Citation[]; lang: Lang }) {
               key={c.id}
               className="rounded-md bg-stone-50/80 px-2 py-1 text-[11px] leading-snug text-stone-600"
             >
-              {c.title}
+              {c.source === 'wiki' && c.title ? (
+                <button
+                  type="button"
+                  className="text-left text-sage-700 hover:underline"
+                  onClick={() => navigate(wikiHref(c.title))}
+                >
+                  {c.title}
+                </button>
+              ) : (
+                c.title
+              )}
+              <span className="ml-1 text-stone-400">{c.source}</span>
             </li>
           ))}
         </ul>

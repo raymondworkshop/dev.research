@@ -37,3 +37,5 @@
 - [[mirroring-and-matching]]
 - [[attentive-signals]]
 - [[charm]]
+- [[difficult-conversations]]
+- [[feelings-conversation]]

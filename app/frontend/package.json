@@ -11,6 +11,7 @@
     "build:demo": "tsc -b && vite build --mode demo"
   },
   "dependencies": {
+    "marked": "^18.0.10",
     "react": "^19.2.7",
     "react-dom": "^19.2.7"
   },
