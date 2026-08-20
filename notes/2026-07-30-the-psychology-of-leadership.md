@@ -14,35 +14,44 @@ color_map: yellow→info; pink+purple→insights; blue→how
 
 > Apple Books export — yellow=info, pink/purple=insights, blue=how.
 
-## The Psychologyof Leadership-ebook-050325 — 4
+## The Psychologyof Leadership  
+* That time, **I played to the absolute best of my abilities**    
 
-### info
+*  A leader's job is to **inspire others**    
+    - **You put on your oxygen mask before helping others**  
+        - **Understand yourself** so you can understand others.
+    It's about **empathy**, **leading by example**, and **personal resilience**.  
+    - **focusing on mastery** over ego, **the importance of relationships and community**,
+    the meaning of sport as a **meritocracy**, and engagement and flow  
 
-- (yellow, 2025-12-24) Sports psychologists
 
-- (yellow, 2025-12-24) Writing soothes my mind and soul
+### P8 - Build a bigger rocket - unleash the power of social comparison  
 
-- (yellow, 2025-12-24) lead a business
+* **Social comparison** is a powerful motivator for individuals and organizations  
+    - It is in their power to **not want what they donot have**, and **to cheerfully put to good use what they have**  
+        - they rarely spend enough time reminding everyong of what makes the team great,
+        why the organization is lucky to benefit from competitive advantages, or why their culture is special. Even in tough times, or especially in tough times, **gratitude lifts morale**.  
 
-- (yellow, 2025-12-24) A leader’s job is to inspire others
+*  **Internal competition should be secondary to collaboration** - or even a tool for it  
+    - Make interna lcompetition friendly and enjoyable  
+        - Internal competition must not come at the expense of  trust, mutual respect,
+        and a shared understanding of the team's mission  
+    - **Rally your team** against a worthy competitor 
+        - Most people **get more motivation through competition** than positive encouragement  
 
-- (yellow, 2025-12-24) understand yourself so you can understand others
 
-- (yellow, 2025-12-24) empathy
+### P9 - Upgrade Your Operating System - identify and manage your core beliefs  
+* know yourself better  
+    - understand your roots and define your belief systems  
 
-- (yellow, 2025-12-24) leading by example
+* Core beliefs  
+    - when you feel deeply about something  
 
-- (yellow, 2025-12-24) personal resilience
+* Go ahead and **explore your childhood and traumatic or memorable life events** if needed.
+**Managing and upgrading your core beliefs will help you avoid frequent errors in judgment**,
+better allocate your time and energy, and ultimately, become a better leader   
 
-- (yellow, 2025-12-24) learn how to emphasize relationships
-
-- (yellow, 2025-12-24) meaning to maximize organizational performance
-
-- (yellow, 2025-12-24) about losing
-
-- (yellow, 2025-12-24) how to maximize learning
-
-- (yellow, 2025-12-24) build mental resilience from losses
+* TODO  
 
 ## The Psychologyof Leadership-ebook-050325 — 6
 
