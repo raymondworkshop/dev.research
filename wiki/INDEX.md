@@ -36,6 +36,12 @@
 - [[appealing-fiction]] - Stories we want true; incomplete views, complete narratives.
 - [[financial-independence]] - Independence goal, cash as oxygen, sleep at night.
 
+## People Games (*Games People Play* / 人間遊戲)
+- [[ego-states]] - Parent, Adult, and Child as structural units; switch by circumstance.
+- [[time-structuring]] - Strokes, stimulation/recognition/structure hungers; procedures and rituals.
+- [[psychological-games]] - Hidden-payoff patterns; know when to quit; sulker and weirdo types.
+- [[autonomy]] - Awareness, spontaneity, intimacy; leave games and cultural scripts.
+
 ## Stoicism
 - [[dichotomy-of-control]] - Categorizing life into controllable and uncontrollable elements.
 - [[emotions]] - Managing grief and anger through reason and impermanence.
