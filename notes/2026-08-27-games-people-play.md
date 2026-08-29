@@ -1,5 +1,5 @@
 ---
-title: "people games"
+title: "Games People Play"
 author: "艾瑞克．伯恩（Eric Berne）"
 asset_id: AE99F1B7738F83C095BBC66D9C5A3C20
 highlights: 63
@@ -89,7 +89,7 @@ TODO
 
 - [info] 在任何遊戲中，專業人士和外行人之間的差異：**專業人士知道何時收手**
 
-## 14所謂玩家
+## 14所謂玩家  
 
 - [info] 慍怒的人，以及怪人或老古板
 
@@ -141,4 +141,4 @@ TODO
 
 - [info] 測驗現實世界的行為   
 
-- [Games People Play] 
+- [Games People Play]  by Eric Berne  
