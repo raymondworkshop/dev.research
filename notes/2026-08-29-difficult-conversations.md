@@ -76,7 +76,7 @@ labels: green→theme heading; purple→bold; yellow→info; pink→insights; bl
     - [insight] **you want to understand what has happened from the other person’s point of view**, **explain your point of view**, **share and understand feelings**, **and work together to figure out a way to manage the problem going forward**. In so doing, you make it more likely that the other person will be open to being persuaded, and that you will learn something that significantly changes the way you understand the problem.  
 
 
-## ch2 Explore each other's stories, stop arguing about who's right  
+### ch2 Explore each other's stories, stop arguing about who's right  
 
 - People almost never change **without first feeling understood**    
 
@@ -88,7 +88,25 @@ labels: green→theme heading; purple→bold; yellow→info; pink→insights; bl
 - curious about the story  
     - your task as **understanding them better** - trying to make sense of the world as they see it. The act of understanding someone else's story doesn't require you to agree with it, or to give up your own. 
 
-## ch3 Don't assume they meant it  
+### ch3 Don't assume they meant it  
+- The first mistake: assuming we know their intentions  
+    -   We **attribute intentions based on the impact** on us  
+        + We assume the worst  
+        + we assume bad intentions mean bad character  
+        + we treat ourselves more charitably  
+
+    - **Speak to the impact**; **inquire about their intentions**  
+        + **action-impact-assumption** path  
+        + **our assumptions are guesses** subject to modification or disproof and **to share them** as such, then see what the other person has to say about it.
+
+
+- The second mistake: Assuming good intentions erase bad impact  
+    - we change the topic of the conversation  
+        + **Intentions are often more complex than just "good" or "bad"**
+
+    - **Listen for feelings**, and **reflect on your intentions**  
+
+### ch4 abandon blame: map the contribution system  
 TODO  
 
 ## 5. Have Your Feelings
