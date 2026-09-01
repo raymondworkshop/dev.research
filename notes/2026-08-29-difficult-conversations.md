@@ -107,9 +107,28 @@ labels: green→theme heading; purple→bold; yellow→info; pink→insights; bl
     - **Listen for feelings**, and **reflect on your intentions**  
 
 ### ch4 abandon blame: map the contribution system  
-TODO  
+* At heart, blame is about judging and **contribution is about understanding**    
+
+* about contribution  
+    - Recognizing that everyone involved in a situation has contributed to the problem 
+    **doesn't mean  that everyone has contributed equally**    
+    - as you and the other person look at how you have each contributed to the problem,
+    **sharing your feelings is essential**  
+    
+* Finding your fair shar: hard-to-spot contributions  
+    - you have allowed the problem to continue unchecked by not having addressed it earlier  
+    - successful relationships are built on the knowledge that in intersections there is no one to blame.
+    **People are just different**. If we hope to stay together, we will sometimes **have to compromise our preferences and meet in the middle**.  
+    - problematic role assumptions  
+
+* Take responsibility for your contribution early  
+    - "**We've both contributed to this**, and **I can't fix it by myself**. It's **neither fair nor sustainable for us to look only at my behavior and not yours** ..."  
+    - help them understand their contribution  
+        + by **sharing the things that triggered you**, and **making a specific request** for how the other peson can change their contribution in the service 
 
 ## 5. Have Your Feelings
+
+TODO  
 
 - [info] feelings are at the heart of what’s wrong
 
