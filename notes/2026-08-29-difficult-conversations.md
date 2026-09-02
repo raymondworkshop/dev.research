@@ -172,75 +172,37 @@ labels: green→theme heading; purple→bold; yellow→info; pink→insights; bl
         + "It sounds like these last few months have been hard. When you say you've been feeling neglected, **can you say more about what that means to you**, and **what you were hoping for**?"  
 
 
-
 ## 6. Ground Your Identity: Ask Yourself What’s at Stake
 TODO  
 
-### Ground Your Identity:
-			Ask Yourself What’s at Stake
-
-- [info] who we are in the world — or to highlight what we hope we are but fear we are not
-
-- [info] We each have multiple
-
-- [info] Thinking clearly and honestly about who you
-
-- [info] Am I a Good Person
-
-- [info] Am I Competent
-
-- [info] Am I Worthy of Love
-
-- [how] need to become familiar with those identity issues that are important to you so you can spot them during a conversation
-
-- [how] learn to integrate new information into your identity in ways that are healthy
-
-- [how] observe whether there are patterns to what tends to knock you off balance — hen ask yourself why — How would it feel if what you fear were true
-
-- [info] see the value of acknowledging and sharing his emotions
-
-- [info] He discussed his fears
-
-- [info] added to the richness of his life
-
-- [insights] trying to get as clear a picture as you can about what is actually true about you. — what is true about you is going to be a mix of good and bad behavior — noble and less noble intentions — wise and unwise choices you’ve made along the way
-
-- [info] Ben has multiple identities that matter to him — and in certain situations, their requirements may conflict and create dilemmas
-
-- [insights] toward a more complex view of who you are — it is easier to accept certain parts of yourself that have given you trouble in the past
-
-### You Will Make Mistakes
-
-### Your Intentions Are Complex
-
-### By being honest with herself about the complexity of
-
-- [how] some of what you’re saying makes sense
-
-- [how] I don’t think that was my only reason for
-
-### You Have Contributed to the Problem
-
-- [info] can approach her with compassion
-
-- [insights] you shouldn’t try.
-
-- **giving them the news — taking responsibility for your part in this outcome — showing that you care about how they feel — trying to be helpful going forward**
-
-- [how] prepare for it
-
-- [how] whether any of these responses implicate identity issues for you
-
-- [how] ask yourself, “What do I think this says about me?”
-
-- [info] away from this all-or-nothing thinking
 
 ## 7. What’s Your Purpose?: When to Raise It and When to Let Go
-TODO  
+* How to decide to raise or not to raise  
+    - **weigh the pros and cons** of raising the tough issue  
+        + consider not only the potential costs of engaging, but also the potential costs of not engaging  
+        + **the long-term pain** if we avoid a vonversation  
+        + **the potential benefits** if we invite a conversation  
+
+* work through the conversations  
+    - Is the real conflict inside you ?  
+    -  As you sort out your feelings or identify your contribution to a situation,
+    **maybe a change in your behavior**  
+    -  If you're going to talk. Really talk  
+
+* If you raise it: three purposes that work  
+    - **Learning their story**  
+        + **what information** do they see that we missed?
+        **what is their reasoning** for why they did what they did?  
+        what were their intentions? what are they feeling? 
+
+    - **expressing your views and feelings**  
+        + what is important for you to say about **your views, intentions, contributions,feelings, and identity issues**. You can share your story  
+
+    - Problem-Solving Together  
+        + satisfy both of your needs? Where your needs conflict  
 
 ## 8. Getting Started: Begin from the Third Story
-
-- [info] Your purpose in opening the conversation is to invite the other person into a joint exploration
+TODO  
 
 ## 9. Learning: Listen from the Inside Out
 
