@@ -127,44 +127,54 @@ labels: green→theme heading; purple→bold; yellow→info; pink→insights; bl
         + by **sharing the things that triggered you**, and **making a specific request** for how the other peson can change their contribution in the service 
 
 ## 5. Have Your Feelings
+* **Feelings let us know that we are fully alive**  
+    - feelings are at the heart of what's wrong  
+    
+    -  We try to frame feelings out of the problem  
 
-TODO  
+    - Our listening ability often increases remarkably **once we have expressed our own strong feelings**    
+        + **When important feelings remain unexpressed**, you may experience a loss of self-esteem, **wondering why you don’t stick up for yourself**.  
 
-- [info] feelings are at the heart of what’s wrong
+* Finding your feelings: learn where feelings hide  
+    - **explore your emotional footprint**    
+        + think back to your childhood. which emotions were easily discussed,
+        which is more difficult?  
+        + **exploring the contours of your footprint across a variety of relationships** 
+        can be extremely helpful in raising your awareness of what you are likely to be feeling and why  
+        + Learn That Your Feelings Are as Important as Theirs. 
+        **When you undervalue your own feelings and interests**, your friends, and boss may recognize this and begin to see you as someone whose needs don't matter  
 
-- [info] Solving problems seems easier than talking about emotions
+    - Don't let hidden feelings block other emotions  
+        + **find an entire spectrum of emotions**    
 
-- [insights] once we have expressed our own strong feelings.
+    - Find the feelings lurking under attributions , judgments, and accusations  
 
-- [info] Unexpressed feelings can block our ability to listen
+*  negotiate with your feelings before saying what you are feeling  
+    - **examine our own story**. 
+        + changing your feelings is through altering your thinking  
+        +  what might the other person's story be?  
 
-### Unexpressed Feelings Make It Difficult to Listen
+    - **check our assumptions** about the other person's intentions  
+        
+    - consider the contribution system  
+        + "I know I've contributed to the problems we're having.
+        I think that the anger and frustration I've been feeling has made me focus more on our problems than on our strengths. **But when I step bac**k from that, **what's also clear  to me** is that I love you very much, and I'd like for things to get better." 
 
-- [how] maybe debriefing with a mentor later on — Better to close your eyes, take deep breaths, step away to calm down for a moment if you need to
+*  Describe Feelings Clearly
+    - If feelings are the real issue, then **feelings should be addressed**.  
 
-- [info] what your feelings are — negotiate with your feelings — share your actual feelings
+    - **express the full spectrum of your feelings**  
+        + Brad **has brought some depth and complexity to the discussion** 
 
-- [info] emotional footprint
+    -  Say "**I feel** ..."  
 
-- [info] Exploring the contours of your footprint across a variety of relationships can be extremely helpful in raising your awareness of what you are likely to be feeling and why.
+    - **acknowledge feelings**, and direct the conversation back to the purpose of understanding  
+        + "It sounds like these last few months have been hard. When you say you've been feeling neglected, **can you say more about what that means to you**, and **what you were hoping for**?"  
 
-- [how] If feelings are the real issue — then feelings should be addressed
 
-- [insights] simply to get them out
-
-- [insights] took the time to paint a more complete picture?
-
-- [how] state the pure feeling first
-
-- [insights] Just Share
-
-- [insights] share pure feelings
-
-- [how] I Feel . . . .
-
-- [how] Acknowledging feelings well
 
 ## 6. Ground Your Identity: Ask Yourself What’s at Stake
+TODO  
 
 ### Ground Your Identity:
 			Ask Yourself What’s at Stake
@@ -226,34 +236,7 @@ TODO
 - [info] away from this all-or-nothing thinking
 
 ## 7. What’s Your Purpose?: When to Raise It and When to Let Go
-
-- [insights] there is no “right choice.”
-
-- [insights] think clearly as you take on the task of making a considered choice
-
-- [info] the long-term pain — the potential benefits
-
-- [info] Think clearly about what you do know — what you don’t know
-
-- [info] determined that this conversation isn’t about whether — If you’re curious about their perspective
-
-- [insights] if you’re going to talk, talk. Really talk
-
-- [how] It’s My Responsibility to Do My Best.
-
-- [insights] Learning Their Story
-
-- [how] What information do they see — What past experiences — What is their reasoning — intentions — feeling — mean to them
-
-- [insights] express your views and feelings to
-
-- [insights] what is important for you to say about your views, intentions, contributions, feelings, and identity issues
-
-- [insights] Expressing Your Views and Feelings
-
-- [insights] Problem-Solving Together
-
-- [info] going forward — satisfy both of your needs — Where your needs conflict — ensure a fair and workable way to resolve the conflict
+TODO  
 
 ## 8. Getting Started: Begin from the Third Story
 
