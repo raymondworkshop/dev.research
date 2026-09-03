@@ -202,13 +202,35 @@ TODO
         + satisfy both of your needs? Where your needs conflict  
 
 ## 8. Getting Started: Begin from the Third Story
-TODO  
+* Step One: **Begin from the Third Story**    
+    - Your purpose in opening the conversation is to **invite the other person into a joint exploration**    
+        - "**My sense is that you and I see this situation differently**.I'd like to share how I'm seeing it, and learn more about how you're seeing it."
+        - "I wanted to talk about ... I wanted to understand why you see things the way you do,
+    and to share with you my perspective and feelings."  
+
+* Step Two: **Extend an invitation**  
+    - **Invite**, think of the goal as "offering and discussing a possible description and purpose"  
+    - Make them your partner in figuring it out   
+
+* **delivering bad news**  
+    - share the news up front as **clearly and empathetically as you can**.
+    And then invite the other person into a third story frame: 
+    "**Here's the news; you have your views and reactions**; **I have mine; Let's make room to discuss each of these.**"  
+
+* **Making Requests**  
+    - **invite an exploration** of whether a raise is fair, whether it makes sense
+    - "**I'd like to explore whether a raise for me might make sense**.
+    **From the information I have**, **I think I deserve one**. [reasoning.] **I wonder how you see it**?"  
+
+* A map for going forward: **Third story, their story, your story**  
+    - Explore where each story comes from  
+    - share the impact on you  
+    - take responsibility for your contribution and explore theirs  
+    - describe feelings; inquire about their  
+    - reflect on the identity issues  
 
 ## 9. Learning: Listen from the Inside Out
-
-- **Authenticity means that you are listening because you are curious and because you care**
-
-- [how] Are you curious? Do you care?
+* TODO  
 
 ## 10. Expression: Speak for Yourself with Clarity and Power
 
