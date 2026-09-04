@@ -230,12 +230,51 @@ TODO
     - reflect on the identity issues  
 
 ## 9. Learning: Listen from the Inside Out
-* TODO  
+* Listening Transforms the conversation  
+    -  learning about the other person  
+    -  listening to them **helps them listen to you**  
+        + **listen for the feelings underneath their views**, like frustration or pride or fear, 
+        and acknowledge those feelings   
+    -   listening well **enhances your ability to influence them**  
+        + it helps you better undersatnd the hesitations, feelings, hopes, interests, and concerns
+        driving the other person's choices, enabling you to address directly what matters most to them 
+
+*  The stance of curiosity  
+    - Forget the words, **focus on authenticity**  
+        + **Authenticity means that you are listening because you are curious and because you care**,
+        not just because you are supposed to  
+        + what will be communicated most powerfully is **whether you are genuinely curious**,
+        **whether you genuinely care about the other person and what they think and feel**    
+        + If **your intentions** are false, no amount of careful wording or good posture will help  
+
+    - **Managing your internal voice**  
+        + **Finding and listening to yourself own internal voice** is the crucial first step  
+            + **Only when you're fuly aware of your own thougths and feelings** can you begin to manage them and focus on the other person    
+        - If you keep **focused on the purpose of understanding why they see it differently**, your internal voice will shift  
+        - If this doesnot work, **you may first have to express your internal voice before** trying to listen to the other person  
+            + let the other person know that you want to listen and care, but that you cannot listen just yet  
+            + "I'm surprised to hear you say that. I think I disagree, but **first, say more about how you see it**."  
+
+* Inquiry to learn  
+    - The only good answer is "To learn more."; **whether a question will help or hurt the conversation** by thinking about why you asked it  
+        + **Donot make statements disguised as questions**  
+        + share your view as an observation, and then ask for the other person's reaction  
+        + ask open-ened quesions to **better understand them**    
+        + **giving them the choice of whether to answer**  
+
+* Paraphrase for clarity  
+    - check your understanding  
+    - show that you've heard  
+
+* **Acknowledge their feelings**  
+    - **Feelings crave acknowledgment**     
+    - Acknowledge before problem-solving  
+    - acknowledging is not agreeing  
+        + we can **acknowledge the power and importance of the feelings**, while **disagreeing with the substance of what is being said**.  
+
+* **whether to listen is a strategic choice** you'll have to make  
+    - Many situations are not a question of whose view makes sense, 
+    but **how to manage competing rights, views, or needs that are all more or less legitimate**.  
 
 ## 10. Expression: Speak for Yourself with Clarity and Power
-
-- [info] with Clarity and Power
-
-- [info] not just to share their own views and ideas — work to create an environment where everyone feels encouraged to share — make that space as safe and inviting as possible
-
-- [info] figure out what you are really thinking and feeling, and then say it directly
+TODO  
