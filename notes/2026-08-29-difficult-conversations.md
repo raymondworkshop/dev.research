@@ -1,5 +1,5 @@
 ---
-title: "Difficult Conversations"
+title: "!Difficult Conversations"
 author: "Douglas Stone"
 asset_id: 24CC6EBB3F6A3D98FE1618734CC7DED0
 highlights: 148
@@ -204,7 +204,7 @@ TODO
 ## 8. Getting Started: Begin from the Third Story
 * Step One: **Begin from the Third Story**    
     - Your purpose in opening the conversation is to **invite the other person into a joint exploration**    
-        - "**My sense is that you and I see this situation differently**.I'd like to share how I'm seeing it, and learn more about how you're seeing it."
+        - "**My sense is that you and I see this situation differently**. I'd like to share how I'm seeing it, and learn more about how you're seeing it."
         - "I wanted to talk about ... I wanted to understand why you see things the way you do,
     and to share with you my perspective and feelings."  
 
@@ -228,6 +228,7 @@ TODO
     - take responsibility for your contribution and explore theirs  
     - describe feelings; inquire about their  
     - reflect on the identity issues  
+
 
 ## 9. Learning: Listen from the Inside Out
 * Listening Transforms the conversation  
@@ -276,5 +277,70 @@ TODO
     - Many situations are not a question of whose view makes sense, 
     but **how to manage competing rights, views, or needs that are all more or less legitimate**.  
 
-## 10. Expression: Speak for Yourself with Clarity and Power
+## 10. **Expression: Speak for Yourself with Clarity and Power**  
+*   **Recognizing your entitlement** is a first step in finding your voice and the courage to stand up for yourself when you feel frightened or powerless  
+    - Whenever I have felt intimidated or mistreated by someone 'above' me, I remember this -
+    **we are all equal in the eyes of God**    
+    - **my views and feelings are as legitimate, valuable, and important as yours** - no more, but no less.
+    We all deserve to be treated with respect and dignity. 
+    - **My silences had no protected me**.  
+
+* **Beware self-sabotage**  
+    - Sometimes we can feel trapped between the belief that **we should stand up for ourselves** and **a hidden feeling that we don't deserve to be heard**   
+        + **why aren't you entitled**? whose voice from your past do you hear in your head telling you you're not?
+        **when and why do you assume that your thoughts and feelings matter less** than those of others in your organization,
+        neighborhood, or family? what would you need to feel fully entitled to speak up?  
+
+    - Most of us **actually prefer being with someone who will speak their mind**    
+        + **You presume that they will not respect or like or admire you as much if they know how you really think and feel**.
+        + he never stated a preference, never argued, never raised his voice, never asked for anything. **she felt sth was missing: him**.
+        +  meaning relationships are more often enhanced than harmed by **the expression of vulnerabilty**;
+        **such sharing takes trust and a certain faith in others**. A relationship takes hold and grows when 
+        **each person feels safe to be themselves and feels seen for who they are**.  
+
+    - **Sometimes we don't express ourselves because we assume it's not our place**  
+
+    - work to create an environment where everyone feels encouraged to share.
+    **Make that space as safe and inviting as possible**.    
+
+* Speak the heart of the matter  
+    - **Start with what matters most**  
+        + "**Have I said what is at the heart of the matter for me**?"
+        Have I shared what is at stake?"  
+        + **If not, ask yourself why**, and see if you can find the courage to try  
+    - **Say what you mean**: don't make them guess  
+        + **You need to figure out what you are really thinking and feeling, and then say it directly**: 
+        "I'd like to spend more time with you, and saturday morning was one of the few times we had to spend together.
+        If I seem resentful of how much time you're spending on social media, it's because I miss you."  
+
+    - **use the 'me-me' and**, don't make your story simplistic  
+        + the and stance recognizes that each of your various perceptions, feelings, and assumptions is important to talk about  
+
+* Telling your **story with Clarity**  
+    - don't present your conclusions as  the Truth  
+        + use "**My view is that** ...," 
+        + If you wanna say sth is 'inappropriate' preface your judgment with 
+        '**My view is that** ...,", and **explain why you think it's inappropriate**   
+        + be clear about the nature of what you're asserting: "**here's what I** ..."   
+
+    - **Share where your conclusions come from**  
+        + share where these conclusions come from: **what specific information** is in your heads?
+        **what past experiences influence** how you're thinking about this?  
+
+    - don't exaggerate with 'always' and 'never': give them room to change  
+        + the key is to communicate your feelings in a way that invites and encourages the recipient to consider new ways of behaving
+
+* **They'll need your help in understanding you**   
+    - recognize that different people take in information at different speeds and in different ways  
+    - ask the mto paraphrase back 
+    - **ask how they see it differently - and why**  
+        + if you ask explicitly for how they see it differently, which parts they disagree with,
+        or what questions or doubts they have, you are more likely to discover their true reaction.  
+
+* the secret of powerful expression is **recognizing that you are the ultimate authority on you**    
+    - **Speak fully the range of your experience** and you will be clear.
+    **Speak for yourself and you speak with power**  
+       
+
+## 11 Problem-Solving: Take the Lead  
 TODO  
