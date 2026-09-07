@@ -342,5 +342,44 @@ TODO
     **Speak for yourself and you speak with power**  
        
 
-## 11 Problem-Solving: Take the Lead  
-TODO  
+## 11 **Problem-Solving: Take the Lead**    
+* “**So I wanted to raise it, but I was nervous. Then I remembered the advice about not trying to control the other person’s reaction. I’m raising it because I think it’s important, and I’m going to do it as well as I can, and if Michael isn’t interested in talking, or if he isn’t open, well, at least I tried, and I can feel good that I stuck up for myself.**”
+
+
+* Skills for Leading the conversation   
+    - reframe the conversation from blame **to a learning conversation**    
+        + Truth -> different stories  
+            - "**I want to make sure I understand your perspective**. I'd also like to share my perspective on the situation"  
+        + Accusations -> Intentions and impact  
+            - "**It wasn't my intention**. **Can you say more about how you felt**?"  
+        + Blame -> Joint contribution  
+            - "I'm sure I've contributed to the problem; **I think we both have**.
+            Rather than focus on whose fault this is, **I'd like just to look at how we got here** -
+            at what we each contributed to the situation."  
+        + Judgments, characterizations -> **Feelings**    
+            - "it sounds like **you're feeling really unhappy with** my behavior"  
+        + What's wrong with you -> what's going on for you  
+            - "**the question is whether we can work together to figure out** how to address both of our concerns"  
+
+    - avoid engaging in an argument over whether that was true by 
+    **using 'and' to embrace both stories**  
+
+    -  listen, ask questions, and **try to understand how she experiences this issue**   
+        + "what are you thinking?"  
+
+    - **Make the trouble explicit**  
+        + put on the table as a topic for **discussion what you see happening in the conversation itself**  
+        + "**Here's what I'm noticing**."  
+        + "**I really do want to know** what's upsetting you, and **I want us to find a way to talk about it that** ..."
+
+* difficult conversations require **a certain amount of compromise and mutual accommodation to the other's needs**  
+    - Gather Information and Test Your Perceptions  
+        + ask their advice 
+        + "help me understand how you would feel and how you might think, if you were in my shoes"
+    - **ask what standards should apply**    
+        + look for standards or fair principles to guide a resolution  
+        +   If you can’t find a creative way to solve the problem, **ask what standards of fairness should apply, and why**  
+
+    - If you still cann't agree, **consider your alternatives**    
+        + Should you accept less than what you want, or should you accept the consequences of not agreeing
+
