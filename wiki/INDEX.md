@@ -43,10 +43,11 @@
 - [[financial-independence]] - Independence goal, cash as oxygen, sleep at night.
 
 ## People Games (*Games People Play* / 人間遊戲)
-- [[ego-states]] - Parent, Adult, and Child as structural units; switch by circumstance.
-- [[time-structuring]] - Strokes, stimulation/recognition/structure hungers; procedures and rituals.
-- [[psychological-games]] - Hidden-payoff patterns; know when to quit; sulker and weirdo types.
-- [[autonomy]] - Awareness, spontaneity, intimacy; leave games and cultural scripts.
+- [[ego-states]] - Parent, Adult, and Child as structural units; adapted vs natural Child; switch by circumstance.
+- [[transactions]] - Complementary, crossed, and ulterior exchanges; the unit beneath games.
+- [[time-structuring]] - Strokes and three hungers; rituals → pastimes → games → intimacy.
+- [[psychological-games]] - Ulterior series to a dramatic payoff; script, degrees, antithesis; know when to quit.
+- [[autonomy]] - Awareness, spontaneity, intimacy; friendly divorce from Parental scripts.
 
 ## Stoicism
 - [[dichotomy-of-control]] - Categorizing life into controllable and uncontrollable elements.
