@@ -2,10 +2,16 @@
 
 ## Difficult Conversations (*Difficult Conversations*)
 - [[difficult-conversations]] - Raise vs avoid; shift from message delivery to a learning conversation.
-- [[three-conversations]] - What Happened, Feelings, and Identity run in every hard talk.
+- [[three-conversations]] - What Happened, Feelings, and Identity; different stories; learning conversation.
+- [[intentions-and-impact]] - Speak to impact; inquire about intentions; good intent ≠ erased impact.
+- [[contribution-system]] - Blame judges; contribution understands; map joint inputs.
 - [[feelings-conversation]] - Unexpressed feelings block listening; share the pure feeling first.
 - [[identity-conversation]] - What’s at stake for who you are; hold a complex self.
 - [[conversation-purpose]] - Choose whether to raise; if you talk: learn, express, problem-solve.
+- [[third-story]] - Open from a joint third story; invite partnership.
+- [[listen-from-inside-out]] - Authentic curiosity; manage internal voice; acknowledge before solving.
+- [[expression]] - Speak for yourself with clarity and power; heart of the matter.
+- [[problem-solving-lead]] - Reframe to learning; “and” both stories; standards and alternatives.
 
 ## Charm (*The Power of Charm*)
 - [[charm]] - Learned social skill: raise others’ sense of being valued; self-esteem and receptivity.

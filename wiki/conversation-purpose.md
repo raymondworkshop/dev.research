@@ -1,36 +1,33 @@
-[AI Synthesis]: There is no “right choice” whether to raise a conversation; think clearly, then if you talk, really talk. Purpose: learn their story, express your views and feelings, and problem-solve together.
+[AI Synthesis]: There is no perfect answer on whether to raise an issue. Weigh costs of engaging and of not engaging; if you talk, really talk — learn their story, express your views and feelings, and problem-solve together.
 
 ### Choose whether to raise
-* There is no “right choice.”
-* Think clearly as you make a considered choice — long-term pain vs potential benefits; what you do know and don’t know.
-* It’s your responsibility to do your best.
+* Weigh the pros and cons of raising the tough issue — costs of engaging and costs of not engaging.
+* Consider the long-term pain if you avoid, and the potential benefits if you invite a conversation.
+* Ask whether the real conflict is inside you; sorting feelings or contribution may mean a change in your behavior is enough.
+* If you’re going to talk, really talk.
 
-### If you talk, really talk
-* Three purposes: learning their story; expressing your views and feelings; problem-solving together.
-* Say what is important about your views, intentions, contributions, feelings, and identity issues.
-* Opening purpose: invite the other person into a joint exploration.
-* If you’re curious about their perspective, going forward: satisfy both needs; where they conflict, ensure a fair and workable way to resolve.
-
-### Authenticity and expression
-* Authenticity means you are listening because you are curious and because you care.
-* Express with clarity and power: figure out what you are really thinking and feeling, then say it directly.
-* Not only sharing your own views — create an environment where everyone feels encouraged to share; make that space as safe and inviting as possible.
+### Three purposes that work
+* Learning their story: what information did they see that you missed? What is their reasoning? Intentions? Feelings?
+* Expressing your views and feelings: what is important to say about your views, intentions, contributions, feelings, and identity issues — share your story.
+* Problem-solving together: can you satisfy both needs? Where needs conflict, work toward a fair way forward.
 
 ### Actions
-* Do your best — that’s your responsibility.
-* Ask: What information do they see? What past experiences? What is their reasoning? Intentions? Feeling? What does it mean to them?
-* Are you curious? Do you care?
+* Weigh long-term avoidance pain against benefits of inviting the talk.
+* If you raise it, hold three purposes: learn, express, problem-solve — not only deliver a message.
+* Ask what information they see, their reasoning, intentions, and feelings.
 
 ## Sources
 
 | Source | Location | Role |
 |--------|----------|------|
-| notes/2026-07-30-difficult-conversations.md | ch7 What’s Your Purpose; ch8 Getting Started; ch9 Learning; ch10 Expression | highlights |
+| notes/2026-08-29-difficult-conversations.md | ch7 What’s Your Purpose | highlights |
 
 ## Related Topics
 - [[difficult-conversations]]
+- [[third-story]]
+- [[listen-from-inside-out]]
+- [[expression]]
+- [[problem-solving-lead]]
 - [[three-conversations]]
 - [[feelings-conversation]]
 - [[identity-conversation]]
-- [[listening]]
-- [[conversation]]

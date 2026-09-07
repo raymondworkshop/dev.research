@@ -342,7 +342,7 @@ TODO
     **Speak for yourself and you speak with power**  
        
 
-## 11 **Problem-Solving: Take the Lead**    
+## 11. **Problem-Solving: Take the Lead**    
 * “**So I wanted to raise it, but I was nervous. Then I remembered the advice about not trying to control the other person’s reaction. I’m raising it because I think it’s important, and I’m going to do it as well as I can, and if Michael isn’t interested in talking, or if he isn’t open, well, at least I tried, and I can feel good that I stuck up for myself.**”
 
 
@@ -383,3 +383,5 @@ TODO
     - If you still cann't agree, **consider your alternatives**    
         + Should you accept less than what you want, or should you accept the consequences of not agreeing
 
+## ch12 Putting it all together  
+TODO  

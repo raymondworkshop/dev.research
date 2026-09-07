@@ -1,35 +1,41 @@
-[AI Synthesis]: Feelings sit at the heart of what’s wrong; unexpressed feelings block listening. Share the pure feeling first — “I feel…” — rather than only solving the problem.
+[AI Synthesis]: Feelings sit at the heart of what’s wrong; unexpressed feelings block listening and self-esteem. Negotiate with your feelings first, then say “I feel…” and address the full spectrum — not only the problem to solve.
 
-### Unexpressed feelings make it difficult to listen
-* Feelings are at the heart of what’s wrong.
-* Solving problems seems easier than talking about emotions.
-* Unexpressed feelings can block our ability to listen.
+### Feelings at the heart
+* Feelings let us know that we are fully alive; they are often at the heart of what’s wrong.
+* We try to frame feelings out of the problem.
+* Our listening ability often increases once we have expressed our own strong feelings.
+* When important feelings remain unexpressed, you may lose self-esteem, wondering why you don’t stick up for yourself.
 
-### Share pure feelings
-* Just share: share pure feelings — your actual feelings, not only to get them out.
-* Once we have expressed our own strong feelings, we can paint a more complete picture.
-* State the pure feeling first: “I feel…”
-* Negotiate with your feelings; know what they are.
+### Find where feelings hide
+* Explore your emotional footprint: which emotions were easy or hard in childhood; how that footprint shows up across relationships.
+* When you undervalue your own feelings and interests, others may treat your needs as if they don’t matter.
+* Don’t let hidden feelings block other emotions — find an entire spectrum.
+* Find feelings lurking under attributions, judgments, and accusations.
 
-### Emotional footprint
-* Exploring the contours of your footprint across a variety of relationships raises awareness of what you are likely to be feeling and why.
+### Negotiate before you speak
+* Examine your own story; changing feelings often means altering thinking — including what the other person’s story might be.
+* Check assumptions about their intentions; consider the contribution system.
+* If feelings are the real issue, feelings should be addressed.
+* Express the full spectrum; say “I feel…”; acknowledge feelings and steer back to understanding.
 
 ### Actions
-* If feelings are the real issue, address feelings.
-* State the pure feeling first (“I feel…”); acknowledge feelings well.
-* Close your eyes, take deep breaths, step away to calm down if you need to.
-* Debrief with a mentor later if useful.
+* State the pure feeling first (“I feel…”); express the full spectrum, not a simplified blame story.
+* Before speaking, recheck story, intentions assumptions, and contribution.
+* Acknowledge their feelings, then ask what that means to them and what they were hoping for.
 
 ## Sources
 
 | Source | Location | Role |
 |--------|----------|------|
-| notes/2026-07-30-difficult-conversations.md | ch5 Have Your Feelings | highlights |
+| notes/2026-08-29-difficult-conversations.md | ch5 Have Your Feelings | highlights |
 
 ## Related Topics
 - [[difficult-conversations]]
 - [[three-conversations]]
 - [[identity-conversation]]
+- [[intentions-and-impact]]
+- [[contribution-system]]
+- [[listen-from-inside-out]]
 - [[listening]]
 - [[emotions]]
 - [[conversation-purpose]]
