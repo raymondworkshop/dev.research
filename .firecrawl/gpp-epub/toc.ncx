@@ -1,0 +1,417 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1" xml:lang="eng">
+  <head>
+    <meta content="e1ae8dfd-54ca-4db3-95b8-a4e514a4cb50" name="dtb:uid"/>
+    <meta content="3" name="dtb:depth"/>
+    <meta content="calibre (0.8.24)" name="dtb:generator"/>
+    <meta content="0" name="dtb:totalPageCount"/>
+    <meta content="0" name="dtb:maxPageNumber"/>
+  </head>
+  <docTitle>
+    <text>Games People Play: The Psychology of Human Relationships</text>
+  </docTitle>
+  <navMap>
+    <navPoint class="chapter" id="6ed5534b-c51c-4c6f-9280-5085effd2f4d" playOrder="1">
+      <navLabel>
+        <text>Preface</text>
+      </navLabel>
+      <content src="dummy_split_007.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="5712262f-e681-49d0-8b0d-f4a3c4caff2f" playOrder="2">
+      <navLabel>
+        <text>Introduction</text>
+      </navLabel>
+      <content src="dummy_split_008.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="a7176a22-b7b1-453d-ac1b-202416d8e081" playOrder="3">
+      <navLabel>
+        <text>PART ONE</text>
+      </navLabel>
+      <content src="dummy_split_009.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="a5bbc0f2-6216-4950-81ad-58a774f7a26f" playOrder="3">
+      <navLabel>
+        <text>ANALYSIS OF GAMES</text>
+      </navLabel>
+      <content src="dummy_split_009.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="15f4f47f-fa23-4a28-ad4a-e541ef63d2af" playOrder="3">
+      <navLabel>
+        <text>1 Structural Analysis</text>
+      </navLabel>
+      <content src="dummy_split_009.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="9fbcbd8b-d6a1-4cb5-9d77-2426f631b2f6" playOrder="4">
+      <navLabel>
+        <text>2 Transactional Analysis</text>
+      </navLabel>
+      <content src="dummy_split_012.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="4f2bfd7a-0b99-4ccb-9228-9a8385ed4b1b" playOrder="5">
+      <navLabel>
+        <text>3 Procedures and Rituals</text>
+      </navLabel>
+      <content src="dummy_split_013.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="37dc318c-da05-4de2-9b59-6716733365ad" playOrder="6">
+      <navLabel>
+        <text>4 Pastimes</text>
+      </navLabel>
+      <content src="dummy_split_014.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="8eee6c34-4985-4019-a622-deb46dd842dd" playOrder="7">
+      <navLabel>
+        <text>5 Games</text>
+      </navLabel>
+      <content src="dummy_split_015.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="9a66e8aa-15bb-4001-8f04-a81c7831b335" playOrder="8">
+      <navLabel>
+        <text>PART TWO</text>
+      </navLabel>
+      <content src="dummy_split_019.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="ed33074b-5500-48fa-8237-1955be27c6a7" playOrder="8">
+      <navLabel>
+        <text>A THESAURUS OF GAMES</text>
+      </navLabel>
+      <content src="dummy_split_019.html"/>
+      <navPoint class="chapter" id="492d1ba6-49bc-498e-b7e1-f184b4bc49cf" playOrder="8">
+        <navLabel>
+          <text>Introduction</text>
+        </navLabel>
+        <content src="dummy_split_019.html"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="b97448ed-7638-4c68-a3ae-7eff764e79d8" playOrder="8">
+      <navLabel>
+        <text>6 Life Games</text>
+      </navLabel>
+      <content src="dummy_split_019.html"/>
+      <navPoint class="chapter" id="e4b73c08-879f-4a9c-8863-c907af08630f" playOrder="9">
+        <navLabel>
+          <text>1. Alcoholic</text>
+        </navLabel>
+        <content src="dummy_split_019.html#filepos139605"/>
+      </navPoint>
+      <navPoint class="chapter" id="e5eec5a2-1100-4743-9c21-efab15874d6f" playOrder="10">
+        <navLabel>
+          <text>2. Debtor</text>
+        </navLabel>
+        <content src="dummy_split_019.html#filepos158194"/>
+      </navPoint>
+      <navPoint class="chapter" id="bc9143cb-39c5-4b92-97ee-9b8718c24df1" playOrder="11">
+        <navLabel>
+          <text>3. Kick Me</text>
+        </navLabel>
+        <content src="dummy_split_019.html#filepos165557"/>
+      </navPoint>
+      <navPoint class="chapter" id="603f2eda-4fad-4225-b8ab-409bf731ac23" playOrder="12">
+        <navLabel>
+          <text>4. Now I’ve Got You, You Son of a Bitch</text>
+        </navLabel>
+        <content src="dummy_split_019.html#filepos168022"/>
+      </navPoint>
+      <navPoint class="chapter" id="34c331cc-61aa-4d60-aca3-e62daf85404e" playOrder="13">
+        <navLabel>
+          <text>5. See What You Made Me Do</text>
+        </navLabel>
+        <content src="dummy_split_019.html#filepos174648"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="188ed61c-192a-44c5-b248-05d4775419f0" playOrder="14">
+      <navLabel>
+        <text>7 Marital Games</text>
+      </navLabel>
+      <content src="dummy_split_020.html"/>
+      <navPoint class="chapter" id="4ad2923c-39a4-42a6-8b35-69ea8dac8d79" playOrder="15">
+        <navLabel>
+          <text>1. Corner</text>
+        </navLabel>
+        <content src="dummy_split_020.html#filepos184141"/>
+      </navPoint>
+      <navPoint class="chapter" id="ac5a2b30-ece5-45a8-960f-b23bb130410f" playOrder="16">
+        <navLabel>
+          <text>2. Courtroom</text>
+        </navLabel>
+        <content src="dummy_split_020.html#filepos192706"/>
+      </navPoint>
+      <navPoint class="chapter" id="855686f6-3311-4399-8a7a-3980ac79ec71" playOrder="17">
+        <navLabel>
+          <text>3. Frigid Woman</text>
+        </navLabel>
+        <content src="dummy_split_020.html#filepos199655"/>
+      </navPoint>
+      <navPoint class="chapter" id="a15b3514-47ec-4c20-bf1d-3807e739c339" playOrder="18">
+        <navLabel>
+          <text>4. Harried</text>
+        </navLabel>
+        <content src="dummy_split_020.html#filepos208169"/>
+      </navPoint>
+      <navPoint class="chapter" id="824d1dd1-f6b6-4974-9f43-aa6b2825e19f" playOrder="19">
+        <navLabel>
+          <text>5. If It Weren’t for You</text>
+        </navLabel>
+        <content src="dummy_split_020.html#filepos215366"/>
+      </navPoint>
+      <navPoint class="chapter" id="f9fcd145-2e96-416a-b6c5-1d023feb4f67" playOrder="20">
+        <navLabel>
+          <text>6. Look How Hard I’ve Tried</text>
+        </navLabel>
+        <content src="dummy_split_020.html#filepos216836"/>
+      </navPoint>
+      <navPoint class="chapter" id="209e3b28-d91c-43ae-b77b-2d94b06565ba" playOrder="21">
+        <navLabel>
+          <text>7. Sweetheart</text>
+        </navLabel>
+        <content src="dummy_split_020.html#filepos224961"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="372acb57-33b7-4e86-a072-c7b87e04b3a2" playOrder="22">
+      <navLabel>
+        <text>8 Party Games</text>
+      </navLabel>
+      <content src="dummy_split_021.html"/>
+      <navPoint class="chapter" id="eb682087-ad9b-47cc-9838-b335ddb26398" playOrder="23">
+        <navLabel>
+          <text>1. Ain’t It Awful</text>
+        </navLabel>
+        <content src="dummy_split_021.html#filepos228817"/>
+      </navPoint>
+      <navPoint class="chapter" id="d8710312-7d9d-4b6e-8c81-8d64955b4360" playOrder="24">
+        <navLabel>
+          <text>2. Blemish</text>
+        </navLabel>
+        <content src="dummy_split_021.html#filepos234498"/>
+      </navPoint>
+      <navPoint class="chapter" id="329a0fab-8d52-4eef-b5c6-dcd93c7190a4" playOrder="25">
+        <navLabel>
+          <text>3. Schlemiel</text>
+        </navLabel>
+        <content src="dummy_split_021.html#filepos237423"/>
+      </navPoint>
+      <navPoint class="chapter" id="f3f8d92c-132d-452b-a159-3d10919cbdde" playOrder="26">
+        <navLabel>
+          <text>4. Why Don’t You – Yes But</text>
+        </navLabel>
+        <content src="dummy_split_021.html#filepos243220"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="1847914f-77e5-4453-ac50-e44048bac0bf" playOrder="27">
+      <navLabel>
+        <text>9 Sexual Games</text>
+      </navLabel>
+      <content src="dummy_split_022.html"/>
+      <navPoint class="chapter" id="7a861398-c58a-486b-902e-5f111a873fbd" playOrder="28">
+        <navLabel>
+          <text>1. Let’s You and Him Fight</text>
+        </navLabel>
+        <content src="dummy_split_022.html#filepos261959"/>
+      </navPoint>
+      <navPoint class="chapter" id="f86edb0f-d370-442a-a75c-a71d688c5bee" playOrder="29">
+        <navLabel>
+          <text>2. Perversion</text>
+        </navLabel>
+        <content src="dummy_split_022.html#filepos263782"/>
+      </navPoint>
+      <navPoint class="chapter" id="6c4bb532-4739-468c-90d3-d85e05a28452" playOrder="30">
+        <navLabel>
+          <text>3. Rapo</text>
+        </navLabel>
+        <content src="dummy_split_022.html#filepos266907"/>
+      </navPoint>
+      <navPoint class="chapter" id="65926429-0e19-4a54-a89c-f1f60d08ec33" playOrder="31">
+        <navLabel>
+          <text>4. The Stocking Game</text>
+        </navLabel>
+        <content src="dummy_split_022.html#filepos275362"/>
+      </navPoint>
+      <navPoint class="chapter" id="ebcedaec-a81a-4c1c-8369-1dbf33bb5d41" playOrder="32">
+        <navLabel>
+          <text>5. Uproar</text>
+        </navLabel>
+        <content src="dummy_split_022.html#filepos278173"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="81055914-7c8d-4577-9af4-329ebef4aee3" playOrder="33">
+      <navLabel>
+        <text>10 Underworld Games</text>
+      </navLabel>
+      <content src="dummy_split_023.html"/>
+      <navPoint class="chapter" id="d79d28fb-2e73-48e9-881e-d40e01fb40f9" playOrder="34">
+        <navLabel>
+          <text>1. Cops and Robbers</text>
+        </navLabel>
+        <content src="dummy_split_023.html#filepos282652"/>
+      </navPoint>
+      <navPoint class="chapter" id="7efd9dad-cfc3-45ac-8209-59dd88916bd3" playOrder="35">
+        <navLabel>
+          <text>2. How Do You Get Out of Here</text>
+        </navLabel>
+        <content src="dummy_split_023.html#filepos294157"/>
+      </navPoint>
+      <navPoint class="chapter" id="18784026-e8c8-4b4c-a89b-f8b748ec1d91" playOrder="36">
+        <navLabel>
+          <text>3. Let’s Pull a Fast One on Joey</text>
+        </navLabel>
+        <content src="dummy_split_023.html#filepos298579"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="4f2024c3-a08a-46d7-86d5-8dd759aebf66" playOrder="37">
+      <navLabel>
+        <text>11 Consulting Room Games</text>
+      </navLabel>
+      <content src="dummy_split_024.html"/>
+      <navPoint class="chapter" id="b56c4410-4b5b-488f-9ba6-63f1d2833ee5" playOrder="38">
+        <navLabel>
+          <text>1. Greenhouse</text>
+        </navLabel>
+        <content src="dummy_split_024.html#filepos304363"/>
+      </navPoint>
+      <navPoint class="chapter" id="aa9e39c6-df07-4d83-b23c-71edb7db4ada" playOrder="39">
+        <navLabel>
+          <text>2. I’m Only Trying to Help You</text>
+        </navLabel>
+        <content src="dummy_split_024.html#filepos308012"/>
+      </navPoint>
+      <navPoint class="chapter" id="f7f5cbbd-5dba-4e82-92ab-e459fdd1459e" playOrder="40">
+        <navLabel>
+          <text>3. Indigence</text>
+        </navLabel>
+        <content src="dummy_split_024.html#filepos318819"/>
+      </navPoint>
+      <navPoint class="chapter" id="593ca494-f2d2-446d-be69-6d75e6c58503" playOrder="41">
+        <navLabel>
+          <text>4. Peasant</text>
+        </navLabel>
+        <content src="dummy_split_024.html#filepos327888"/>
+      </navPoint>
+      <navPoint class="chapter" id="80eda7d3-0c9e-4d37-8f1b-0ba37f12102e" playOrder="42">
+        <navLabel>
+          <text>5. Psychiatry</text>
+        </navLabel>
+        <content src="dummy_split_024.html#filepos335039"/>
+      </navPoint>
+      <navPoint class="chapter" id="89daf8f6-984f-42ce-adfe-cffdeb4de801" playOrder="43">
+        <navLabel>
+          <text>6. Stupid</text>
+        </navLabel>
+        <content src="dummy_split_024.html#filepos343417"/>
+      </navPoint>
+      <navPoint class="chapter" id="bf701a69-9c0a-4b75-b9ed-d3c9c6d086aa" playOrder="44">
+        <navLabel>
+          <text>7. Wooden Leg</text>
+        </navLabel>
+        <content src="dummy_split_024.html#filepos347999"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="faf6fdd1-6a48-4017-9733-147acc599248" playOrder="45">
+      <navLabel>
+        <text>12 Good Games</text>
+      </navLabel>
+      <content src="dummy_split_025.html"/>
+      <navPoint class="chapter" id="08da10af-70a3-4b48-b55d-b4a8c8034cdc" playOrder="46">
+        <navLabel>
+          <text>1. Busman’s Holiday</text>
+        </navLabel>
+        <content src="dummy_split_025.html#filepos357631"/>
+      </navPoint>
+      <navPoint class="chapter" id="aea337cf-b552-46c9-8172-d084ab32c344" playOrder="47">
+        <navLabel>
+          <text>2. Cavalier</text>
+        </navLabel>
+        <content src="dummy_split_025.html#filepos358835"/>
+      </navPoint>
+      <navPoint class="chapter" id="b6929df7-2281-4694-bbdf-3c86db10f82c" playOrder="48">
+        <navLabel>
+          <text>3. Happy to Help</text>
+        </navLabel>
+        <content src="dummy_split_025.html#filepos364079"/>
+      </navPoint>
+      <navPoint class="chapter" id="8108d124-82db-4728-8ed1-0d774d013839" playOrder="49">
+        <navLabel>
+          <text>4. Homely Sage</text>
+        </navLabel>
+        <content src="dummy_split_025.html#filepos366313"/>
+      </navPoint>
+      <navPoint class="chapter" id="56510533-bf58-4f3b-a3f0-415a69715119" playOrder="50">
+        <navLabel>
+          <text>5. They’ll Be Glad They Knew Me</text>
+        </navLabel>
+        <content src="dummy_split_025.html#filepos367398"/>
+      </navPoint>
+    </navPoint>
+    <navPoint class="chapter" id="b01921f1-9ecb-42b6-b601-b502519e73de" playOrder="51">
+      <navLabel>
+        <text>PART THREE</text>
+      </navLabel>
+      <content src="dummy_split_026.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="8b3f6be8-b289-4dff-be9e-591f0d6f7e62" playOrder="51">
+      <navLabel>
+        <text>BEYOND GAMES</text>
+      </navLabel>
+      <content src="dummy_split_026.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="68a41d05-eb52-4298-a9d2-8f9feee4079b" playOrder="51">
+      <navLabel>
+        <text>13 The Significance of Games</text>
+      </navLabel>
+      <content src="dummy_split_026.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="3eb7f5da-cd1c-4c8a-86c0-c107484786db" playOrder="52">
+      <navLabel>
+        <text>14 The Players</text>
+      </navLabel>
+      <content src="dummy_split_029.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="7a035ba4-03ee-43a4-a5e4-2af1c492cace" playOrder="53">
+      <navLabel>
+        <text>15 A Paradigm</text>
+      </navLabel>
+      <content src="dummy_split_030.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="373c2e9e-5b36-4fd4-a0e9-30546a4420eb" playOrder="54">
+      <navLabel>
+        <text>16 Autonomy</text>
+      </navLabel>
+      <content src="dummy_split_031.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="1a301390-7889-4ace-9932-fa9c300c4bca" playOrder="55">
+      <navLabel>
+        <text>17 The Attainment of Autonomy</text>
+      </navLabel>
+      <content src="dummy_split_032.html"/>
+    </navPoint>
+    <navPoint class="chapter" id="d379751e-4a32-40e8-a4dc-0c01a1b5ec2c" playOrder="56">
+      <navLabel>
+        <text>18 After Games, What?</text>
+      </navLabel>
+      <content src="dummy_split_033.html"/>
+      <navPoint class="chapter" id="12ddbb9f-092a-4a52-86db-2054c3ed5d99" playOrder="57">
+        <navLabel>
+          <text>Appendix The Classification of Behaviour</text>
+        </navLabel>
+        <content src="dummy_split_034.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="51d5d28b-ea97-45aa-a5a7-4396aa302949" playOrder="58">
+        <navLabel>
+          <text>Index of Pastimes and Games</text>
+        </navLabel>
+        <content src="dummy_split_035.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="68807fa5-498e-4da3-a9a9-7c40cb999ae7" playOrder="59">
+        <navLabel>
+          <text>Author Index</text>
+        </navLabel>
+        <content src="dummy_split_036.html"/>
+      </navPoint>
+      <navPoint class="chapter" id="302905e0-18a1-4959-8352-5d1e5684bc05" playOrder="60">
+        <navLabel>
+          <text>Subject Index</text>
+        </navLabel>
+        <content src="dummy_split_037.html"/>
+      </navPoint>
+    </navPoint>
+  </navMap>
+</ncx>
