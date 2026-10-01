@@ -1,3 +1,3 @@
 
-#### Master the readings with AI  
+#### Mastery with AI
 
