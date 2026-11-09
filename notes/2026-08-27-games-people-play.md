@@ -1,5 +1,6 @@
 ---
 title: "Games People Play"
+related: ["!Difficult Conversations", "!Improve your charm", "!Learn about good Soft skills", "!notes on 'I love you but'", "!Notes on 萧若元"]
 author: "艾瑞克．伯恩（Eric Berne）"
 asset_id: AE99F1B7738F83C095BBC66D9C5A3C20
 highlights: 63

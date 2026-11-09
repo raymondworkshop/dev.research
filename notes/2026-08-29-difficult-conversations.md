@@ -1,5 +1,6 @@
 ---
 title: "!Difficult Conversations"
+related: ["!Improve your charm", "!Learn about good Soft skills", "!notes on 'I love you but'", "!Notes on 萧若元", About Spiritual world]
 author: "Douglas Stone"
 asset_id: 24CC6EBB3F6A3D98FE1618734CC7DED0
 highlights: 148

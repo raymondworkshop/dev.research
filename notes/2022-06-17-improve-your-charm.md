@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "!Improve your charm"
+related: [Weekly Review, Daily Review, "Skills: How to work on hard Things", "notes on 'the rule of life'", Notes on how to influence people]
 date: 2022-06-17
 comments: true
 categories: [learning, thinking, self, important, health]
@@ -160,7 +161,7 @@ abstract: "Notes on Energy - body, diets, sleep  "
     - **do deep work on your most valuable projects**
     - your distracted time is "Manager" time
 
-- daily review and weekly review
+- [[Daily Review]] and [[Weekly Review]]
 
 - time management is about energy management
 

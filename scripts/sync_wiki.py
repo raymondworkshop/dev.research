@@ -210,7 +210,7 @@ def call_llm(prompt: str, max_tokens: int) -> str:
             print(f"→ Calling {url}", flush=True)
             print(
                 f"  model={model} stream=false "
-                f"(gemma4 can take several minutes; heartbeat every 15s)",
+                f"(ultra/gpt can take several minutes; heartbeat every 15s)",
                 flush=True,
             )
             started = time.monotonic()

@@ -1,5 +1,6 @@
 ---
 title: "The Power of Charm : How to Win Anyone Over in Any Situation"
+related: ["!Difficult Conversations", "!Improve your charm", "!Learn about good Soft skills", "!notes on 'I love you but'", "!Notes on 萧若元"]
 author: "Tracy, Brian.; Arden, Ron."
 asset_id: E5527B4657D990B6A912866FA94EE831
 highlights: 258

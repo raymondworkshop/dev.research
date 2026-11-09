@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "!Learn about good Soft skills"
+related: ["!notes on 'I love you but'", "Notes on 'Games of Thones'", "notes on 'the rule of life'", "Notes on 'Hamlet'", notes on The Origins of Political Order]
 date: 2017-11-17
 comments: true
 categories: [softskills, communication, important, notes, learning]

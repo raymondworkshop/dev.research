@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Notes on how to influence people"
+related: ["!Improve your charm", "notes on 'the rule of life'", "Skills: How to work on hard Things", "!Learn about good Soft skills", "!notes on 'I love you but'"]
 date: 2020-06-20 
 update: 2026-04-21
 comments: true

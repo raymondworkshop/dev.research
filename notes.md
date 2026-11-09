@@ -4,7 +4,7 @@
 
 
 ### ideas     
-* Use AI like a disciplined AI reading   partner  
+* Use AI like a disciplined AI reading partner  
     - propressing  
         > makrdown the book  
         > notes the hightlights 

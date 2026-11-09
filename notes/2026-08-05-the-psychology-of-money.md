@@ -1,5 +1,6 @@
 ---
 title: "The Psychology of Money"
+related: ["!Difficult Conversations", "!Improve your charm", "!Learn about good Soft skills", "!notes on 'I love you but'", "!Notes on 萧若元"]
 author: "Morgan  Housel"
 asset_id: 3BD0B6F48590CF925F45E9ACC70CA396
 highlights: 147
@@ -32,6 +33,9 @@ labels: green→theme heading; purple→bold; yellow→info; pink→insights; bl
         - 波動率（Vega）：市場預期波動愈大，期權金愈貴。在開契（如業績公佈）前買入，常能帶動期權金上升  
 
     - 如何利用持有的正股做「備兌認購期權（Covered Call）」穩賺收息  
+
+* 看一只股，想买。
+    - 先管住手，**卖它的put， put进来就买入， 进不来，就收权利金**
 
 # The Psychology of Money
 

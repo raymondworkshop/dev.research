@@ -1,5 +1,6 @@
 ---
 title: "Seduction Bible Become a High-Value Man  Sleep with Beautiful Women"
+related: [Seduction Bible, "!Difficult Conversations", "!Improve your charm", "!Learn about good Soft skills", "!notes on 'I love you but'"]
 author: "Unknown"
 source_file: books/Seduction Bible Become a High-Value Man  Sleep with Beautiful Women.pdf
 highlights: 16
@@ -8,7 +9,7 @@ source: pdf-annotations
 labels: green→theme heading; purple→bold; yellow→info; pink→insights; blue→how
 ---
 
-# Seduction Bible Become a High-Value Man  Sleep with Beautiful Women
+# [[Seduction Bible]] Become a High-Value Man  Sleep with Beautiful Women
 
 *Unknown*
 
