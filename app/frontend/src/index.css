@@ -1,6 +1,8 @@
 @import "tailwindcss";
 
 @theme {
+  --font-serif:
+    "Iowan Old Style", Palatino, "Palatino Linotype", "Songti SC", "Source Han Serif SC", Georgia, serif;
   --color-sage-50: #f4f6f3;
   --color-sage-100: #e8ede6;
   --color-sage-300: #b8c4b0;
@@ -14,14 +16,19 @@ body {
   margin: 0;
   min-height: 100vh;
   font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "SF Pro Text",
+    "PingFang SC",
     "PingFang TC",
-    "Noto Sans TC",
-    "Source Han Sans TC",
-    "Segoe UI",
-    system-ui,
+    "Helvetica Neue",
+    Helvetica,
+    Arial,
     sans-serif;
-  background: #f4f1ea;
-  color: #1c1917;
+  font-size: 17px;
+  line-height: 1.75;
+  background: #fff;
+  color: #1a1d21;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -30,48 +37,57 @@ body {
 }
 
 .wiki-prose {
-  color: #44403c;
-  font-size: 15px;
-  line-height: 1.7;
+  color: #1a1d21;
+}
+.wiki-prose h1,
+.wiki-prose h2,
+.wiki-prose h3 {
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.3;
+  color: #1a1d21;
 }
 .wiki-prose h1 {
   margin: 0 0 0.75rem;
-  font-size: 1.75rem;
-  font-weight: 600;
-  letter-spacing: -0.02em;
-  color: #1c1917;
+  font-size: 1.55rem;
 }
 .wiki-prose h2 {
-  margin: 1.75rem 0 0.5rem;
-  font-size: 1.05rem;
-  font-weight: 600;
-  color: #1c1917;
+  margin: 2rem 0 0.75rem;
+  font-size: 1.28rem;
 }
 .wiki-prose h3 {
-  margin: 1.25rem 0 0.4rem;
-  font-size: 0.95rem;
-  font-weight: 600;
-  color: #292524;
+  margin: 2rem 0 0.75rem;
+  font-size: 1.15rem;
 }
 .wiki-prose p,
 .wiki-prose ul,
 .wiki-prose ol {
-  margin: 0.4rem 0 0.7rem;
+  margin: 0 0 1.25rem;
+}
+.wiki-prose ul,
+.wiki-prose ol {
+  padding-left: 1.35rem;
 }
 .wiki-prose ul {
-  padding-left: 1.15rem;
   list-style: disc;
 }
 .wiki-prose li {
-  margin: 0.2rem 0;
+  margin: 0 0 0.35rem;
 }
-.wiki-prose a {
-  color: #4a5745;
+.wiki-prose ul > li::marker {
+  color: #8a8f96;
+}
+.wiki-prose a,
+a.wikilink {
+  color: #2b5d4e;
   text-decoration: underline;
-  text-underline-offset: 2px;
+  text-decoration-color: color-mix(in srgb, #2b5d4e 40%, transparent);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
 }
-.wiki-prose a:hover {
-  color: #2f382c;
+.wiki-prose a:hover,
+a.wikilink:hover {
+  color: #174033;
 }
 .wiki-prose table {
   width: 100%;
@@ -81,22 +97,35 @@ body {
 }
 .wiki-prose th,
 .wiki-prose td {
-  border: 1px solid #e7e5e4;
-  padding: 0.4rem 0.55rem;
+  border: none;
+  border-bottom: 1px solid #e7e5e4;
+  padding: 0.45rem 0.6rem 0.45rem 0;
   text-align: left;
   vertical-align: top;
 }
 .wiki-prose th {
-  background: #fff;
-  font-weight: 600;
+  font-weight: 500;
+  color: #78716c;
 }
 .wiki-prose blockquote {
-  margin: 0.75rem 0;
-  padding-left: 0.85rem;
-  border-left: 3px solid #c5cebf;
-  color: #57534e;
+  margin: 1.4rem 0;
+  padding: 0.05rem 0 0.05rem 1.05rem;
+  border-left: 2px solid #2b5d4e;
+  color: #8a8f96;
+}
+
+.reading-nav {
+  margin: 0 0 0.85rem;
+  font-size: 0.88rem;
+}
+.reading-nav a {
+  color: #2b5d4e;
+  text-decoration: none;
+}
+.reading-nav a:hover {
+  color: #174033;
 }
 
 ::selection {
-  background: rgba(107, 125, 100, 0.25);
+  background: rgba(43, 93, 78, 0.14);
 }

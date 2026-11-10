@@ -36,10 +36,9 @@ export function AskPage() {
   )
 
   return (
-    <div className="relative min-h-screen">
-      <div className="pointer-events-none fixed inset-0 -z-10 bg-[#f4f1ea]" />
+    <div className="relative mx-auto flex min-h-screen max-w-[40rem] flex-col px-[clamp(1rem,4vw,2rem)] pt-[clamp(1.25rem,5vw,2rem)]">
       <SiteHeader active="ask" />
-      <div className="mx-auto flex min-h-[calc(100vh-3.25rem)] max-w-lg flex-col">
+      <div className="flex min-h-0 flex-1 flex-col">
       <div className="flex items-center justify-end gap-2 px-4 pt-3">
         <LangSelector value={lang} onChange={setLang} />
         {!empty && (
@@ -70,7 +69,7 @@ export function AskPage() {
               <Chat messages={messages} streaming={streaming} lang={lang} />
             </div>
           </main>
-          <footer className="sticky bottom-0 border-t border-stone-200/50 bg-[#f4f1ea]/90 px-4 pt-3 pb-4 backdrop-blur-md">
+          <footer className="sticky bottom-0 bg-white/95 px-4 pt-3 pb-4 backdrop-blur-md">
             {composer()}
             <p className="mt-2.5 text-center text-[11px] leading-relaxed text-stone-400">{ui.disclaimer}</p>
           </footer>

@@ -7,21 +7,10 @@ export function WikiPage({ slug }: { slug: string }) {
   const md = wikiPages[slug]
   if (!md) {
     return (
-      <div className="relative min-h-screen">
-        <div className="pointer-events-none fixed inset-0 -z-10 bg-[#f4f1ea]" />
+      <div className="mx-auto min-h-screen max-w-[40rem] px-[clamp(1rem,4vw,2rem)] pt-[clamp(1.25rem,5vw,3.25rem)] pb-16">
         <SiteHeader active="page" />
-        <main className="mx-auto max-w-3xl px-4 py-16">
-          <p className="text-stone-500">No page named {slug}.</p>
-          <a
-            href="/"
-            className="mt-4 inline-block text-sage-700 hover:underline"
-            onClick={(e) => {
-              e.preventDefault()
-              navigate('/')
-            }}
-          >
-            Back to index
-          </a>
+        <main className="pt-[clamp(1.8rem,4vw,2.6rem)]">
+          <p className="text-[#8a8f96]">No page named {slug}.</p>
         </main>
       </div>
     )
@@ -30,22 +19,25 @@ export function WikiPage({ slug }: { slug: string }) {
   const html = renderWikiMarkdown(md)
 
   return (
-    <div className="relative min-h-screen">
-      <div className="pointer-events-none fixed inset-0 -z-10 bg-[#f4f1ea]" />
+    <div className="mx-auto min-h-screen max-w-[40rem] px-[clamp(1rem,4vw,2rem)] pt-[clamp(1.25rem,5vw,3.25rem)] pb-16">
       <SiteHeader active="page" />
-      <main className="mx-auto max-w-3xl px-4 py-8">
-        <a
-          href="/"
-          className="text-[13px] text-stone-400 hover:text-stone-700"
-          onClick={(e) => {
-            e.preventDefault()
-            navigate('/')
-          }}
-        >
-          ← Index
-        </a>
+      <main className="pt-[clamp(1.8rem,4vw,2.6rem)]">
+        <nav className="reading-nav" aria-label="Section">
+          <a
+            href="/"
+            onClick={(e) => {
+              e.preventDefault()
+              navigate('/')
+            }}
+          >
+            ← Index
+          </a>
+        </nav>
+        <h1 className="mb-6 text-[clamp(1.35rem,3vw,1.65rem)] font-semibold tracking-tight text-[#1a1d21]">
+          {slug}
+        </h1>
         <article
-          className="wiki-prose mt-4"
+          className="wiki-prose"
           dangerouslySetInnerHTML={{ __html: html }}
           onClick={(e) => {
             const a = (e.target as HTMLElement).closest('a')
@@ -56,19 +48,6 @@ export function WikiPage({ slug }: { slug: string }) {
             navigate(href)
           }}
         />
-        <p className="mt-12 text-[12px] text-stone-400">
-          <a
-            href="/ask"
-            className="hover:text-stone-600"
-            onClick={(e) => {
-              e.preventDefault()
-              navigate('/ask')
-            }}
-          >
-            Ask
-          </a>{' '}
-          to check this against notes/
-        </p>
       </main>
     </div>
   )

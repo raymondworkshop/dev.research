@@ -51,8 +51,9 @@ and **accomplish somethign that endures**
     - engage in tasks that are challenging yet match their capabilities  
     - find meaning and accomplishment in their work  
 
-### P3  Set Goals that max engagement  
-TODO  
+### P3  **Set Goals that max engagement**    
+* how does he max engagement or flow in his life?  
+    -  
 
 ### P8 - Build a bigger rocket - unleash the power of social comparison  
 
