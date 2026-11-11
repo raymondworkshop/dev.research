@@ -2,7 +2,7 @@
   "name": "research-worker",
   "private": true,
   "scripts": {
-    "deploy": "cd .. && wrangler pages deploy app/frontend/dist --project-name=wiki-research --branch=production --commit-dirty=true",
+    "deploy": "cd .. && CLOUDFLARE_ACCOUNT_ID=f5281e3704ad0fd4d42ce37c6af194f2 wrangler pages deploy app/frontend/dist --project-name=wiki-research --branch=production --commit-dirty=true",
     "dev": "wrangler dev --config ../wrangler.jsonc"
   },
   "devDependencies": {

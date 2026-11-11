@@ -52,8 +52,60 @@ and **accomplish somethign that endures**
     - find meaning and accomplishment in their work  
 
 ### P3  **Set Goals that max engagement**    
-* how does he max engagement or flow in his life?  
-    -  
+* **Ask yourself, what activities yield the greatest return on your time** ?   
+    -  by estimating how much it contributes to his goal of making money for hsi clients  
+    - **focusing on high return on time spent** activities are more likely to **align with your long-term goals and values**    
+
+
+* **Applying ROTS as a leader**     
+    - focus on high ROTS meeting  
+
+    - find flow in all aspects of your life  
+
+* Your goals should be **clear, and the rewards or feedback should be well-defined**     
+    - The business world, is full of randomness, which means non-linear goals  
+    - **SMART goals should be specific, measurable, achievalbe, realistic, and time-based**. Each of these elements max flow  
+
+### P4 **Prioritize Relationships**    
+* whether people emphasized **positive working relationships**    
+    - collaboration and mutual respect  
+    - elite athletes value two things in a coach: 
+    **feeling that they care about you as a person**, not just an athlete,
+    and **applicable feedback** that leads to improvement  
+
+* with clear rules of the game and genuine respect among team members  
+    -  Explain that you're about to **debate ideas, nothing personal**    
+    -  before you disagree, take a second to **point out sth you agree on**.  
+    "**We all agree that** ..., **but where I see things differently is** ..." 
+
+* foster a culture where people **ask for feedback**    
+    - effective collaboration is about **being able to disagree with mutual respect**    
+
+* **Culture drives everything**    
+    - Culture is **the shared set of norms, beliefs, and expected behaviors** in a group of people.  
+    - **safety, belonging, trust, and shared vulnerability** are essential building blocks of this type of **family culture**.  
+    - **culture is more about what you do** than what you say  
+
+* be mindful of **role clarity**  
+    - **who does what**? when teams aren't clear on who owns what, conflicts arise.
+        + rethinking some people's job definition or reporting lines,
+        as well as hiring and firing decisions  
+
+    - remind people that they have incentives to work together  
+
+    - **deliver the best the firm can offer** this client  
+        + **what do the client need**?  based on this, we may recommend ... 
+
+* Communication is essential, but **culture is more about what you do than what you say**    
+
+* your most important life goal should be to **nurture positive relationships**  
+    - ask about the culture and listen carefully to how people respond on collaborative company culture  
+        + ask for examples of corporate decisions that illustrate a positive culture  
+
+    - If I had to run a company on three measures, those measures would be **customer satisfaction, employee satisfaction, and cash flow**    
+
+### P5 TODO  
+
 
 ### P8 - Build a bigger rocket - unleash the power of social comparison  
 

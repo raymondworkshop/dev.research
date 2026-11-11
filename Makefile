@@ -12,7 +12,7 @@ help:
 	@echo "  make query    - Test RAG retrieval (MSG='...')"
 	@echo "  make serve    - Start FastAPI backend on :8000"
 	@echo "  make site     - Start backend + frontend"
-	@echo "  make publish  - Deploy to CF Pages (wiki-research.pages.dev)"
+	@echo "  make publish  - Deploy to CF Pages (wiki-research-4qo.pages.dev)"
 	@echo ""
 	@echo "Research Commands:"
 	@echo "  make markitdown BOOK='Think and Grow Rich' - Make markdown from a book file"
