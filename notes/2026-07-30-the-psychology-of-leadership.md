@@ -106,6 +106,24 @@ and **accomplish somethign that endures**
 
 ### P5 TODO  
 
+### P6 TODO  
+
+### P7 how they approach their work that makes them role models  
+* Your effectiveness as a leader depends in part on your ability to understand people's **motivations and mindsets**    
+    - **ask them what they like most about their jobs**    
+
+* **how they approach their work**?  
+    - who's for the accomplishment orientation?  
+    who's not focused on external rewards like fame and money?  
+    who keeps their ego in check and does good work every day?  
+
+    - Intrinsic motivation and big goals are great,
+    but only if they don't come at the expense of **your mental and physical health**,
+    your sense of balance, **strong family bonds**, and **positive and productive working relationships**    
+
+* expand your definition of compensation  
+    - competitive levels and differentiate based on performance  
+    - additional factors such as autonomy, power, prestige, the social aspects of work, or altruism  
 
 ### P8 - Build a bigger rocket - unleash the power of social comparison  
 
@@ -115,9 +133,9 @@ and **accomplish somethign that endures**
         why the organization is lucky to benefit from competitive advantages, or why their culture is special. Even in tough times, or especially in tough times, **gratitude lifts morale**.  
 
 *  **Internal competition should be secondary to collaboration** - or even a tool for it  
-    - Make interna lcompetition friendly and enjoyable  
-        - Internal competition must not come at the expense of  trust, mutual respect,
-        and a shared understanding of the team's mission  
+    - Make internal competition friendly and enjoyable  
+        - Internal competition **must not come at the expense of  trust, mutual respect,
+        and a shared understanding of the team's mission**  
     - **Rally your team** against a worthy competitor 
         - Most people **get more motivation through competition** than positive encouragement  
 
@@ -129,9 +147,63 @@ and **accomplish somethign that endures**
 * Core beliefs  
     - when you feel deeply about something  
 
-* Go ahead and **explore your childhood and traumatic or memorable life events** if needed. **Managing and upgrading your core beliefs will help you avoid frequent errors in judgment**,better allocate your time and energy, and ultimately, become a better leader   
+* Go ahead and **explore your childhood and traumatic or memorable life events** if needed. **Managing and upgrading your core beliefs will help you avoid frequent errors in judgment**, better allocate your time and energy, and ultimately, become a better leader   
 
 * TODO  
+
+### P13  **Focus on what matters**  
+* separate signal from noise is to **take a long-term perspective**  
+    
+* **find a mentor you can talk to about your challenges**    
+    - someone with experience and perspective  
+    - **ask them to provide a clinical, unbiased assessment of your challenges**    
+
+* **Stay close to revenues**    
+    - strive to get closer to clients means 
+    **learning their needs** and **making your work relevant to** your firm's commercial success.
+
+    - "where's the revenue stream, and how can I get closer to it? "  
+
+* **Build your human capital**    
+    - anything that differentiates you from your peers and that no one can take away from you. 
+    your **network of industry contacts**,
+    your **publications** in academic journals, 
+    your **reputation** on the conference circuit,
+    your educational credentials, etc 
+    - align your efforts to be relevant to your job,
+    employers want you to build your human capital  
+
+* **Focus on the trend**  rather than slight variations around it
+    - access your performance and the performance of your business over longer horizons.  
+
+    - what's been the progress over the last three and five years?  
+
+    - **will this issue affect my ability to achieve my goals over time**?
+    if not, ignore the noise and look at your progress from a longer-term perspective 
+
+* **Not just execution for someone else's priorities**    
+    - you progress towards creating, innovating, leading, selling, or risk-taking  
+
+*  adjust your perspective
+    - your expetation impact your happiness.
+    manage them carefully  
+
+*  **emphasize communication**    
+    - in corporate life, **collaboration and teamwork** are essential.  
+        + on the job, maybe as much as half of your success is determined by how well you communicate  
+
+    - write weekly updates. communicate clearly in meetings and presentations  
+
+*  **pay attention to details**    
+    - always double- and triple-check your work  
+    - **do a few things very well and pay attention to details** than to take on too many projects
+    and deliver 'just ok' work  
+
+* **take care of yourself**  
+    - **mind your diet, exercise, and sleep**  
+        - think of yourself as a '**corporate athlete**'  
+    - build habits  
+    - mindfulness/meditation  
 
 ## Unleashing the Power of Personality Psychology  
 * Most of my job as a leader has been focused on relationships:
