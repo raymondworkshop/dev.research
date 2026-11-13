@@ -27,7 +27,7 @@ color_map: yellow→info; pink+purple→insights; blue→how
 
 ### P1 - measurable goals  
 
-* They're **working hard** and** persisting through difficulties** 
+* They're **working hard** and **persisting through difficulties** 
 because of **their internal desire to control their lives**, **learn about the world**,
 and **accomplish somethign that endures**    
 
@@ -38,8 +38,7 @@ and **accomplish somethign that endures**
 
 * improve your mental game  
     - **systematize warning signals**, encourage preventative behaviors, and **exit based on stop-loss rules**  
-    - I **stess about the outcomes**, 
-    and I **also focus on what my team can control: our process**  
+    - I **stess about the outcomes**, and I **also focus on what my team can control: our process**  
 
     - **differentiate between luck and skill**. make sure you **examine your decision-making process**    
 
@@ -104,9 +103,29 @@ and **accomplish somethign that endures**
 
     - If I had to run a company on three measures, those measures would be **customer satisfaction, employee satisfaction, and cash flow**    
 
-### P5 TODO  
+### P5 pursue goals that have meaning  
+*   **emphasize your why**    
+    - **ask the big questions**. You might realize your work has more purpose than you thought   
+    
+* **how you choose to define your work**    
+    - their leaders **set big goals**. They **create a sense of direction**.
+    They focus on a worthy mission  
 
-### P6 TODO  
+### P6 define **accomplishment as a function of mastery goals**    
+* Your psyche **combines a drive towards mastery** and **a desire to win**  
+    - differentiate between winning at all costs and a broader notion of accomplishment  
+
+* define **accomplishment as a function of mastery goals**    
+    - **Mastery is all about process**.  It means **making how you do things better**   
+        -  Play to improve, to learn, to solve problems, and to be in flow.
+    when they win, it's great. But when they lose - **as long as they played well** - it's almost as great  
+    
+    - the mastery-focused player **enjoys the game a lot more**. They're better equipped to cope with mistakes.    
+        -  their goal to improve their swing and derives personal satisfaction from it.
+        this player plays for the sake of playing.  
+        - the other player wants to impress others with a low handicap. 
+        She plays for the sake of winning.  
+
 
 ### P7 how they approach their work that makes them role models  
 * Your effectiveness as a leader depends in part on your ability to understand people's **motivations and mindsets**    
