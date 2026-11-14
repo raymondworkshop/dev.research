@@ -39,3 +39,5 @@
 - [[listen-from-inside-out]]
 - [[conversation-purpose]]
 - [[difficult-conversations]]
+- [[prioritize-relationships]]
+- [[be-disagreeable]]

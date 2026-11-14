@@ -28,8 +28,7 @@ color_map: yellow→info; pink+purple→insights; blue→how
 ### P1 - measurable goals  
 
 * They're **working hard** and **persisting through difficulties** 
-because of **their internal desire to control their lives**, **learn about the world**,
-and **accomplish somethign that endures**    
+because of **their internal desire to control their lives**, **learn about the world**,and **accomplish somethign that endures**    
 
 * The leader's job is to **set goals for their organization and individuals**  
     - **measurable goals aer essential in business and life**    
@@ -137,8 +136,7 @@ and **accomplish somethign that endures**
     who keeps their ego in check and does good work every day?  
 
     - Intrinsic motivation and big goals are great,
-    but only if they don't come at the expense of **your mental and physical health**,
-    your sense of balance, **strong family bonds**, and **positive and productive working relationships**    
+    but only if they don't come at the expense of **your mental and physical health**,your sense of balance, **strong family bonds**, and **positive and productive working relationships**    
 
 * expand your definition of compensation  
     - competitive levels and differentiate based on performance  
@@ -234,8 +232,7 @@ and **accomplish somethign that endures**
     - you must **listen and understand the perspective of others**,
     especially if it's different from yours.
     **Understand why people think what they think and do what they do**.
-    - **All behavior is purposeful**. If someone's behavior doesn't make sense to you,
-    that's often because you have not taken the time to **explore the underlying reasons for it**  
+    - **All behavior is purposeful**. If someone's behavior doesn't make sense to you,that's often because you have not taken the time to **explore the underlying reasons for it**  
      
 
 * Big Five traits  

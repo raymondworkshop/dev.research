@@ -1,5 +1,20 @@
 # Wiki Index
 
+## Psychology of Leadership (*The Psychology of Leadership*)
+- [[psychology-of-leadership]] - Inspire others after you understand yourself; empathy, example, resilience.
+- [[measurable-goals]] - Measurable goals align and keep score; run the process; separate luck and skill.
+- [[happiness-leads-to-success]] - Emotion, engagement, relationships, meaning, and accomplishment lead to success.
+- [[engagement-goals]] - High return on time; clear goals and feedback; SMART elements support flow.
+- [[prioritize-relationships]] - Care and useful feedback; respectful debate; culture is what you do.
+- [[meaningful-goals]] - Emphasize the why; define the work; set direction around a worthy mission.
+- [[mastery-goals]] - Accomplishment is process: play to improve; a loss can still be a well-played game.
+- [[role-models]] - Read motivations; keep health, family, and relationships intact; widen compensation.
+- [[social-comparison]] - Competition motivates; gratitude and trust keep it inside the mission.
+- [[core-beliefs]] - Beliefs you feel deeply; trace them and upgrade the ones that distort judgment.
+- [[focus-on-what-matters]] - Long horizon, mentor, revenue, human capital, craft, the corporate athlete.
+- [[read-the-room]] - Behavior is purposeful; stop extroverts and call on introverts.
+- [[be-disagreeable]] - Go along most of the time; disagree about a tenth, with respect.
+
 ## Difficult Conversations (*Difficult Conversations*)
 - [[difficult-conversations]] - Raise vs avoid; shift from message delivery to a learning conversation.
 - [[three-conversations]] - What Happened, Feelings, and Identity; different stories; learning conversation.

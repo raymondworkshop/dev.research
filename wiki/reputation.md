@@ -20,3 +20,4 @@
 ## Related Topics
 - [[dichotomy-of-control]]
 - [[stoicism]]
+- [[social-comparison]]

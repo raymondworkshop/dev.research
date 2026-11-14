@@ -13,3 +13,4 @@ dist/
 workers/node_modules/
 researchenv/
 .firecrawl/
+log/trace-vectors.npz

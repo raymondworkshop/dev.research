@@ -34,7 +34,7 @@ labels: green→theme heading; purple→bold; yellow→info; pink→insights; bl
 
     - 如何利用持有的正股做「備兌認購期權（Covered Call）」穩賺收息  
 
-* 看一只股，想买。
+* 看一只股，想买  
     - 先管住手，**卖它的put， put进来就买入， 进不来，就收权利金**
 
 # The Psychology of Money

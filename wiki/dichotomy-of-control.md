@@ -24,3 +24,5 @@
 ## Related Topics
 - [[stoicism]]
 - [[reputation]]
+- [[measurable-goals]]
+- [[mastery-goals]]

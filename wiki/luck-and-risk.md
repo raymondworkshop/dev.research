@@ -19,5 +19,6 @@
 
 ## Related Topics
 - [[psychology-of-money]]
+- [[measurable-goals]]
 - [[tails-you-win]]
 - [[seduction-of-pessimism]]
